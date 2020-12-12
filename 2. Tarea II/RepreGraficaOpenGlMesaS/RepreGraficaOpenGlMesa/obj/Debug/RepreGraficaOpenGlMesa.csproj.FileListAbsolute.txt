@@ -1,0 +1,12 @@
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csprojAssemblyReference.cache
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.CoreCompileInputs.cache
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\RepreGraficaOpenGlMesa.exe.config
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\RepreGraficaOpenGlMesa.exe
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\RepreGraficaOpenGlMesa.pdb
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.dll
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.pdb
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.xml
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.dll.config
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.CopyComplete
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.exe
+C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.pdb

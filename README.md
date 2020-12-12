@@ -6,7 +6,8 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 # ESQUEMA DE VISUALIZACION GRAFICA.
 # AVANCE ACADEMICO:
-- TAREA 1.
+- TAREA 1 - Representación Grafica.
+- TAREA 2 - Representación Grafica OpenGL.
 
 # REPOSITORIO - UAGRM - FICCT.
 ![repository-open-graph-template UAGRM](https://user-images.githubusercontent.com/36086876/100545239-3d68d980-3231-11eb-9ce8-bdb75504c66d.png)
