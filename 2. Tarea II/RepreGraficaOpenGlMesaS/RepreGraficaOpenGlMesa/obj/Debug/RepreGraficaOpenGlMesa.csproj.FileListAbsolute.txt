@@ -10,3 +10,15 @@ C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\D
 C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.CopyComplete
 C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.exe
 C:\Users\jhasm\source\repos\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.pdb
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\RepreGraficaOpenGlMesa.exe.config
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\RepreGraficaOpenGlMesa.exe
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\RepreGraficaOpenGlMesa.pdb
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.pdb
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.xml
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\bin\Debug\OpenTK.dll.config
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.AssemblyReference.cache
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.CoreCompileInputs.cache
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.csproj.CopyComplete
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.exe
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica-C_sharp-Java\2. Tarea II\RepreGraficaOpenGlMesaS\RepreGraficaOpenGlMesa\obj\Debug\RepreGraficaOpenGlMesa.pdb
