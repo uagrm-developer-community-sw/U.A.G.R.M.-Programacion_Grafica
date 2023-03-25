@@ -9,13 +9,7 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 <img align="left" src = "https://profile-counter.glitch.me/U.A.G.R.M.-Programacion_Grafica-C_sharp-Java/count.svg" alt ="Loading"> <br>
 
----
-
-# SISTEMA DE REPREENTACION GRAFICA.
-
-![5-1](https://user-images.githubusercontent.com/36086876/100545218-288c4600-3231-11eb-84fa-6ea67daf9168.jpg)
-
-# ESQUEMA DE VISUALIZACION GRAFICA.
+## INSTALADORES:
 
 # AVANCE ACADEMICO:
 
@@ -23,6 +17,6 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 [- TAREA 2 - Crear una Figura Cubo en 3D .]()<br>
 [- TAREA 3 - Investigar sobre esquema Vectorial y Mapa de Bits.](https://1drv.ms/w/s!ArQLL-6st4rhyikjF02hJZXkHYkx?e=SSjiol)<br>
 
-# REPOSITORIO - UAGRM - FICCT.
 
-![repository-open-graph-template UAGRM](https://user-images.githubusercontent.com/36086876/100545239-3d68d980-3231-11eb-9ce8-bdb75504c66d.png)
+## REPOSITORIO.
+![github ficct](https://user-images.githubusercontent.com/36086876/119494544-69bc6900-bd2f-11eb-8c42-810b19ede512.png)
