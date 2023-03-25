@@ -19,8 +19,9 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 # AVANCE ACADEMICO:
 
-- TAREA 1 - Representación Grafica.
-- TAREA 2 - Representación Grafica OpenGL.
+[- TAREA 1 - Crear un Figura Triangulo 2D.]()<br>
+[- TAREA 2 - Crear una Figura Cubo en 3D .]()<br>
+[- TAREA 3 - Investigar sobre esquema Vectorial y Mapa de Bits.](https://1drv.ms/w/s!ArQLL-6st4rhyikjF02hJZXkHYkx?e=SSjiol)<br>
 
 # REPOSITORIO - UAGRM - FICCT.
 
