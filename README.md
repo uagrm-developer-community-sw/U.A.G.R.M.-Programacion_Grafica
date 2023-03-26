@@ -1,4 +1,4 @@
-# U.A.G.R.M.-Programacion_Grafica-C_sharp-Java
+# U.A.G.R.M.-Programacion_Grafica
 
 U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Repositorio: Avance 1_2023 | Lenguaje: C# - Java | IDE: Visual Studio - Apache NetBeans
 
