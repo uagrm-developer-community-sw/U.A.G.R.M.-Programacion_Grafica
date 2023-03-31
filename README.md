@@ -9,14 +9,19 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 <img align="left" src = "https://profile-counter.glitch.me/U.A.G.R.M.-Programacion_Grafica-C_sharp-Java/count.svg" alt ="Loading"> <br>
 
+---
 ## INSTALADORES:
+> [+ Instalador Visual Studio Community 2022](https://visualstudio.microsoft.com/es/vs/community/)<br>
+> [+ Libreria OpenTK]()<br>
 
-# AVANCE ACADEMICO:
+---
+## TAREAS:
 
-[- TAREA 1 - Crear un Figura Triangulo 2D.]()<br>
-[- TAREA 2 - Crear una Figura Cubo en 3D .]()<br>
-[- TAREA 3 - Investigar sobre esquema Vectorial y Mapa de Bits.](https://1drv.ms/w/s!ArQLL-6st4rhyikjF02hJZXkHYkx?e=SSjiol)<br>
+> [- TAREA 1 - Crear un Figura Triangulo 2D.](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1.%20Tarea%20I/Triangulo_2D_S)<br>
+> [- TAREA 2 - Crear una Figura Cubo en 3D.]()<br>
+> [- TAREA 3 - Investigar sobre esquema Vectorial y Mapa de Bits.](https://1drv.ms/w/s!ArQLL-6st4rhyikjF02hJZXkHYkx?e=SSjiol)<br>
 
+---
 
 ## REPOSITORIO.
 ![github ficct](https://user-images.githubusercontent.com/36086876/119494544-69bc6900-bd2f-11eb-8c42-810b19ede512.png)
