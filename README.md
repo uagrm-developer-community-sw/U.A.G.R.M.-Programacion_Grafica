@@ -27,8 +27,9 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 ## Documentacion:
 > [+ Programacion Grafica]()<br>
 
-
 ---
 
+## Clases Online:
+> [+ Clases Grabadas | Youtube](https://youtube.com/playlist?list=PLZh2aEFREMprtC5kX9TxbRihWZnyn6EjU)<br>
 ## REPOSITORIO.
 ![github ficct](https://user-images.githubusercontent.com/36086876/119494544-69bc6900-bd2f-11eb-8c42-810b19ede512.png)
