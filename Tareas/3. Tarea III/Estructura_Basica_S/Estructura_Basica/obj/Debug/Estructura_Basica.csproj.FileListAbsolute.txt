@@ -1,0 +1,12 @@
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\bin\Debug\Estructura_Basica.exe.config
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\bin\Debug\Estructura_Basica.exe
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\bin\Debug\Estructura_Basica.pdb
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\bin\Debug\OpenTK.dll
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\bin\Debug\OpenTK.pdb
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\bin\Debug\OpenTK.xml
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\obj\Debug\Estructura_Basica.csproj.AssemblyReference.cache
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\obj\Debug\Estructura_Basica.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\obj\Debug\Estructura_Basica.csproj.CoreCompileInputs.cache
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\obj\Debug\Estructura_Basica.csproj.CopyComplete
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\obj\Debug\Estructura_Basica.exe
+C:\Users\Lp-Jhasmany\Documents\GitHub\UAGRM\U.A.G.R.M.-Programacion_Grafica\Tareas\3. Tarea III\Estructura_Basica_S\Estructura_Basica\obj\Debug\Estructura_Basica.pdb
