@@ -19,7 +19,11 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 ---
 
 ## TAREAS:
-
+> [+ TAREA 1 - Pared en 3D]() <br>
+> [+ TAREA 1 - Repiza en 3D]() <br>
+> [+ TAREA 1 - Auto en 3D]() <br>
+---
+## TAREAS - 1 2023:
 > [- TAREA 1 - Crear un Figura Triangulo 2D.](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Tareas/1.%20Tarea%20I/Triangulo_2D_S)`<br>`
 > [- TAREA 2 - Crear una casa y auto en 3D.](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Tareas/2.%20Tarea%20II/Casa_Auto_3D)`<br>`
 > [- TAREA 3 - Investigar sobre esquema Vectorial y Mapa de Bits.](https://1drv.ms/w/s!ArQLL-6st4rhyikjF02hJZXkHYkx?e=SSjiol)`<br>`
