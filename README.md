@@ -19,9 +19,13 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 ---
 
 ## TAREAS:
-> [+ TAREA 1 - Pared en 3D]() <br>
-> [+ TAREA 1 - Repiza en 3D]() <br>
-> [+ TAREA 1 - Auto en 3D]() <br>
+> ## TAREA 1 
+>> [Pared en 3D]() <br>
+>> [Repiza en 3D]() <br>
+>> [Auto en 3D]() <br>
+
+> ## TAREA 2
+>> [Duplicar los graficos]()<br>
 ---
 ## TAREAS - 1 2023:
 > [- TAREA 1 - Crear un Figura Triangulo 2D.](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Tareas/1.%20Tarea%20I/Triangulo_2D_S)`<br>`

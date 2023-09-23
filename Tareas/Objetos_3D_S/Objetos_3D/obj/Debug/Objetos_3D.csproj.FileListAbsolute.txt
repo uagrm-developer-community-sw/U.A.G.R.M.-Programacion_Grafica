@@ -1,0 +1,11 @@
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\bin\Debug\Objetos_3D.exe.config
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\bin\Debug\Objetos_3D.exe
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\bin\Debug\Objetos_3D.pdb
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\bin\Debug\OpenTK.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\bin\Debug\OpenTK.pdb
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\bin\Debug\OpenTK.xml
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\obj\Debug\Objetos_3D.csproj.AssemblyReference.cache
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\obj\Debug\Objetos_3D.csproj.CoreCompileInputs.cache
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\obj\Debug\Objetos_3D.csproj.CopyComplete
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\obj\Debug\Objetos_3D.exe
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Objetos_3D_S\Objetos_3D\obj\Debug\Objetos_3D.pdb
