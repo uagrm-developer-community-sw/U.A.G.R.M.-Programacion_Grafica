@@ -58,3 +58,33 @@ C:\Users\Lp-Jhasmany\Documents\GitHub\Prueba\coordenas_relativas\PGrafica\obj\De
 C:\Users\Lp-Jhasmany\Documents\GitHub\Prueba\coordenas_relativas\PGrafica\obj\Debug\net5.0\PGrafica.pdb
 C:\Users\Lp-Jhasmany\Documents\GitHub\Prueba\coordenas_relativas\PGrafica\obj\Debug\net5.0\PGrafica.genruntimeconfig.cache
 C:\Users\Lp-Jhasmany\Documents\GitHub\Prueba\coordenas_relativas\PGrafica\obj\Debug\net5.0\ref\PGrafica.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\PGrafica.exe
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\PGrafica.deps.json
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\PGrafica.runtimeconfig.json
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\PGrafica.runtimeconfig.dev.json
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\PGrafica.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\PGrafica.pdb
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Compute.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Core.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Graphics.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Input.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Mathematics.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.OpenAL.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Windowing.Common.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Windowing.Desktop.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\runtimes\linux-x64\native\libglfw.so.3.3
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\runtimes\win-x64\native\glfw3.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\bin\Debug\net5.0\runtimes\win-x86\native\glfw3.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.csproj.AssemblyReference.cache
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.AssemblyInfoInputs.cache
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.AssemblyInfo.cs
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.csproj.CoreCompileInputs.cache
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.csproj.CopyComplete
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\refint\PGrafica.dll
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.pdb
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\PGrafica.genruntimeconfig.cache
+D:\Github\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Tareas 1 2023\2. Tarea II\Casa_Auto_3D\PGrafica\obj\Debug\net5.0\ref\PGrafica.dll

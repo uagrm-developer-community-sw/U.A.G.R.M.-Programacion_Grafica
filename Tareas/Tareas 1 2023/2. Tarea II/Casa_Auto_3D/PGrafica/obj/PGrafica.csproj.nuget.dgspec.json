@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lp-Jhasmany\\Documents\\GitHub\\Prueba\\coordenas_relativas\\PGrafica\\PGrafica.csproj": {}
+    "D:\\Github\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\Tareas 1 2023\\2. Tarea II\\Casa_Auto_3D\\PGrafica\\PGrafica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lp-Jhasmany\\Documents\\GitHub\\Prueba\\coordenas_relativas\\PGrafica\\PGrafica.csproj": {
+    "D:\\Github\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\Tareas 1 2023\\2. Tarea II\\Casa_Auto_3D\\PGrafica\\PGrafica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lp-Jhasmany\\Documents\\GitHub\\Prueba\\coordenas_relativas\\PGrafica\\PGrafica.csproj",
+        "projectUniqueName": "D:\\Github\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\Tareas 1 2023\\2. Tarea II\\Casa_Auto_3D\\PGrafica\\PGrafica.csproj",
         "projectName": "PGrafica",
-        "projectPath": "C:\\Users\\Lp-Jhasmany\\Documents\\GitHub\\Prueba\\coordenas_relativas\\PGrafica\\PGrafica.csproj",
-        "packagesPath": "C:\\Users\\Lp-Jhasmany\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lp-Jhasmany\\Documents\\GitHub\\Prueba\\coordenas_relativas\\PGrafica\\obj\\",
+        "projectPath": "D:\\Github\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\Tareas 1 2023\\2. Tarea II\\Casa_Auto_3D\\PGrafica\\PGrafica.csproj",
+        "packagesPath": "C:\\Users\\jhasm\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\Tareas 1 2023\\2. Tarea II\\Casa_Auto_3D\\PGrafica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lp-Jhasmany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhasm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

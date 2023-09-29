@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Lp-Jhasmany\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Lp-Jhasmany\\.nuget\\packages"
+      "C:\\Users\\jhasm\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jhasm\\.nuget\\packages"
     ]
   }
 }
