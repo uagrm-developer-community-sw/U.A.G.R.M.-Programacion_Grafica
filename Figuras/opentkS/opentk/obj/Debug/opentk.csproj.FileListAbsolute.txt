@@ -1,0 +1,11 @@
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\bin\Debug\opentk.exe.config
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\bin\Debug\opentk.exe
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\bin\Debug\opentk.pdb
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\bin\Debug\OpenTK.dll
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\bin\Debug\OpenTK.xml
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\bin\Debug\OpenTK.dll.config
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\obj\Debug\opentk.csproj.AssemblyReference.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\obj\Debug\opentk.csproj.CoreCompileInputs.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\obj\Debug\opentk.csproj.Up2Date
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\obj\Debug\opentk.exe
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Figuras\opentkS\opentk\obj\Debug\opentk.pdb
