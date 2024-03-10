@@ -10,21 +10,9 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 <img align="left" src = "https://profile-counter.glitch.me/U.A.G.R.M.-Programacion_Grafica-C_sharp-Java/count.svg" alt ="Loading"> <br>
 
 ---
-
-## INSTALADORES:
-
-> [+ Instalador Visual Studio Community 2022](https://visualstudio.microsoft.com/es/vs/community/)<br>
-> [+ Libreria OpenTK](https://opentk.net/)<br>
-
----
 ## PROYECTOS:
 > [+ Poryectos I - OPENTK](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_I-OpenTK-SA-INF102.git)<br>
 > [+ Poryectos II - ROBLOX](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_II-Roblox-SA-INF102.git)<br>
-
----
-
-## DOCUMENTACION:
-> [+ Documentacion sobre la materia y OpenTK](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Documentacion)<br>
 
 ---
 
