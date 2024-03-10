@@ -17,27 +17,24 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 > [+ Libreria OpenTK](https://opentk.net/)<br>
 
 ---
+## PROYECTOS:
+> [+ Poryectos I - OPENTK]()<br>
+> [+ Poryectos II - ROBLOX](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_II-Roblox-SA-INF102.git)<br>
 
-## Documentacion:
+---
+
+## DOCUMENTACION:
 > [+ Documentacion sobre la materia y OpenTK](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Documentacion)<br>
 
 ---
-## TAREAS - 1 2024:
-> [- TAREA 1 - Esquemas de Representacion Grafica | Mapa de Bit Vectorial Investigar](https://1drv.ms/w/s!ArQLL-6st4rhiJogACrdWL5svKpTNA?e=aQzdzh&authuser=0)<br>
-> [- TAREA 2 - OpenTK]()<br>
-> [- TAREA 3 - OpenTK Estructura basica]()<br>
-> [- TAREA 4 - OpenTK, Structura Basica II | Crear las clases Objeto, Partes y Poligono]()<br>
-> [- TAREA 5 - ]()<br>
 
----
-
-## TAREAS - 2 2023:
+## TAREAS - ANTERIORES:
 > [Archivos y Documentos - 2 2023](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Tareas/Tareas%201%202023)<br>
 > [Archivos y Documentos - 1 2023]()<br>
 
 ---
 
-## Clases Online:
+## CLASES ONLINE:
 
 > [+ Clases Grabadas - Semestre 1 2023| Youtube](https://youtube.com/playlist?list=PLZh2aEFREMprtC5kX9TxbRihWZnyn6EjU)<br>
 
