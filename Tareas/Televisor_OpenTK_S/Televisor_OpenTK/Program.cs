@@ -10,9 +10,9 @@ namespace Televisor_OpenTK
     {
         static void Main(string[] args)
         {
-            using (Game game = new Game(800, 600, "Televisor"))
+            using (Game game = new Game(800, 600, "Televisor")) // 800x600 window title Televisor 
             {
-                game.Run(60.0);
+                game.Run(60.0); // 60 fps 
             }
         }
     }

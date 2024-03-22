@@ -10,3 +10,15 @@ D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_
 D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televiso.05CCF616.Up2Date
 D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televisor_OpenTK.exe
 D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televisor_OpenTK.pdb
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\Televisor_OpenTK.exe.config
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\Televisor_OpenTK.exe
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\Televisor_OpenTK.pdb
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\OpenTK.dll
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\OpenTK.pdb
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\OpenTK.xml
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\bin\Debug\OpenTK.dll.config
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televisor_OpenTK.csproj.AssemblyReference.cache
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televisor_OpenTK.csproj.CoreCompileInputs.cache
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televiso.05CCF616.Up2Date
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televisor_OpenTK.exe
+D:\GitHub-Windows\U.A.G.R.M.-Programacion_Grafica\Tareas\Televisor_OpenTK_S\Televisor_OpenTK\obj\Debug\Televisor_OpenTK.pdb

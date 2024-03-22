@@ -15,7 +15,7 @@ namespace Televisor_OpenTK
 
         public Game(int width, int height, string title) : base(width, height, OpenTK.Graphics.GraphicsMode.Default, title) // constructor
         {
-            fig = new Figure();
+            fig = new Figure(); // This is the only change in this file
         }
 
         protected override void OnUpdateFrame(FrameEventArgs e) // update frame
@@ -29,19 +29,24 @@ namespace Televisor_OpenTK
 
         protected override void OnLoad(EventArgs e) // load event 
         {
-            base.OnLoad(e);
+            base.OnLoad(e); // call the base class's OnLoad method
         }
 
         protected override void OnRenderFrame(FrameEventArgs e)
         {
+            base.OnRenderFrame(e);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit); // clear the color and depth buffer
-            GL.ClearColor(1.2f, 1.3f, 1.3f, 1.0f); // set the clear color to black
+            GL.ClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Blanco sin transparencia
+
+            GL.MatrixMode(MatrixMode.Projection); // set the matrix mode to projection
+            GL.LoadIdentity(); // load the identity matrix
+            GL.Ortho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0); // set the orthographic projection
 
             fig.dibujarTv();
 
             Context.SwapBuffers(); // swap the front and back buffer
 
-            base.OnRenderFrame(e);
+            
         }
 
         protected override void OnResize(EventArgs e)

@@ -12,46 +12,81 @@ namespace Televisor_OpenTK
     {
         public void dibujarTv()
         {
-            // Draw the TV
-            cuerpoTv();
+           
+            marcoTv();
             pantallaTv();
-            SoporteTv();
+            izquierdoTv();
+            derechoTv();
+            BaseTv();
+
         }
 
-        public void cuerpoTv()
+        // Parte delantera del televisor (marco)
+        private void marcoTv()
         {
-            // Dibujar el cuerpo de la TV (color marrón)
             GL.Begin(PrimitiveType.Quads);
-            GL.Color4(0.545f, 0.271f, 0.075f, 1f); // Marrón (en formato RGBA)
-            GL.Vertex3(-1f, -0.7f, 0.5f);
-            GL.Vertex3(1f, -0.7f, 0.5f);
-            GL.Vertex3(1f, 0.7f, 0.5f);
-            GL.Vertex3(-1f, 0.7f, 0.5f);
+
+            GL.Color3(0.1f, 0.1f, 0.1f); // Color del marco (gris oscuro)
+            GL.Vertex3(-0.6f, -0.4f, 0.5f); // Esquina inferior izquierda
+            GL.Vertex3(0.6f, -0.4f, 0.5f);  // Esquina inferior derecha
+            GL.Vertex3(0.6f, 0.4f, 0.5f);   // Esquina superior derecha
+            GL.Vertex3(-0.6f, 0.4f, 0.5f);  // Esquina superior izquierda
+
             GL.End();
         }
 
-        public void pantallaTv()
+        // Pantalla del televisor
+        private void pantallaTv()
         {
-            // Dibujar la pantalla de la
             GL.Begin(PrimitiveType.Quads);
-            GL.Color4(0f, 0f, 0f, 1f); // Negro (en formato RGBA)
-            GL.Vertex3(-0.8f, -0.6f, 0.51f);
-            GL.Vertex3(0.8f, -0.6f, 0.51f);
-            GL.Vertex3(0.8f, 0.6f, 0.51f);
-            GL.Vertex3(-0.8f, 0.6f, 0.51f);
+
+            GL.Color3(0.0f, 0.0f, 0.0f); // Color de la pantalla (negro)
+            GL.Vertex3(-0.4f, -0.3f, 0.51f); // Esquina inferior izquierda
+            GL.Vertex3(0.4f, -0.3f, 0.51f);  // Esquina inferior derecha
+            GL.Vertex3(0.4f, 0.3f, 0.51f);   // Esquina superior derecha
+            GL.Vertex3(-0.4f, 0.3f, 0.51f);  // Esquina superior izquierda
+
             GL.End();
         }
 
-        public void SoporteTv()
-        {
-            // Dibujar el soporte de la TV (color gris)
+        // Lateral izquierdo del televisor
+        private void izquierdoTv(){
             GL.Begin(PrimitiveType.Quads);
-            GL.Color4(0.5f, 0.5f, 0.5f, 1f); // Gris (en formato RGBA)
-            GL.Vertex3(-0.1f, -0.7f, -0.5f);
-            GL.Vertex3(0.1f, -0.7f, -0.5f);
-            GL.Vertex3(0.1f, -0.5f, -0.5f);
-            GL.Vertex3(-0.1f, -0.5f, -0.5f);
+            GL.Color3(0.1f, 0.1f, 0.1f); // Color del lateral (gris oscuro)
+            GL.Vertex3(-0.6f, -0.4f, -0.5f); // Esquina inferior trasera
+            GL.Vertex3(-0.6f, -0.4f, 0.5f); // Esquina inferior delantera
+            GL.Vertex3(-0.6f, 0.4f, 0.5f); // Esquina superior delantera
+            GL.Vertex3(-0.6f, 0.4f, -0.5f); // Esquina superior trasera
+
+            GL.End();
+
+        }
+
+        // Lateral derecho del televisor
+        private void derechoTv(){
+            GL.Begin(PrimitiveType.Quads);
+
+            GL.Vertex3(0.6f, -0.4f, -0.5f); // Esquina inferior trasera
+            GL.Vertex3(0.6f, -0.4f, 0.5f); // Esquina inferior delantera
+            GL.Vertex3(0.6f, 0.4f, 0.5f); // Esquina superior delantera
+            GL.Vertex3(0.6f, 0.4f, -0.5f); // Esquina superior trasera
+
             GL.End();
         }
+
+        // Base del televisor
+        private void BaseTv()
+        {
+            GL.Begin(PrimitiveType.Quads);
+
+            GL.Color3(0.1f, 0.1f, 0.1f); // Color de la base (gris oscuro)
+            GL.Vertex3(-0.6f, -0.4f, -0.5f); // Esquina inferior izquierda
+            GL.Vertex3(0.6f, -0.4f, -0.5f);  // Esquina inferior derecha
+            GL.Vertex3(0.6f, -0.5f, 0.5f);   // Esquina superior derecha
+            GL.Vertex3(-0.6f, -0.5f, 0.5f);  // Esquina superior izquierda
+
+            GL.End();
+        }
+        
     }
 }
