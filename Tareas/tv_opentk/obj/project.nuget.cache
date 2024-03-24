@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "gy2xVLUrNHEr8FBr+hZIYzoRGGAKP8dS48EBC+DYk8JbJgAvJE2x0FZzMbxSgttWGnKMcy2rWN6K/0r2+WW3aw==",
+  "success": true,
+  "projectFilePath": "D:\\tv_opentk\\tv_opentk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jhasm\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\jhasm\\.nuget\\packages\\opentk\\3.3.3\\opentk.3.3.3.nupkg.sha512",
+    "C:\\Users\\jhasm\\.nuget\\packages\\system.drawing.common\\8.0.3\\system.drawing.common.8.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTK 3.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
