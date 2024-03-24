@@ -1,0 +1,15 @@
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.csproj.AssemblyReference.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.csproj.SuggestedBindingRedirects.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.AssemblyInfoInputs.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.AssemblyInfo.cs
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.csproj.CoreCompileInputs.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\bin\Debug\net472\tv_opentk.exe.config
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\bin\Debug\net472\tv_opentk.exe
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\bin\Debug\net472\tv_opentk.pdb
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\bin\Debug\net472\Microsoft.Win32.SystemEvents.dll
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\bin\Debug\net472\OpenTK.dll
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\bin\Debug\net472\System.Drawing.Common.dll
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.csproj.CopyComplete
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.exe
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net472\tv_opentk.pdb

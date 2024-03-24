@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i3W2YF4wXgGCObF3RhGZ+L46cIcRkTib1nVxRJBcfcoEoeoVnzVN2+HNaiALfZW5CNWqAk8lczU1HZCoDvfA9A==",
+  "dgSpecHash": "SKj+wUmqAErNTj1ILJ+oxPBUhlqnGHl9RWnDmn1mVTlsdwIFEk74xx5k78c81Q5keGUovvZAJoJMourikvbOIQ==",
   "success": true,
   "projectFilePath": "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\tv_opentk.csproj",
   "expectedPackageFiles": [
@@ -8,16 +8,5 @@
     "C:\\Users\\jhasm\\.nuget\\packages\\opentk\\3.3.3\\opentk.3.3.3.nupkg.sha512",
     "C:\\Users\\jhasm\\.nuget\\packages\\system.drawing.common\\8.0.3\\system.drawing.common.8.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"OpenTK 3.3.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "OpenTK",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

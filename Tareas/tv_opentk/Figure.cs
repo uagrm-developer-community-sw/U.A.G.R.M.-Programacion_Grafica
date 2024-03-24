@@ -20,6 +20,7 @@ namespace Televisor_OpenTK
             BaseTv();
             antenaIzquierda();
             antenaDerecha();
+            baseInferiorTv();
 
         }
 
@@ -110,6 +111,20 @@ namespace Televisor_OpenTK
             GL.Color3(0.0f, 0.0f, 0.0f); // Color de la antena (negro)
             GL.Vertex3(0.4f, 0.4f, 0.5f); // Base de la antena
             GL.Vertex3(0.4f, 0.6f, 0.5f); // Punta de la antena
+
+            GL.End();
+        }
+
+        // Base inferior del televisor
+        private void baseInferiorTv()
+        {
+            GL.Begin(PrimitiveType.Quads);
+
+            GL.Color3(0.65f, 0.32f, 0.18f); // Color de la base (marrón)
+            GL.Vertex3(-0.7f, -0.5f, -0.5f); // Esquina inferior izquierda
+            GL.Vertex3(0.7f, -0.5f, -0.5f);  // Esquina inferior derecha
+            GL.Vertex3(0.7f, -0.5f, 0.5f);   // Esquina superior derecha
+            GL.Vertex3(-0.7f, -0.5f, 0.5f);  // Esquina superior izquierda
 
             GL.End();
         }
