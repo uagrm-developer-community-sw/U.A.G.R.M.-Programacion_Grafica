@@ -25,6 +25,7 @@ namespace Televisor_OpenTK
             pataIzquierdaTv();
             pataDerechaTv();
             barraHorizontalTv();
+            botonesTv();
         }
 
         // Parte delantera del televisor (marco)
@@ -177,5 +178,35 @@ namespace Televisor_OpenTK
 
             GL.End();
         }
+
+        // Botones del televisor
+        private void botonesTv()
+        {
+            int numSegments = 100; // Número de segmentos utilizados para dibujar cada botón
+            float radius = 0.05f; // Radio de cada botón
+            float buttonSpacing = 0.15f; // Espacio entre los botones
+
+            GL.Color3(0.0f, 0.0f, 0.0f); // Color de los botones (negro)
+
+            for (int i = 0; i < 3; i++)
+            {
+                GL.Begin(PrimitiveType.TriangleFan);
+
+                float centerY = 0.0f + i * buttonSpacing; // Posición y del centro del botón
+
+                GL.Vertex3(0.5f, centerY, 0.35f); // Centro del botón
+
+                for (int j = 0; j <= numSegments; j++)
+                {
+                    float theta = 2.0f * (float)Math.PI * j / numSegments; // Ángulo actual
+                    float dx = radius * (float)Math.Cos(theta);
+                    float dy = radius * (float)Math.Sin(theta);
+                    GL.Vertex3(0.5f + dx, centerY + dy, 0.35f); // Punto en la circunferencia del botón
+                }
+
+                GL.End();
+            }
+        }
+
     }
 }
