@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gy2xVLUrNHEr8FBr+hZIYzoRGGAKP8dS48EBC+DYk8JbJgAvJE2x0FZzMbxSgttWGnKMcy2rWN6K/0r2+WW3aw==",
+  "dgSpecHash": "i3W2YF4wXgGCObF3RhGZ+L46cIcRkTib1nVxRJBcfcoEoeoVnzVN2+HNaiALfZW5CNWqAk8lczU1HZCoDvfA9A==",
   "success": true,
-  "projectFilePath": "D:\\tv_opentk\\tv_opentk.csproj",
+  "projectFilePath": "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\tv_opentk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhasm\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\jhasm\\.nuget\\packages\\opentk\\3.3.3\\opentk.3.3.3.nupkg.sha512",
@@ -13,7 +13,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'OpenTK 3.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"OpenTK 3.3.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "OpenTK",
       "targetGraphs": [
         "net6.0"

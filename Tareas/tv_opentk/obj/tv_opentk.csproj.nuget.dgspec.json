@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tv_opentk\\tv_opentk.csproj": {}
+    "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\tv_opentk.csproj": {}
   },
   "projects": {
-    "D:\\tv_opentk\\tv_opentk.csproj": {
+    "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\tv_opentk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tv_opentk\\tv_opentk.csproj",
+        "projectUniqueName": "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\tv_opentk.csproj",
         "projectName": "tv_opentk",
-        "projectPath": "D:\\tv_opentk\\tv_opentk.csproj",
+        "projectPath": "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\tv_opentk.csproj",
         "packagesPath": "C:\\Users\\jhasm\\.nuget\\packages\\",
-        "outputPath": "D:\\tv_opentk\\obj\\",
+        "outputPath": "D:\\GitHub-Windows\\Uagrm\\U.A.G.R.M.-Programacion_Grafica\\Tareas\\tv_opentk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jhasm\\AppData\\Roaming\\NuGet\\NuGet.Config"
