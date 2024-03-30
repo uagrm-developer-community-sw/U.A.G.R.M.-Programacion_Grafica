@@ -32,7 +32,7 @@ namespace Televisor_OpenTK
             base.OnLoad(e); // call the base class's OnLoad method
         }
 
-        protected override void OnRenderFrame(FrameEventArgs e)
+        protected override void OnRenderFrame(FrameEventArgs e) //
         {
             base.OnRenderFrame(e);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit); // clear the color and depth buffer

@@ -22,14 +22,14 @@ namespace Televisor_OpenTK
             marcoTv();
 
             // Complemento
-            botonesTv();
             antenasTv();
+            botonesTv();
             marcoVidrioTv1();
 
             //marcoVidrioTv();
         }
 
-        // Parte delantera de la caja
+        // Parte delantera de la caja {#d0f,13}
         private void marcoTv()
         {
             GL.Begin(PrimitiveType.Quads); // Dibuja un cuadrilátero
@@ -44,7 +44,7 @@ namespace Televisor_OpenTK
             GL.End();
         }
 
-        // Parte trasera de la caja
+        // Parte trasera de la caja {#d0f,13}
         private void marcoAtrasTv()
         {
             GL.Begin(PrimitiveType.Quads); // Dibuja un cuadrilátero
@@ -59,7 +59,7 @@ namespace Televisor_OpenTK
             GL.End();
         }
 
-        // Lateral derecho de la caja
+        // Lateral derecho de la caja {#eac,13}
         private void derechoTv()
         {
             GL.Begin(PrimitiveType.Quads);
@@ -74,7 +74,7 @@ namespace Televisor_OpenTK
             GL.End();
         }
 
-        // Lado izquierdo de la caja
+        // Lado izquierdo de la caja{#eac,13}
         private void izquierdoTv()
         {
             GL.Begin(PrimitiveType.Quads); // Dibuja un cuadrilátero
@@ -89,7 +89,8 @@ namespace Televisor_OpenTK
             GL.End();
         }
 
-        // Tapa superior de la caja
+        
+        // Tapa superior de la caja {#ef0,13}
         private void tapaSuperiorTv()
         {
             GL.Begin(PrimitiveType.Quads); // Dibuja un cuadrilátero
@@ -104,7 +105,7 @@ namespace Televisor_OpenTK
             GL.End();
         }
 
-        // Tapa inferior de la caja
+        // Tapa inferior de la caja {#ef0,13}
         private void tapaInferiorTv()
         {
             GL.Begin(PrimitiveType.Quads); // Dibuja un cuadrilátero
@@ -121,6 +122,7 @@ namespace Televisor_OpenTK
 
         //----------------------------------------------------------------------------
         // Antenas en forma de V
+        //  {#131,23}
         private void antenasTv()
         {
             GL.LineWidth(3.0f); // Hace las líneas más gruesas
@@ -146,6 +148,7 @@ namespace Televisor_OpenTK
         }
 
 
+        //  {#7da,32}
         // Marco de vidrio en la parte delantera del televisor
         private void marcoVidrioTv1()
         {
@@ -179,6 +182,7 @@ namespace Televisor_OpenTK
             }
         }
 
+        //  {#ed6,28}
         // Botones del televisor
         private void botonesTv()
         {
