@@ -1,0 +1,7 @@
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.csproj.AssemblyReference.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.csproj.SuggestedBindingRedirects.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.exe.config
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.AssemblyInfoInputs.cache
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.AssemblyInfo.cs
+D:\GitHub-Windows\Uagrm\U.A.G.R.M.-Programacion_Grafica\Tareas\tv_opentk\obj\Debug\net461\tv_opentk.csproj.CoreCompileInputs.cache
