@@ -64,3 +64,5 @@ sudo pacman -S mono
 echo 'set -gx PATH $PATH /usr/bin/mono' >> ~/.config/fish/config.fish
 source ~/.config/fish/config.fish
 ```
+
+sudo apt install mono-runtime

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/tv_opentk.csproj": {}
+    "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/tv_opentk.csproj": {}
   },
   "projects": {
-    "/home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/tv_opentk.csproj": {
+    "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/tv_opentk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/tv_opentk.csproj",
+        "projectUniqueName": "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/tv_opentk.csproj",
         "projectName": "tv_opentk",
-        "projectPath": "/home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/tv_opentk.csproj",
+        "projectPath": "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/tv_opentk.csproj",
         "packagesPath": "/home/jhasmany/.nuget/packages/",
-        "outputPath": "/home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/obj/",
+        "outputPath": "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jhasmany/.nuget/NuGet/NuGet.Config"
@@ -41,7 +41,7 @@
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.0.3, )",
+              "version": "[1.0.2, )",
               "autoReferenced": true
             },
             "Microsoft.Win32.SystemEvents": {
@@ -57,7 +57,7 @@
               "version": "[8.0.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
         }
       }
     }

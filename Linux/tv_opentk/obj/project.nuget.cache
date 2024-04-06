@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vUeWHugmBfXGyYZ5JcvRygTYb7ySLGqdMDiPe/SrDfyTIXhQQTx9ege0wq4hENLy28Exc5kmulaVAT21e8pvpA==",
+  "dgSpecHash": "qNocLoXDogU0gTHgbo4cZbA/d1x9hb092UPxBV6DhwkQvzq/orbRDs74JCnXkBEuqsOi/X7J3m4Ye6R6mUpqGg==",
   "success": true,
-  "projectFilePath": "/home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/tv_opentk.csproj",
+  "projectFilePath": "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/tv_opentk.csproj",
   "expectedPackageFiles": [
-    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512",
+    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.2/microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.2/microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512",
     "/home/jhasmany/.nuget/packages/microsoft.win32.systemevents/8.0.0/microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "/home/jhasmany/.nuget/packages/opentk/3.3.3/opentk.3.3.3.nupkg.sha512",
     "/home/jhasmany/.nuget/packages/system.drawing.common/8.0.3/system.drawing.common.8.0.3.nupkg.sha512"

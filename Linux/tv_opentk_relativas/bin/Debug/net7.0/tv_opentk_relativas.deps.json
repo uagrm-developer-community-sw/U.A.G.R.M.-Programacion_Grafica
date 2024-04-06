@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "tv_opentk_relativas/1.0.0": {
+        "dependencies": {
+          "OpenTK": "3.3.3"
+        },
+        "runtime": {
+          "tv_opentk_relativas.dll": {}
+        }
+      },
+      "OpenTK/3.3.3": {
+        "runtime": {
+          "lib/net20/OpenTK.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tv_opentk_relativas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KtnygHEuYj4+agNsZRtzh5iSiKlelDZvDB/OhfebEvIDX/97Pzygv8n5llZHgrI7Xa29vvkucVBeN55R6/k+4w==",
+      "path": "opentk/3.3.3",
+      "hashPath": "opentk.3.3.3.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zPOUwocTGkvd3D205O8PBpQn8XN6TNc1pqj4M1D9BnDW5YVvnnXzwXUdRkGGm3frUHEw4fs260VwGLDu5FHH5g==",
+  "success": true,
+  "projectFilePath": "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/tv_opentk_relativas.csproj",
+  "expectedPackageFiles": [
+    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "/home/jhasmany/.nuget/packages/opentk/3.3.3/opentk.3.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

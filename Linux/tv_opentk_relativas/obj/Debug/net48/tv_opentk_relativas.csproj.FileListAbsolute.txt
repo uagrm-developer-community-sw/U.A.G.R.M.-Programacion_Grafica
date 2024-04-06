@@ -1,0 +1,13 @@
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.csproj.AssemblyReference.cache
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.GeneratedMSBuildEditorConfig.editorconfig
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.AssemblyInfoInputs.cache
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.AssemblyInfo.cs
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.csproj.CoreCompileInputs.cache
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/bin/Debug/net48/tv_opentk_relativas.exe.config
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/bin/Debug/net48/tv_opentk_relativas.exe
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/bin/Debug/net48/tv_opentk_relativas.pdb
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/bin/Debug/net48/OpenTK.dll
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.csproj.CopyComplete
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.exe
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.pdb
+/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk_relativas/obj/Debug/net48/tv_opentk_relativas.sourcelink.json

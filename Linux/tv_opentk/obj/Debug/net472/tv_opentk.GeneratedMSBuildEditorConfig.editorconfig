@@ -1,5 +1,3 @@
 is_global = true
 build_property.RootNamespace = tv_opentk
-build_property.ProjectDir = /home/jhasmany/GitHub/U.A.G.R.M.-Programacion_Grafica/Tareas/tv_opentk/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = /home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_opentk/
