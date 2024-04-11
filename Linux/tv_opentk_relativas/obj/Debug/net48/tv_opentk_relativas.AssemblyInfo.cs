@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tv_opentk_relativas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d12a2e3cb45f5eaf7f33d1eb8ebcc287692e467")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f54f83ad234c741a9b98e0f56db942d71de0a7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("tv_opentk_relativas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tv_opentk_relativas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

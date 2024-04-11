@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZoVYu+KDnsXlFc2sNBd2vRvDK6HXCn3MuKFlUsEsJQrQxqMl4OyIpfmceo0AVq75W5h9dtiHZM6lg30BMjEYpQ==",
+  "success": true,
+  "projectFilePath": "/home/jhasmany/Documentos/GitHub/U.A.G.R.M.-Programacion_Grafica/Linux/tv_threeobjets/tv_threeobjets.csproj",
+  "expectedPackageFiles": [
+    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/jhasmany/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512",
+    "/home/jhasmany/.nuget/packages/opentk/3.3.3/opentk.3.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
