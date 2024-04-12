@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tv_threeobjets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e104d4802aca5f6d1c6f7fd0e0b3aec6a5dcc04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5ffb2a50274ff9d07155c25a61590280971c931")]
 [assembly: System.Reflection.AssemblyProductAttribute("tv_threeobjets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tv_threeobjets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
