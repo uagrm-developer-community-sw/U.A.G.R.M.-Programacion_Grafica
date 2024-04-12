@@ -24,13 +24,16 @@ namespace ConsoleApp1
 			//Object3D floor = new Object3D(new float[3] { 0.0f, -0.25f, 0.0f }, Floor.GetFaces());
 			//Object3D house = new Object3D(new float[3] { -0.4f, -0.25f, -0.1f }, House.GetFaces());
 			//Object3D car = new Object3D(new float[3] { 0.6f, -0.2f, 0.2f }, Car.GetFaces());
-			Object3D tv = new Object3D(new float[3] { 0.0f, 0.0f, 0.0f }, Tv.GetFaces());
+			//Object3D tv = new Object3D(new float[3] { 0.0f, 0.0f, 0.0f }, Tv.GetFaces());
+
+			Object3D radio = new Object3D(new float[3] { 0.0f, 0.0f, 0.0f }, Radio.GetFaces());
 
 			//stage.addObject(house);
 			//stage.addObject(floor);
 			//stage.addObject(car);
 
-			stage.addObject(tv);
+			//stage.addObject(tv);
+			stage.addObject(radio);
 		}
 
 		protected override void OnRenderFrame(FrameEventArgs e)

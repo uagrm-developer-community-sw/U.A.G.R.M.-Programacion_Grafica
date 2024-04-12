@@ -81,6 +81,29 @@ namespace ConsoleApp1
             marcoVidrioTv1.addVertex(new float[3] { 0.39f + 0.1f + 0.1f, 0.29f, 0.7f }); // vértice 3
             marcoVidrioTv1.addVertex(new float[3] { -0.39f + 0.1f + 0.1f, 0.29f, 0.7f }); // vértice 4
             faces.Add(marcoVidrioTv1); // añadir la cara a la lista de caras
+            
+            // Botonos de la tv
+            int numSegments = 100; // Número de segmentos utilizados para dibujar cada botón
+            float radius = 0.05f; // Radio de cada botón
+            float buttonSpacing = 0.15f; // Espacio entre los botones
+
+            for (int i = 0; i < 3; i++) 
+            {
+                float centerY = 0.0f + i * buttonSpacing; // Posición y del centro del botón
+
+                for (int j = 0; j < numSegments; j++)
+                {
+                    float theta1 = 2.0f * (float)Math.PI * j / numSegments; // Ángulo inicial
+                    float theta2 = 2.0f * (float)Math.PI * (j + 1) / numSegments; // Ángulo final
+
+                    // Crear una cara para el segmento del botón
+                    Face boton = new Face(Color4.Blue); // cara
+                    boton.addVertex(new float[3] { 0.4f, centerY, 0.25f }); // Centro del botón
+                    boton.addVertex(new float[3] { 0.4f + radius * (float)Math.Cos(theta1), centerY + radius * (float)Math.Sin(theta1), 0.25f }); // Punto inicial en la circunferencia del botón
+                    boton.addVertex(new float[3] { 0.4f + radius * (float)Math.Cos(theta2), centerY + radius * (float)Math.Sin(theta2), 0.25f }); // Punto final en la circunferencia del botón
+                    faces.Add(boton); // añadir la cara a la lista de caras
+                }
+            }
 
             return faces; // devolver la lista de caras
         }
