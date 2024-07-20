@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04269A-6EAE-427C-BF6D-F669081D4558}|Tarea1\\Tarea1.csproj|c:\\github-win11\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\tarea1\\tarea1\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04269A-6EAE-427C-BF6D-F669081D4558}|Tarea1\\Tarea1.csproj|solutionrelative:tarea1\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04269A-6EAE-427C-BF6D-F669081D4558}|Tarea1\\Tarea1.csproj|c:\\github-win11\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\tarea1\\tarea1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04269A-6EAE-427C-BF6D-F669081D4558}|Tarea1\\Tarea1.csproj|solutionrelative:tarea1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea1\\Tarea1\\Game.cs",
+              "RelativeDocumentMoniker": "Tarea1\\Game.cs",
+              "ToolTip": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea1\\Tarea1\\Game.cs",
+              "RelativeToolTip": "Tarea1\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T06:51:24.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea1\\Tarea1\\Program.cs",
+              "RelativeDocumentMoniker": "Tarea1\\Program.cs",
+              "ToolTip": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea1\\Tarea1\\Program.cs",
+              "RelativeToolTip": "Tarea1\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T06:36:41.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
