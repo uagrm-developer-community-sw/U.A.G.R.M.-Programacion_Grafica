@@ -12,6 +12,10 @@ namespace Tarea1
             using (Game game = new Game(800, 600, "OpenTk")) // instancia de la clase Game
             {
                 game.Run(60.0); // corre el juego a 60 fps
+
+                // Detiene el cierre inmediato de la ventana de la consola
+                Console.WriteLine("Presiona Enter para cerrar...");
+                Console.ReadLine();
             }
         }
     }
