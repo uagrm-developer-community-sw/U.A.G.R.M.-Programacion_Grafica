@@ -7,24 +7,30 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 ## NUMERO DE VISITANTES.
 
-<img align="left" src = "https://profile-counter.glitch.me/U.A.G.R.M.-Programacion_Grafica-C_sharp-Java/count.svg" alt ="Loading"> <br>
+ 
 
 ---
+
 ## PROYECTOS:
-> [+ Poryectos I - OPENTK](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_I-OpenTK-SA-INF102.git)<br>
-> [+ Poryectos II - ROBLOX](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_II-Roblox-SA-INF102.git)<br>
+
+> [+ Poryectos I - OPENTK](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_I-OpenTK-SA-INF102.git)
+>> [Tarea # 1]()<br>
+>> [Tarea # 2]()<br>
+
+> [+ Poryectos II - ROBLOX](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_II-Roblox-SA-INF102.git)
 
 ---
 
 ## TAREAS - ANTERIORES:
-> [Archivos y Documentos - 2 2023](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Tareas/Tareas%201%202023)<br>
-> [Archivos y Documentos - 1 2023]()<br>
+
+> [Archivos y Documentos - 2 2023](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/Tareas/Tareas%201%202023)
+> [Archivos y Documentos - 1 2023]()
 
 ---
 
 ## CLASES ONLINE:
 
-> [+ Clases Grabadas - Semestre 1 2023| Youtube](https://youtube.com/playlist?list=PLZh2aEFREMprtC5kX9TxbRihWZnyn6EjU)<br>
+> [+ Clases Grabadas - Semestre 1 2023| Youtube](https://youtube.com/playlist?list=PLZh2aEFREMprtC5kX9TxbRihWZnyn6EjU)
 
 ## REPOSITORIO.
 

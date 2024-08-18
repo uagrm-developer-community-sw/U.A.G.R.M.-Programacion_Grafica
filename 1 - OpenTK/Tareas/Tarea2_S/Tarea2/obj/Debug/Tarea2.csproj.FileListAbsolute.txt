@@ -8,3 +8,5 @@ C:\Github-Win11\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\Tarea2_S\Tarea
 C:\Github-Win11\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\Tarea2_S\Tarea2\obj\Debug\Tarea2.csproj.Up2Date
 C:\Github-Win11\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\Tarea2_S\Tarea2\obj\Debug\Tarea2.exe
 C:\Github-Win11\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\Tarea2_S\Tarea2\obj\Debug\Tarea2.pdb
+C:\Github-Win11\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\Tarea2_S\Tarea2\bin\Debug\Newtonsoft.Json.dll
+C:\Github-Win11\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\Tarea2_S\Tarea2\bin\Debug\Newtonsoft.Json.xml
