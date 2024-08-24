@@ -7,15 +7,14 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 ## NUMERO DE VISITANTES.
 
- 
-
 ---
 
 ## PROYECTOS:
 
 > [+ Poryectos I - OPENTK](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_I-OpenTK-SA-INF102.git)
->> [Tarea # 1]()<br>
->> [Tarea # 2]()<br>
+>
+> > [Tarea # 1](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/Tarea1)
+> > [Tarea # 2](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/Tarea2_S)
 
 > [+ Poryectos II - ROBLOX](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_II-Roblox-SA-INF102.git)
 
