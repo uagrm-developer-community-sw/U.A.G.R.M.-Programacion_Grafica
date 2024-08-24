@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea2_S\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea2_S\\tarea2\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|c:\\github-win11\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\tarea2_s\\tarea2\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|solutionrelative:tarea2\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|solutionrelative:tarea2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea2_S\\tarea2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|c:\\github-win11\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\tarea2_s\\tarea2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DCBD04E-33A7-4F83-8B1D-60C1505EA998}|Tarea2\\Tarea2.csproj|solutionrelative:tarea2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "DockedWidth": 1075,
+          "DockedWidth": 578,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -55,7 +55,7 @@
               "RelativeDocumentMoniker": "Tarea2\\Game.cs",
               "ToolTip": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea2_S\\Tarea2\\Game.cs",
               "RelativeToolTip": "Tarea2\\Game.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAEwDAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAIAxwCgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T22:47:15.406Z",
               "EditorCaption": ""
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "DockedWidth": 757,
+          "DockedWidth": 1254,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "Tarea2\\Figure.cs",
               "ToolTip": "C:\\Github-Win11\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\Tarea2_S\\Tarea2\\Figure.cs",
               "RelativeToolTip": "Tarea2\\Figure.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T22:47:39.966Z",
               "EditorCaption": ""
