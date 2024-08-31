@@ -12,9 +12,7 @@ namespace Tarea2
     {
         public void dibujarT()
         {
-            //cuerpoTAtraz();
-            //cuerpoT();
-
+           
             //--------------------------------
             // PARTE CUERPO T
             cuerpoTAtras();
@@ -33,9 +31,6 @@ namespace Tarea2
             parteSperiorFrente();
             parteSperior();
 
-            
-            //cuerpoTAtraz();
-            //cuerpoT();
         }
 
         //------------------------------------------------------
@@ -129,50 +124,6 @@ namespace Tarea2
 
         //------------------------------------------------------
         // METODO QUE SE LLAMA AL DIBUJAR EL PROGRAMA (PARTE CUERPO T)
-        private void cuerpoT()
-        {
-            GL.Begin(PrimitiveType.Quads);
-
-            GL.Color3(0.0f, 0.0f, 1.0f); // Color azul
-
-            // Frente
-            GL.Vertex3(-0.1f, 0.3f, 0.0f); // Esquina superior izquierda
-            GL.Vertex3(0.1f, 0.3f, 0.0f);  // Esquina superior derecha
-            GL.Vertex3(0.1f, -0.5f, 0.0f); // Esquina inferior derecha
-            GL.Vertex3(-0.1f, -0.5f, 0.0f); // Esquina inferior izquierda
-
-            // Atrás (más a la derecha y arriba)
-            GL.Vertex3(-0.1f, 0.4f, -0.2f); // Esquina superior izquierda
-            GL.Vertex3(0.2f, 0.4f, -0.2f);  // Esquina superior derecha
-            GL.Vertex3(0.2f, -0.4f, -0.2f); // Esquina inferior derecha
-            GL.Vertex3(-0.1f, -0.4f, -0.2f); // Esquina inferior izquierda
-
-            // Lado izquierdo
-            GL.Vertex3(-0.1f, 0.3f, 0.0f); // Frente superior
-            GL.Vertex3(-0.1f, 0.4f, -0.2f); // Atrás superior
-            GL.Vertex3(-0.1f, -0.4f, -0.2f); // Atrás inferior
-            GL.Vertex3(-0.1f, -0.5f, 0.0f); // Frente inferior
-
-            // Lado derecho
-            GL.Vertex3(0.1f, 0.3f, 0.0f); // Frente superior
-            GL.Vertex3(0.2f, 0.4f, -0.2f); // Atrás superior
-            GL.Vertex3(0.2f, -0.4f, -0.2f); // Atrás inferior
-            GL.Vertex3(0.1f, -0.5f, 0.0f); // Frente inferior
-
-            // Parte superior
-            GL.Vertex3(-0.1f, 0.3f, 0.0f); // Frente izquierdo
-            GL.Vertex3(0.1f, 0.3f, 0.0f);  // Frente derecho
-            GL.Vertex3(0.2f, 0.4f, -0.2f); // Atrás derecho
-            GL.Vertex3(-0.1f, 0.4f, -0.2f); // Atrás izquierdo
-
-            // Parte inferior
-            GL.Vertex3(-0.1f, -0.5f, 0.0f); // Frente izquierdo
-            GL.Vertex3(0.1f, -0.5f, 0.0f);  // Frente derecho
-            GL.Vertex3(0.2f, -0.4f, -0.2f); // Atrás derecho
-            GL.Vertex3(-0.1f, -0.4f, -0.2f); // Atrás izquierdo
-
-            GL.End();
-        }
 
         private void cuerpoTFrente()
         {
