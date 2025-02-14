@@ -1,1 +1,0 @@
-workspace.SpawnLocation.Color = Color3.new(0.333333, 0.666667, 0)

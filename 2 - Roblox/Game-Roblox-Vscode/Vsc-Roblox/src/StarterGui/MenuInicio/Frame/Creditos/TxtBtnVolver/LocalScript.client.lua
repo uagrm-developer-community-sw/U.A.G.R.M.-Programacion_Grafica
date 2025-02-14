@@ -1,4 +1,0 @@
-script.Parent.MouseButton1Click:Connect(function() -- Conecte una función a la señal MouseButton1Click del objeto de la instancia de script (MouseButton1Click es la señal que se activa cuando se hace clic en el objeto de la instancia de script)
-	script.Parent.Parent.Parent.Creditos.Visible = false -- Establezca la propiedad Visible del objeto de la instancia de script en falso (Visible es la propiedad que controla si el objeto de la instancia de script es visible)
-	script.Parent.Parent.Parent.Inicio.Visible = true -- Establezca la propiedad Visible del objeto de la instancia de script en verdadero (Visible es la propiedad que controla si el objeto de la instancia de script es visible)
-end) -- Termine la función
