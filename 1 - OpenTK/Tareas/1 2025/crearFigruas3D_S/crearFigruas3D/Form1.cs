@@ -12,7 +12,7 @@ namespace crearFigruas3D
             InitializeComponent();
         }
 
-        public static void SetGameInstance(Game game)
+        public static void SetGameInstance(Game game
         {
             gameInstance = game;
         }
