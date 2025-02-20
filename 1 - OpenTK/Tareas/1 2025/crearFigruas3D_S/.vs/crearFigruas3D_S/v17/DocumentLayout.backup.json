@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearfigruas3d\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearfigruas3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|solutionrelative:crearfigruas3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|d:\\repository\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\crearfigruas3d_s\\crearfigruas3d\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|solutionrelative:crearfigruas3d\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|solutionrelative:crearfigruas3d\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|d:\\repository\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\crearfigruas3d_s\\crearfigruas3d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearfigruas3d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|solutionrelative:crearfigruas3d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearfigruas3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|solutionrelative:crearfigruas3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75233CC6-D38F-4200-85B3-0B2B717846EB}|crearFigruas3D\\crearFigruas3D.csproj|D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearfigruas3d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
               "DocumentMoniker": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearFigruas3D\\Game.cs",
               "RelativeDocumentMoniker": "crearFigruas3D\\Game.cs",
               "ToolTip": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearFigruas3D\\Game.cs",
               "RelativeToolTip": "crearFigruas3D\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:56:07.042Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -59,12 +59,11 @@
               "RelativeToolTip": "crearFigruas3D\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:59:10.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T03:59:10.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearFigruas3D\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "crearFigruas3D\\Form1.Designer.cs",
@@ -72,24 +71,22 @@
               "RelativeToolTip": "crearFigruas3D\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:40:27.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T03:40:27.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearFigruas3D\\Form1.cs",
               "RelativeDocumentMoniker": "crearFigruas3D\\Form1.cs",
               "ToolTip": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearFigruas3D\\Form1.cs [Design]",
               "RelativeToolTip": "crearFigruas3D\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:31:23.258Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-14T03:31:23.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Repository\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\crearFigruas3D_S\\crearFigruas3D\\Program.cs",
               "RelativeDocumentMoniker": "crearFigruas3D\\Program.cs",
@@ -97,7 +94,8 @@
               "RelativeToolTip": "crearFigruas3D\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T23:36:59.326Z"
+              "WhenOpened": "2025-02-13T23:36:59.326Z",
+              "EditorCaption": ""
             }
           ]
         }
