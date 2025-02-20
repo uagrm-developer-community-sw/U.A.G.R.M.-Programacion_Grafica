@@ -1,15 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
+using System.Windows.Forms;
+using crearFigruas3D.Controllers;
+using crearFigruas3D.Views;
 
-namespace Figura3D_MVC
+namespace crearFigruas3D
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            GameController controller = new GameController();
+
+            // Ejecutar Windows Forms en un hilo separado
+            Thread uiThread = new Thread(() =>
+            {
+                Application.Run(new MainForm(controller));
+            });
+
+            uiThread.SetApartmentState(ApartmentState.STA); // Requerido para UI
+            uiThread.Start();
+
+            // Ejecutar OpenTK en el hilo principal
+            controller.Run();
         }
     }
 }
