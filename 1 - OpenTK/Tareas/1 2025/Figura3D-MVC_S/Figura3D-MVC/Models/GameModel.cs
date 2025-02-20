@@ -1,13 +1,24 @@
-﻿using OpenTK;
+﻿// Se importa el espacio de nombres 'OpenTK', que contiene la funcionalidad básica de OpenTK (Open Toolkit), una librería para gráficos 3D, entre otras.
+using OpenTK;
+// Se importa el espacio de nombres 'OpenTK.Graphics', que proporciona clases y métodos relacionados con gráficos 3D, como la configuración de la pantalla y el contexto de renderizado.
 using OpenTK.Graphics;
+// Se importa el espacio de nombres 'OpenTK.Graphics.OpenGL', que contiene las funciones necesarias para interactuar con OpenGL, una API de gráficos 3D.
 using OpenTK.Graphics.OpenGL;
+// Se importa el espacio de nombres 'System', que incluye tipos básicos de .NET como `Console`, `DateTime`, y otros elementos fundamentales para el sistema.
 using System;
 
+// Definición del espacio de nombres 'crearFigruas3D.Models', donde se maneja la lógica relacionada con los modelos del juego o aplicación.
 namespace crearFigruas3D.Models
 {
+    // Definición de la clase 'GameModel', que se utiliza para manejar los datos del juego, como las rotaciones de la figura.
     public class GameModel
     {
+        // Propiedad pública 'RotationX', que representa la rotación de la figura en el eje X.
+        // Se inicializa en 0.0f (sin rotación en el eje X por defecto).
         public float RotationX { get; set; } = 0.0f;
+
+        // Propiedad pública 'RotationY', que representa la rotación de la figura en el eje Y.
+        // Se inicializa en 0.0f (sin rotación en el eje Y por defecto).
         public float RotationY { get; set; } = 0.0f;
     }
 }
