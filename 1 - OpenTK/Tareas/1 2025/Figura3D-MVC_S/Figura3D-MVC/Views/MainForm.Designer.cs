@@ -19,6 +19,8 @@ namespace crearFigruas3D.Views
         private System.Windows.Forms.Button btnRotarArriba;
         private System.Windows.Forms.Button btnRotarAbajo;
         
+        
+
 
         /// <summary>
         /// Limpia los recursos utilizados por el formulario.
@@ -53,60 +55,202 @@ namespace crearFigruas3D.Views
         // Método para inicializar los componentes del formulario, como los botones y otros controles.
         private void InitializeComponent()
         {
-            try 
-            { 
-                // Crear las instancias de los botones.
-                this.btnRotarIzquierda = new System.Windows.Forms.Button();
-                this.btnRotarDerecha = new System.Windows.Forms.Button();
-                this.btnRotarArriba = new System.Windows.Forms.Button();
-                this.btnRotarAbajo = new System.Windows.Forms.Button();
+            this.btnRotarIzquierda = new System.Windows.Forms.Button();
+            this.btnRotarDerecha = new System.Windows.Forms.Button();
+            this.btnRotarArriba = new System.Windows.Forms.Button();
+            this.btnRotarAbajo = new System.Windows.Forms.Button();
+            this.grpBxControlCubo = new System.Windows.Forms.GroupBox();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblSiglaMateria = new System.Windows.Forms.Label();
+            this.pnlControles = new System.Windows.Forms.Panel();
+            this.grpBxControlGiratorio = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.trackBarY = new System.Windows.Forms.TrackBar();
+            this.trackBarX = new System.Windows.Forms.TrackBar();
+            this.clrDlgTapas = new System.Windows.Forms.ColorDialog();
+            this.grpBxControlCubo.SuspendLayout();
+            this.pnlControles.SuspendLayout();
+            this.grpBxControlGiratorio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarY)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnRotarIzquierda
+            // 
+            this.btnRotarIzquierda.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRotarIzquierda.Location = new System.Drawing.Point(18, 76);
+            this.btnRotarIzquierda.Name = "btnRotarIzquierda";
+            this.btnRotarIzquierda.Size = new System.Drawing.Size(120, 30);
+            this.btnRotarIzquierda.TabIndex = 0;
+            this.btnRotarIzquierda.Text = "← Izquierda";
+            this.btnRotarIzquierda.UseVisualStyleBackColor = false;
+            this.btnRotarIzquierda.Click += new System.EventHandler(this.btnRotarIzquierda_Click);
+            // 
+            // btnRotarDerecha
+            // 
+            this.btnRotarDerecha.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRotarDerecha.Location = new System.Drawing.Point(148, 76);
+            this.btnRotarDerecha.Name = "btnRotarDerecha";
+            this.btnRotarDerecha.Size = new System.Drawing.Size(120, 30);
+            this.btnRotarDerecha.TabIndex = 1;
+            this.btnRotarDerecha.Text = "→ Derecha";
+            this.btnRotarDerecha.UseVisualStyleBackColor = false;
+            this.btnRotarDerecha.Click += new System.EventHandler(this.btnRotarDerecha_Click);
+            // 
+            // btnRotarArriba
+            // 
+            this.btnRotarArriba.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRotarArriba.Location = new System.Drawing.Point(88, 36);
+            this.btnRotarArriba.Name = "btnRotarArriba";
+            this.btnRotarArriba.Size = new System.Drawing.Size(120, 30);
+            this.btnRotarArriba.TabIndex = 2;
+            this.btnRotarArriba.Text = "↑ Arriba";
+            this.btnRotarArriba.UseVisualStyleBackColor = false;
+            this.btnRotarArriba.Click += new System.EventHandler(this.btnRotarArriba_Click);
+            // 
+            // btnRotarAbajo
+            // 
+            this.btnRotarAbajo.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRotarAbajo.Location = new System.Drawing.Point(88, 116);
+            this.btnRotarAbajo.Name = "btnRotarAbajo";
+            this.btnRotarAbajo.Size = new System.Drawing.Size(120, 30);
+            this.btnRotarAbajo.TabIndex = 3;
+            this.btnRotarAbajo.Text = "↓ Abajo";
+            this.btnRotarAbajo.UseVisualStyleBackColor = false;
+            this.btnRotarAbajo.Click += new System.EventHandler(this.btnRotarAbajo_Click);
+            // 
+            // grpBxControlCubo
+            // 
+            this.grpBxControlCubo.BackColor = System.Drawing.Color.Gainsboro;
+            this.grpBxControlCubo.Controls.Add(this.btnRotarDerecha);
+            this.grpBxControlCubo.Controls.Add(this.btnRotarIzquierda);
+            this.grpBxControlCubo.Controls.Add(this.btnRotarAbajo);
+            this.grpBxControlCubo.Controls.Add(this.btnRotarArriba);
+            this.grpBxControlCubo.Location = new System.Drawing.Point(23, 23);
+            this.grpBxControlCubo.Name = "grpBxControlCubo";
+            this.grpBxControlCubo.Size = new System.Drawing.Size(292, 164);
+            this.grpBxControlCubo.TabIndex = 4;
+            this.grpBxControlCubo.TabStop = false;
+            this.grpBxControlCubo.Text = "Controles Cubo";
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblTitulo.Location = new System.Drawing.Point(108, 9);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(426, 36);
+            this.lblTitulo.TabIndex = 5;
+            this.lblTitulo.Text = "PROGRAMACION GRAFICA";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 0;
+            // 
+            // lblSiglaMateria
+            // 
+            this.lblSiglaMateria.AutoSize = true;
+            this.lblSiglaMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSiglaMateria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblSiglaMateria.Location = new System.Drawing.Point(215, 45);
+            this.lblSiglaMateria.Name = "lblSiglaMateria";
+            this.lblSiglaMateria.Size = new System.Drawing.Size(211, 36);
+            this.lblSiglaMateria.TabIndex = 6;
+            this.lblSiglaMateria.Text = "ELC 102 - SA";
+            // 
+            // pnlControles
+            // 
+            this.pnlControles.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.pnlControles.Controls.Add(this.grpBxControlGiratorio);
+            this.pnlControles.Controls.Add(this.grpBxControlCubo);
+            this.pnlControles.Location = new System.Drawing.Point(3, 94);
+            this.pnlControles.Name = "pnlControles";
+            this.pnlControles.Size = new System.Drawing.Size(656, 228);
+            this.pnlControles.TabIndex = 7;
+            // 
+            // grpBxControlGiratorio
+            // 
+            this.grpBxControlGiratorio.BackColor = System.Drawing.Color.Gainsboro;
+            this.grpBxControlGiratorio.Controls.Add(this.label5);
+            this.grpBxControlGiratorio.Controls.Add(this.label4);
+            this.grpBxControlGiratorio.Controls.Add(this.trackBarY);
+            this.grpBxControlGiratorio.Controls.Add(this.trackBarX);
+            this.grpBxControlGiratorio.Location = new System.Drawing.Point(334, 23);
+            this.grpBxControlGiratorio.Name = "grpBxControlGiratorio";
+            this.grpBxControlGiratorio.Size = new System.Drawing.Size(292, 164);
+            this.grpBxControlGiratorio.TabIndex = 5;
+            this.grpBxControlGiratorio.TabStop = false;
+            this.grpBxControlGiratorio.Text = "Control Giratorio";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(103, 93);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Sobre Eje Y";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(103, 33);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(63, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Sobre Eje X";
+            // 
+            // trackBarY
+            // 
+            this.trackBarY.Location = new System.Drawing.Point(21, 119);
+            this.trackBarY.Name = "trackBarY";
+            this.trackBarY.Size = new System.Drawing.Size(247, 45);
+            this.trackBarY.TabIndex = 1;
+            // 
+            // trackBarX
+            // 
+            this.trackBarX.Location = new System.Drawing.Point(21, 56);
+            this.trackBarX.Name = "trackBarX";
+            this.trackBarX.Size = new System.Drawing.Size(247, 45);
+            this.trackBarX.TabIndex = 0;
+            // 
+            // MainForm
+            // 
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(667, 330);
+            this.Controls.Add(this.pnlControles);
+            this.Controls.Add(this.lblSiglaMateria);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblTitulo);
+            this.Name = "MainForm";
+            this.Text = "FIGURAS OPENTK";
+            this.grpBxControlCubo.ResumeLayout(false);
+            this.pnlControles.ResumeLayout(false);
+            this.grpBxControlGiratorio.ResumeLayout(false);
+            this.grpBxControlGiratorio.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarY)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
-                // Configuración de la ventana del formulario. 
-                this.SuspendLayout();
-
-                // Configuración del botón 'btnRotarIzquierda'.
-                this.btnRotarIzquierda.Text = "← Izquierda";  // Establece el texto que aparecerá en el botón.
-                this.btnRotarIzquierda.Location = new System.Drawing.Point(20, 50);  // Establece la posición del botón en la ventana.
-                this.btnRotarIzquierda.Size = new System.Drawing.Size(120, 30);  // Establece el tamaño del botón (ancho y alto).
-                this.btnRotarIzquierda.Click += new System.EventHandler(this.btnRotarIzquierda_Click);  // Define el evento al hacer clic (asociando el manejador de eventos).
-
-                // Configuración del botón 'btnRotarDerecha'.
-                this.btnRotarDerecha.Text = "→ Derecha";
-                this.btnRotarDerecha.Location = new System.Drawing.Point(150, 50);
-                this.btnRotarDerecha.Size = new System.Drawing.Size(120, 30);
-                this.btnRotarDerecha.Click += new System.EventHandler(this.btnRotarDerecha_Click);
-
-                // Configuración del botón 'btnRotarArriba'.
-                this.btnRotarArriba.Text = "↑ Arriba";
-                this.btnRotarArriba.Location = new System.Drawing.Point(90, 10);
-                this.btnRotarArriba.Size = new System.Drawing.Size(120, 30);
-                this.btnRotarArriba.Click += new System.EventHandler(this.btnRotarArriba_Click);
-
-                // Configuración del botón 'btnRotarAbajo'.
-                this.btnRotarAbajo.Text = "↓ Abajo";
-                this.btnRotarAbajo.Location = new System.Drawing.Point(90, 90);
-                this.btnRotarAbajo.Size = new System.Drawing.Size(120, 30);
-                this.btnRotarAbajo.Click += new System.EventHandler(this.btnRotarAbajo_Click);
-
-                // Establecer alineación de texto en los botones (centrado).
-                this.btnRotarIzquierda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                this.btnRotarDerecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                this.btnRotarArriba.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                this.btnRotarAbajo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
-                // Agregar los botones al formulario para que se muestren en la interfaz gráfica.
-                this.Controls.Add(this.btnRotarIzquierda);
-                this.Controls.Add(this.btnRotarDerecha);
-                this.Controls.Add(this.btnRotarArriba);
-                this.Controls.Add(this.btnRotarAbajo);
-
-                // Finaliza la configuración del formulario y aplica los cambios.
-                this.ResumeLayout(false);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al inicializar los componentes: " + ex.Message);
-            }
         }
+
+        private GroupBox grpBxControlCubo;
+        private Label lblTitulo;
+        private Label label2;
+        private Label lblSiglaMateria;
+        private Panel pnlControles;
+        private GroupBox grpBxControlGiratorio;
+        private TrackBar trackBarX;
+        private Label label5;
+        private Label label4;
+        private TrackBar trackBarY;
+        private ColorDialog clrDlgTapas;
     }
 }

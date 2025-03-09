@@ -9,6 +9,7 @@ using System;
 // Se importa el espacio de nombres 'OpenTK.Graphics', que permite configurar aspectos gráficos como el modo de visualización.
 using OpenTK.Graphics;
 using System.Windows.Forms;
+using System.Drawing;
 
 // Definición del espacio de nombres 'crearFigruas3D.Views', donde se maneja la parte visual de la aplicación.
 namespace crearFigruas3D.Views
@@ -18,6 +19,30 @@ namespace crearFigruas3D.Views
     {
         // Declaración de la variable privada '_model', que almacenará el modelo de datos que contiene las rotaciones.
         private GameModel _model;
+
+        private Color colorFrontal = Color.Red;
+        private Color colorTrasera = Color.Green;
+        private Color colorIzquierda = Color.Blue;
+        private Color colorDerecha = Color.Yellow;
+        private Color colorSuperior = Color.Magenta;
+        private Color colorInferior = Color.Cyan;
+
+        
+        // Método para actualizar los colores de las caras del cubo
+        public void ActualizarColores(Color colorFrontal, Color colorTrasera, Color colorIzquierda,
+                                       Color colorDerecha, Color colorSuperior, Color colorInferior)
+        {
+            this.colorFrontal = colorFrontal;
+            this.colorTrasera = colorTrasera;
+            this.colorIzquierda = colorIzquierda;
+            this.colorDerecha = colorDerecha;
+            this.colorSuperior = colorSuperior;
+            this.colorInferior = colorInferior;
+
+            // Redibujar el cubo con los nuevos colores
+            //this.Refresh();  // Usamos Refresh() en lugar de Invalidate()
+        }
+
 
         // Constructor de la clase 'GameView', que recibe el modelo, el ancho, el alto y el título de la ventana.
         public GameView(GameModel model, int width, int height, string title)
@@ -66,7 +91,7 @@ namespace crearFigruas3D.Views
                 // Resetea la matriz de modelo (limpia las transformaciones previas).
                 GL.LoadIdentity();
                 // Desplaza la escena para alejarla de la cámara (en este caso, 3 unidades en el eje Z).
-                GL.Translate(0.0f, 0.0f, -3.0f);
+                GL.Translate(0.0f, 0.0f, -4.0f);
                 // Rota la escena en el eje X, usando el valor de rotación del modelo.
                 GL.Rotate(_model.RotationX, 1.0f, 0.0f, 0.0f);
                 // Rota la escena en el eje Y, usando el valor de rotación del modelo.
@@ -75,54 +100,132 @@ namespace crearFigruas3D.Views
                 // Comienza a dibujar una figura utilizando el tipo de primitivas 'Quads' (cuadriláteros).
                 GL.Begin(PrimitiveType.Quads);
 
+
+                //==========================================================================================//
                 // Dibuja las caras del cubo, cada una con un color diferente.
 
-                // Cara frontal (roja)
+                base.OnRenderFrame(e);
+                GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+                GL.MatrixMode(MatrixMode.Modelview);
+                GL.LoadIdentity();
+                GL.Translate(0.0f, 0.0f, -4.0f);
+                GL.Rotate(_model.RotationX, 1.0f, 0.0f, 0.0f);
+                GL.Rotate(_model.RotationY, 0.0f, 1.0f, 0.0f);
+
+
+                GL.Begin(PrimitiveType.Quads);
+
+                // Parte izquierda de la "U" (movida hacia atrás en Z)
                 GL.Color3(1.0f, 0.0f, 0.0f);
-                GL.Vertex3(-0.5f, -0.5f, 0.5f);  // Esquina inferior izquierda
-                GL.Vertex3(0.5f, -0.5f, 0.5f);   // Esquina inferior derecha
-                GL.Vertex3(0.5f, 0.5f, 0.5f);    // Esquina superior derecha
-                GL.Vertex3(-0.5f, 0.5f, 0.5f);   // Esquina superior izquierda
+                GL.Vertex3(-0.5f, -0.5f, 0.2f);
+                GL.Vertex3(-0.3f, -0.5f, 0.2f);
+                GL.Vertex3(-0.3f, 0.5f, 0.2f);
+                GL.Vertex3(-0.5f, 0.5f, 0.2f);
 
-                // Cara trasera (verde)
+                // Parte derecha de la "U" (movida hacia atrás en Z)
                 GL.Color3(0.0f, 1.0f, 0.0f);
-                GL.Vertex3(-0.5f, -0.5f, -0.5f);
-                GL.Vertex3(0.5f, -0.5f, -0.5f);
-                GL.Vertex3(0.5f, 0.5f, -0.5f);
-                GL.Vertex3(-0.5f, 0.5f, -0.5f);
+                GL.Vertex3(0.3f, -0.5f, 0.2f);
+                GL.Vertex3(0.5f, -0.5f, 0.2f);
+                GL.Vertex3(0.5f, 0.5f, 0.2f);
+                GL.Vertex3(0.3f, 0.5f, 0.2f);
 
-                // Cara izquierda (azul)
+                // Base de la "U" (movida hacia atrás en Z)
                 GL.Color3(0.0f, 0.0f, 1.0f);
-                GL.Vertex3(-0.5f, -0.5f, -0.5f);
-                GL.Vertex3(-0.5f, -0.5f, 0.5f);
-                GL.Vertex3(-0.5f, 0.5f, 0.5f);
-                GL.Vertex3(-0.5f, 0.5f, -0.5f);
+                GL.Vertex3(-0.3f, -0.5f, 0.2f);
+                GL.Vertex3(0.3f, -0.5f, 0.2f);
+                GL.Vertex3(0.3f, -0.3f, 0.2f);
+                GL.Vertex3(-0.3f, -0.3f, 0.2f);
 
-                // Cara derecha (amarilla)
-                GL.Color3(1.0f, 1.0f, 0.0f);
-                GL.Vertex3(0.5f, -0.5f, -0.5f);
-                GL.Vertex3(0.5f, -0.5f, 0.5f);
-                GL.Vertex3(0.5f, 0.5f, 0.5f);
-                GL.Vertex3(0.5f, 0.5f, -0.5f);
+                // Tapa lateral izquierda entre amarillo, rojo y plomo
+                GL.Color3(0.7f, 0.3f, 0.1f);  // Marrón oscuro
+                GL.Vertex3(-0.5f, 0.5f, 0.2f);
+                GL.Vertex3(-0.5f, 0.5f, -0.2f);
+                GL.Vertex3(-0.5f, -0.5f, -0.2f);
+                GL.Vertex3(-0.5f, -0.5f, 0.2f);
 
-                // Cara superior (magenta)
-                GL.Color3(1.0f, 0.0f, 1.0f);
-                GL.Vertex3(-0.5f, 0.5f, -0.5f);
-                GL.Vertex3(0.5f, 0.5f, -0.5f);
-                GL.Vertex3(0.5f, 0.5f, 0.5f);
-                GL.Vertex3(-0.5f, 0.5f, 0.5f);
+                // Caras traseras de la "U"
+                GL.Color3(1.0f, 0.5f, 0.0f);  // Naranja claro
+                GL.Vertex3(-0.5f, -0.5f, -0.2f);
+                GL.Vertex3(-0.3f, -0.5f, -0.2f);
+                GL.Vertex3(-0.3f, 0.5f, -0.2f);
+                GL.Vertex3(-0.5f, 0.5f, -0.2f);
 
-                // Cara inferior (cian)
-                GL.Color3(0.0f, 1.0f, 1.0f);
-                GL.Vertex3(-0.5f, -0.5f, -0.5f);
-                GL.Vertex3(0.5f, -0.5f, -0.5f);
-                GL.Vertex3(0.5f, -0.5f, 0.5f);
-                GL.Vertex3(-0.5f, -0.5f, 0.5f);
+                GL.Color3(0.5f, 0.0f, 1.0f);  // Púrpura intenso
+                GL.Vertex3(0.3f, -0.5f, -0.2f);
+                GL.Vertex3(0.5f, -0.5f, -0.2f);
+                GL.Vertex3(0.5f, 0.5f, -0.2f);
+                GL.Vertex3(0.3f, 0.5f, -0.2f);
 
-                // Finaliza el dibujo de las primitivas.
+                // Base trasera de la "U"
+                GL.Color3(1.0f, 0.8f, 0.0f);  // Amarillo intenso
+                GL.Vertex3(-0.3f, -0.5f, -0.2f);
+                GL.Vertex3(0.3f, -0.5f, -0.2f);
+                GL.Vertex3(0.3f, -0.3f, -0.2f);
+                GL.Vertex3(-0.3f, -0.3f, -0.2f);
+
+                // Tapa inferior (rectangular ajustado)
+                GL.Color3(0.4f, 0.4f, 0.4f);  // Gris medio
+                GL.Vertex3(-0.5f, -0.5f, -0.2f);
+                GL.Vertex3(0.5f, -0.5f, -0.2f);
+                GL.Vertex3(0.5f, -0.5f, 0.2f);
+                GL.Vertex3(-0.5f, -0.5f, 0.2f);
+
+                // Tapa lateral derecha entre rosado, verde fosforescente y plomo
+                GL.Color3(0.2f, 0.5f, 0.8f);  // Azul océano
+                GL.Vertex3(0.5f, 0.5f, 0.2f);
+                GL.Vertex3(0.5f, 0.5f, -0.2f);
+                GL.Vertex3(0.5f, -0.5f, -0.2f);
+                GL.Vertex3(0.5f, -0.5f, 0.2f);
+
+                // Tapa superior entre anaranjado, amarillo y rojo
+                GL.Color3(0.9f, 0.3f, 0.6f);  // Rosa oscuro
+                GL.Vertex3(-0.5f, 0.5f, 0.2f);
+                GL.Vertex3(-0.3f, 0.5f, 0.2f);
+                GL.Vertex3(-0.3f, 0.5f, -0.2f);
+                GL.Vertex3(-0.5f, 0.5f, -0.2f);
+
+                // Tapa superior entre rosado, azul claro y verde fosforescente
+                GL.Color3(0.1f, 0.7f, 0.4f);  // Verde esmeralda
+                GL.Vertex3(0.3f, 0.5f, 0.2f);
+                GL.Vertex3(0.5f, 0.5f, 0.2f);
+                GL.Vertex3(0.5f, 0.5f, -0.2f);
+                GL.Vertex3(0.3f, 0.5f, -0.2f);
+
+                // Tapa derecha de la columna izquierda (entre rojo, naranja, amarillo y lila)
+                GL.Color3(0.6f, 0.2f, 0.9f);  // Violeta
+                GL.Vertex3(-0.3f, 0.5f, 0.2f);
+                GL.Vertex3(-0.3f, 0.5f, -0.2f);
+                GL.Vertex3(-0.3f, -0.5f, -0.2f);
+                GL.Vertex3(-0.3f, -0.5f, 0.2f);
+
+                // Tapa izquierda de la columna derecha (entre Verde Esmeralda, Azul Océano, Lila y Verde Púrpura)
+                GL.Color3(1.0f, 0.7f, 0.0f);  // Amarillo dorado
+                GL.Vertex3(0.3f, 0.5f, 0.2f);  // Esquina superior izquierda (cerca Lila)
+                GL.Vertex3(0.3f, 0.5f, -0.2f); // Esquina superior trasera izquierda (cerca Verde Esmeralda)
+                GL.Vertex3(0.3f, -0.5f, -0.2f); // Esquina inferior trasera izquierda (cerca Azul Océano)
+                GL.Vertex3(0.3f, -0.5f, 0.2f);  // Esquina inferior izquierda (cerca Verde Púrpura)
+
+                // Corrección: Bajar un poco más la tapa blanca para alinearla perfectamente con azul oscuro y amarillo
+                GL.Color3(0.9f, 0.9f, 0.9f);  // Blanco humo
+
+                GL.Vertex3(-0.3f, -0.30f, 0.2f);  // Esquina izquierda bajada, alineada con azul oscuro
+                GL.Vertex3(0.3f, -0.30f, 0.2f);   // Esquina derecha bajada, alineada con amarillo
+                GL.Vertex3(0.3f, -0.30f, -0.2f);  // Esquina trasera derecha alineada
+                GL.Vertex3(-0.3f, -0.30f, -0.2f); // Esquina trasera izquierda alineada
+
+
+
+
+
                 GL.End();
 
-                // Intercambia los buffers para mostrar lo que se ha dibujado en el frame actual (renderizado de doble buffer).
+
+
+
+
+
+
+
                 SwapBuffers();
             }
             catch (Exception ex)

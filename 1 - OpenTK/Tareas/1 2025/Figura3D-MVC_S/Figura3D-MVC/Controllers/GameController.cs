@@ -3,6 +3,7 @@ using crearFigruas3D.Models;
 // Se importa el espacio de nombres 'Views', que contiene la lógica de presentación del juego (vista).
 using crearFigruas3D.Views;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 // Definición del espacio de nombres 'Controllers', donde se encuentra el controlador principal del juego.
@@ -16,6 +17,9 @@ namespace crearFigruas3D.Controllers
         // Declaración de la variable privada '_view' de tipo 'GameView'. Esta variable manejará la representación visual del modelo.
         private GameView _view;
 
+        private GameView _gameView;
+
+
         // Constructor de la clase 'GameController', donde se inicializan el modelo y la vista.
         public GameController()
         {
@@ -25,6 +29,8 @@ namespace crearFigruas3D.Controllers
                 _model = new GameModel();
                 // Se crea una nueva instancia de la vista (GameView), pasando el modelo, el tamaño de la ventana y el título de la ventana.
                 _view = new GameView(_model, 800, 600, "Figura 3D");
+
+                //_gameView = gameView;
             }
             catch (Exception ex)
             {
@@ -97,6 +103,13 @@ namespace crearFigruas3D.Controllers
             {
                 MessageBox.Show("Error al ejecutar la vista: " + ex.Message);
             }
+        }
+
+        // Método para actualizar los colores
+        public void ActualizarColores(Color colorFrontal, Color colorTrasera, Color colorIzquierda,
+                                        Color colorDerecha, Color colorSuperior, Color colorInferior)
+        {
+            _gameView.ActualizarColores(colorFrontal, colorTrasera, colorIzquierda, colorDerecha, colorSuperior, colorInferior);
         }
     }
 }
