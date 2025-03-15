@@ -18,9 +18,6 @@ namespace crearFigruas3D.Views
         private System.Windows.Forms.Button btnRotarDerecha;
         private System.Windows.Forms.Button btnRotarArriba;
         private System.Windows.Forms.Button btnRotarAbajo;
-        
-        
-
 
         /// <summary>
         /// Limpia los recursos utilizados por el formulario.
@@ -238,7 +235,6 @@ namespace crearFigruas3D.Views
             ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         private GroupBox grpBxControlCubo;

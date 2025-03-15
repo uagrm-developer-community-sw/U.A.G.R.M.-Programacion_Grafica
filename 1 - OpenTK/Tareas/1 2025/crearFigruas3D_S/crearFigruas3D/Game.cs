@@ -29,7 +29,7 @@ namespace crearFigruas3D
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.MatrixMode(MatrixMode.Modelview);
             GL.LoadIdentity();
-            GL.Translate(0.0f, 0.0f, -5.0f);
+            GL.Translate(0.0f, 0.0f, -7.0f);
             GL.Rotate(RotationX, 1.0f, 0.0f, 0.0f);
             GL.Rotate(RotationY, 0.0f, 1.0f, 0.0f);
 
