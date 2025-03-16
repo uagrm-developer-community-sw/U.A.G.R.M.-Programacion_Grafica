@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-tarea2\\figura3d-mvc\\models\\axesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\figura3d-mvc\\models\\axesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\axesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-tarea2\\figura3d-mvc\\models\\ulettermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\ulettermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\figura3d-mvc\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-tarea2\\figura3d-mvc\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\figura3d-mvc\\models\\ulettermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\ulettermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AxesModel.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Models\\AxesModel.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\AxesModel.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Models\\AxesModel.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Models\\AxesModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:53:53.09Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,14 +44,27 @@
               "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\GameView.cs",
               "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Views\\GameView.cs",
               "RelativeToolTip": "Figura3D-MVC\\Views\\GameView.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAkwFEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFoAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T23:58:53.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "AxesModel.cs",
+              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Models\\AxesModel.cs",
+              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\AxesModel.cs",
+              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Models\\AxesModel.cs",
+              "RelativeToolTip": "Figura3D-MVC\\Models\\AxesModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T00:53:53.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameModel.cs",
               "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Models\\GameModel.cs",
               "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\GameModel.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ULetterModel.cs",
               "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-Tarea2\\Figura3D-MVC\\Models\\ULetterModel.cs",
               "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\ULetterModel.cs",
@@ -85,8 +85,7 @@
               "RelativeToolTip": "Figura3D-MVC\\Models\\ULetterModel.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAAswMYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T22:26:37.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T22:26:37.765Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "Figura3D-MVC\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:28:15.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T16:28:15.099Z"
             }
           ]
         }

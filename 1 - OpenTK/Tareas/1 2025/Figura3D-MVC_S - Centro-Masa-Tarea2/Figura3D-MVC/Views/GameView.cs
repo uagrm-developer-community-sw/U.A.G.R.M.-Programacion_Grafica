@@ -17,7 +17,11 @@ namespace crearFigruas3D.Views
         
         private GameModel _model;
 
-        
+        private float rotationXAxes = 0.0f;  // Variable para controlar la rotación de los ejes
+        private float rotationSpeed = 0.1f;  // Velocidad de la rotación (ajústalo según lo necesites)
+
+
+
         public GameView(GameModel model, int width, int height, string title)
             : base(width, height, GraphicsMode.Default, title)
         {
@@ -82,6 +86,7 @@ namespace crearFigruas3D.Views
                 GL.Translate(0.0f, 0.0f, -5.0f);  // Este valor puede ser ajustado para ver los objetos desde diferentes distancias
 
                 //============================================================================//
+                //                                ULETTERMODEL
                 // Calcular el centro de masa de la letra "U"
                 Vector3 centerOfMassU = ULetterModel.CalculateCenterOfMass();
                 Console.WriteLine("Centro de masa de la letra U: " + centerOfMassU);
@@ -99,7 +104,29 @@ namespace crearFigruas3D.Views
 
                 GL.PopMatrix();  // Restaurar la matriz para no afectar el siguiente objeto
 
+                //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // tAREA 2 : Dibujar la letra "U" en otra posición
+
+
+                // Coordenadas para las nuevas posiciones
+                float x1 = -2.0f, y1 = -1.0f, z1 = -7.0f;   // Primera posición
+                float x2 = -2.0f, y2 = -2.0f, z2 = -4.0f; // Segunda posición
+
+                // Duplicar el objeto en la primera posición
+                GL.PushMatrix();  // Guardar la matriz actual
+                GL.Translate(x1, y1, z1);  // Traslación a la primera posición
+                ULetterModel.DrawU();  // Dibujar la letra "U" en la primera posición
+                GL.PopMatrix();  // Restaurar la matriz
+
+                // Duplicar el objeto en la segunda posición
+                GL.PushMatrix();  // Guardar la matriz actual
+                GL.Translate(x2, y2, z2);  // Traslación a la segunda posición
+                ULetterModel.DrawU();  // Dibujar la letra "U" en la segunda posición
+                GL.PopMatrix();  // Restaurar la matriz
+
+
                 //============================================================================//
+                //                                AXESMODEL
 
                 // Calcular el centro de masa de los ejes
                 Vector3 centerOfMassAxes = AxesModel.CalculateCenterOfMass();
@@ -107,7 +134,8 @@ namespace crearFigruas3D.Views
 
                 // Traslación para mover los ejes a su propio centro de masa
                 GL.PushMatrix();  // Guardar la matriz actual
-                GL.Translate(centerOfMassAxes.X, centerOfMassAxes.Y, centerOfMassAxes.Z);  // Deja los ejes en el origen
+                GL.Translate(-centerOfMassAxes.X, -centerOfMassAxes.Y, -centerOfMassAxes.Z);  // Mover al centro de masa de los ejes
+                GL.Rotate(rotationXAxes, 0.0f, 1.0f, 0.0f);  // Rotar sobre el eje y
 
                 // Dibujar los ejes en su propio centro de masa
                 AxesModel.DrawAxes();
@@ -115,6 +143,10 @@ namespace crearFigruas3D.Views
                 GL.PopMatrix();  // Restaurar la matriz para no afectar otros objetos
 
                 //============================================================================//
+                // Incrementar la rotación de los ejes para la siguiente llamada
+                rotationXAxes += rotationSpeed;
+                if (rotationXAxes >= 360.0f) rotationXAxes -= 360.0f;  // Mantener la rotación en el rango de 0-360 grados
+
 
                 // Mostrar en pantalla
                 SwapBuffers();
