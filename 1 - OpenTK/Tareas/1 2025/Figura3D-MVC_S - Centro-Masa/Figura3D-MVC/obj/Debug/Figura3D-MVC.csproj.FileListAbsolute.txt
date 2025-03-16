@@ -20,3 +20,14 @@ D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-
 D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
 D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
 D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
