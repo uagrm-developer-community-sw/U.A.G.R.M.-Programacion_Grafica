@@ -1,5 +1,6 @@
 ﻿// Se importa el espacio de nombres 'crearFigruas3D.Controllers', que contiene la lógica de los controladores (en este caso, GameController).
 using crearFigruas3D.Controllers;
+using crearFigruas3D.Models;
 using OpenTK;
 
 // Se importa el espacio de nombres 'System', que proporciona clases y tipos fundamentales de .NET.
@@ -148,6 +149,20 @@ namespace crearFigruas3D.Views
             {
                 MessageBox.Show("Por favor, ingrese valores válidos para X, Y, y Z.");
             }
+        }
+
+        private void btnObtenerPosicio_Click(object sender, EventArgs e)
+        {
+            // Calcular el centro de masa de la letra U
+            Vector3 centerOfMassU = ULetterModel.CalculateCenterOfMass();
+
+            // Calcular el centro de masa de la letra U
+            Vector3 centroDeMasaU = ULetterModel.CalculateCenterOfMass();
+
+            // Mostrar las coordenadas en los cuadros de texto
+            textBoxX.Text = centroDeMasaU.X.ToString();
+            textBoxY.Text = centroDeMasaU.Y.ToString();
+            textBoxZ.Text = centroDeMasaU.Z.ToString();
         }
     }
 }
