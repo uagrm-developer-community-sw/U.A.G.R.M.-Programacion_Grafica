@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-vetices-tarea3\\figura3d-mvc\\views\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-vetices-tarea3\\figura3d-mvc\\models\\axesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\axesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\figura3d-mvc\\views\\gamedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\gamedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-vetices-tarea3\\figura3d-mvc\\models\\transformationutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\transformationutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\figura3d-mvc\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-vetices-tarea3\\figura3d-mvc\\models\\ulettermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\ulettermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s - centro-masa-vetices-tarea3\\figura3d-mvc\\models\\geometryutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\geometryutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameView.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Views\\GameView.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\GameView.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Views\\GameView.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Views\\GameView.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAWwD0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TransformationUtils.cs",
+              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\TransformationUtils.cs",
+              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\TransformationUtils.cs",
+              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\TransformationUtils.cs",
+              "RelativeToolTip": "Figura3D-MVC\\Models\\TransformationUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T09:22:54.296Z",
+              "WhenOpened": "2025-03-27T22:06:33.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeometryUtils.cs",
+              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\GeometryUtils.cs",
+              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\GeometryUtils.cs",
+              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\GeometryUtils.cs",
+              "RelativeToolTip": "Figura3D-MVC\\Models\\GeometryUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:54:17.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Views\\MainForm.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\MainForm.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Views\\MainForm.cs [Design]",
-              "RelativeToolTip": "Figura3D-MVC\\Views\\MainForm.cs [Design]",
+              "Title": "ULetterModel.cs",
+              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\ULetterModel.cs",
+              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\ULetterModel.cs",
+              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\ULetterModel.cs",
+              "RelativeToolTip": "Figura3D-MVC\\Models\\ULetterModel.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwFsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:29:04.844Z"
+              "WhenOpened": "2025-03-27T21:40:02.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameDraw.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Views\\GameDraw.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\GameDraw.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Views\\GameDraw.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Views\\GameDraw.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AxesModel.cs",
+              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\AxesModel.cs",
+              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\AxesModel.cs",
+              "ToolTip": "C:\\Developer\\Repository\\Uagrm Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\\Figura3D-MVC\\Models\\AxesModel.cs",
+              "RelativeToolTip": "Figura3D-MVC\\Models\\AxesModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:24:05.896Z"
+              "WhenOpened": "2025-03-27T21:30:53.931Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -51,6 +51,8 @@
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Models\AxesModel.cs" />
     <Compile Include="Models\GameModel.cs" />
+    <Compile Include="Models\GeometryUtils.cs" />
+    <Compile Include="Models\TransformationUtils.cs" />
     <Compile Include="Models\ULetterModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

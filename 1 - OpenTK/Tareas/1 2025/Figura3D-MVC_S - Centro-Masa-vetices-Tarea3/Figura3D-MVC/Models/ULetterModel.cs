@@ -1,5 +1,7 @@
-﻿using OpenTK;
+﻿using Figura3D_MVC.Models;
+using OpenTK;
 using OpenTK.Graphics.OpenGL;
+using System.Collections.Generic;
 
 namespace crearFigruas3D.Models
 {
@@ -9,7 +11,7 @@ namespace crearFigruas3D.Models
         public static Vector3 CalculateCenterOfMass()
         {
             // Vértices de la letra U
-            Vector3[] vertices = new Vector3[]
+            List<Vector3> vertices = new List<Vector3>
             {
                 new Vector3(-0.5f, -0.5f, 0.2f),
                 new Vector3(-0.3f, -0.5f, 0.2f),
@@ -77,25 +79,8 @@ namespace crearFigruas3D.Models
                 new Vector3(0.3f, -0.5f, 0.2f)
             };
 
-            // Calcular el centro de masa (promedio de las posiciones de los vértices)
-            Vector3 centerOfMass = new Vector3(0, 0, 0);
-            foreach (var vertex in vertices)
-            {
-                centerOfMass += vertex;
-            }
-
-            // Promediar las posiciones para obtener el centro de masa
-            centerOfMass /= vertices.Length;
-
-            // Retornar el centro de masa calculado
-            return centerOfMass;
-
-            // Traslación para poner el centro de masa en (0,0,0) - No necesario si ya está centrado
-            // GL.Translate(-centerOfMass.X, -centerOfMass.Y, -centerOfMass.Z);
-
-            
-
-            // Dibujar la letra U
+            // Llamamos a la función común para calcular el centro de masa
+            return GeometryUtils.CalculateCenterOfMass(vertices);
         }
 
         public static void DrawU()

@@ -61,7 +61,16 @@ namespace crearFigruas3D.Views
             this.label2 = new System.Windows.Forms.Label();
             this.lblSiglaMateria = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnObtenerPosicio = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxZ = new System.Windows.Forms.TextBox();
@@ -74,22 +83,13 @@ namespace crearFigruas3D.Views
             this.trackBarY = new System.Windows.Forms.TrackBar();
             this.trackBarX = new System.Windows.Forms.TrackBar();
             this.clrDlgTapas = new System.Windows.Forms.ColorDialog();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btnObtenerPosicio = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.grpBxControlCubo.SuspendLayout();
             this.pnlControles.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.grpBxControlGiratorio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).BeginInit();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRotarIzquierda
@@ -148,7 +148,7 @@ namespace crearFigruas3D.Views
             this.grpBxControlCubo.Size = new System.Drawing.Size(292, 164);
             this.grpBxControlCubo.TabIndex = 4;
             this.grpBxControlCubo.TabStop = false;
-            this.grpBxControlCubo.Text = "Controles Cubo";
+            this.grpBxControlCubo.Text = "Controles Letra U";
             // 
             // lblTitulo
             // 
@@ -191,6 +191,80 @@ namespace crearFigruas3D.Views
             this.pnlControles.Size = new System.Drawing.Size(851, 207);
             this.pnlControles.TabIndex = 7;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.LightGray;
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Location = new System.Drawing.Point(734, 18);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(107, 163);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Mover Posicion Letra U";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(14, 134);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Mover";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(40, 101);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(49, 26);
+            this.textBox3.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(40, 70);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(49, 26);
+            this.textBox2.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(40, 40);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(49, 26);
+            this.textBox1.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(11, 104);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(32, 20);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Z =";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(11, 73);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(33, 20);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Y =";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(11, 43);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(33, 20);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "X =";
+            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
@@ -208,12 +282,22 @@ namespace crearFigruas3D.Views
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Obtener Posicion Letra U";
             // 
+            // btnObtenerPosicio
+            // 
+            this.btnObtenerPosicio.Location = new System.Drawing.Point(23, 135);
+            this.btnObtenerPosicio.Name = "btnObtenerPosicio";
+            this.btnObtenerPosicio.Size = new System.Drawing.Size(75, 23);
+            this.btnObtenerPosicio.TabIndex = 6;
+            this.btnObtenerPosicio.Text = "Obtener";
+            this.btnObtenerPosicio.UseVisualStyleBackColor = true;
+            this.btnObtenerPosicio.Click += new System.EventHandler(this.btnObtenerPosicio_Click);
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(20, 105);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(23, 13);
+            this.label6.Size = new System.Drawing.Size(32, 20);
             this.label6.TabIndex = 5;
             this.label6.Text = "Z =";
             // 
@@ -222,7 +306,7 @@ namespace crearFigruas3D.Views
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(20, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 13);
+            this.label3.Size = new System.Drawing.Size(33, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Y =";
             // 
@@ -230,21 +314,21 @@ namespace crearFigruas3D.Views
             // 
             this.textBoxZ.Location = new System.Drawing.Point(49, 102);
             this.textBoxZ.Name = "textBoxZ";
-            this.textBoxZ.Size = new System.Drawing.Size(49, 20);
+            this.textBoxZ.Size = new System.Drawing.Size(49, 26);
             this.textBoxZ.TabIndex = 3;
             // 
             // textBoxY
             // 
             this.textBoxY.Location = new System.Drawing.Point(50, 74);
             this.textBoxY.Name = "textBoxY";
-            this.textBoxY.Size = new System.Drawing.Size(48, 20);
+            this.textBoxY.Size = new System.Drawing.Size(48, 26);
             this.textBoxY.TabIndex = 2;
             // 
             // textBoxX
             // 
             this.textBoxX.Location = new System.Drawing.Point(49, 42);
             this.textBoxX.Name = "textBoxX";
-            this.textBoxX.Size = new System.Drawing.Size(49, 20);
+            this.textBoxX.Size = new System.Drawing.Size(49, 26);
             this.textBoxX.TabIndex = 1;
             // 
             // label1
@@ -252,7 +336,7 @@ namespace crearFigruas3D.Views
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(20, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 13);
+            this.label1.Size = new System.Drawing.Size(33, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "X =";
             // 
@@ -275,7 +359,7 @@ namespace crearFigruas3D.Views
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(103, 93);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.Size = new System.Drawing.Size(94, 20);
             this.label5.TabIndex = 3;
             this.label5.Text = "Sobre Eje Y";
             // 
@@ -284,7 +368,7 @@ namespace crearFigruas3D.Views
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(103, 33);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 13);
+            this.label4.Size = new System.Drawing.Size(94, 20);
             this.label4.TabIndex = 2;
             this.label4.Text = "Sobre Eje X";
             // 
@@ -302,90 +386,6 @@ namespace crearFigruas3D.Views
             this.trackBarX.Size = new System.Drawing.Size(247, 45);
             this.trackBarX.TabIndex = 0;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.LightGray;
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Location = new System.Drawing.Point(734, 18);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(107, 163);
-            this.groupBox2.TabIndex = 7;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Mover Posicion Letra U";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(11, 43);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "X =";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(11, 73);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 13);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Y =";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(11, 104);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(23, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Z =";
-            // 
-            // btnObtenerPosicio
-            // 
-            this.btnObtenerPosicio.Location = new System.Drawing.Point(23, 135);
-            this.btnObtenerPosicio.Name = "btnObtenerPosicio";
-            this.btnObtenerPosicio.Size = new System.Drawing.Size(75, 23);
-            this.btnObtenerPosicio.TabIndex = 6;
-            this.btnObtenerPosicio.Text = "Obtener";
-            this.btnObtenerPosicio.UseVisualStyleBackColor = true;
-            this.btnObtenerPosicio.Click += new System.EventHandler(this.btnObtenerPosicio_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(40, 40);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(49, 20);
-            this.textBox1.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(40, 70);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(49, 20);
-            this.textBox2.TabIndex = 4;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(40, 101);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(49, 20);
-            this.textBox3.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(14, 134);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Mover";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             this.BackColor = System.Drawing.Color.DarkGray;
@@ -398,14 +398,14 @@ namespace crearFigruas3D.Views
             this.Text = "FIGURAS OPENTK";
             this.grpBxControlCubo.ResumeLayout(false);
             this.pnlControles.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.grpBxControlGiratorio.ResumeLayout(false);
             this.grpBxControlGiratorio.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

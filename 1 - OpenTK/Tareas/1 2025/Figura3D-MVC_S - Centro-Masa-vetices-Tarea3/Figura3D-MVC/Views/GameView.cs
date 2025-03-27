@@ -4,15 +4,15 @@ using OpenTK.Graphics.OpenGL;
 using crearFigruas3D.Models;
 using System;
 using OpenTK.Graphics;
-using System.Windows.Forms; 
-using System.Drawing; 
+using System.Windows.Forms;
+using System.Drawing;
 
 namespace crearFigruas3D.Views
 {
-    
+
     public class GameView : GameWindow
     {
-        
+
         private GameModel _model;
         private GameDraw _gameDraw;
 
@@ -72,7 +72,6 @@ namespace crearFigruas3D.Views
         {
             try
             {
-                
                 base.OnLoad(e);
                 GL.ClearColor(0.1f, 0.1f, 0.1f, 1.0f);
                 GL.Enable(EnableCap.DepthTest);
@@ -149,21 +148,21 @@ namespace crearFigruas3D.Views
         {
             try
             {
-                
+
                 base.OnResize(e);
 
-                
+
                 GL.Viewport(0, 0, Width, Height);
 
-                
+
                 Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(
-                    MathHelper.PiOver4, 
-                    Width / (float)Height, 
-                    0.1f,  
-                    100f   
+                    MathHelper.PiOver4,
+                    Width / (float)Height,
+                    0.1f,
+                    100f
                 );
 
-                
+
                 GL.MatrixMode(MatrixMode.Projection);
                 GL.LoadMatrix(ref projection);
             }

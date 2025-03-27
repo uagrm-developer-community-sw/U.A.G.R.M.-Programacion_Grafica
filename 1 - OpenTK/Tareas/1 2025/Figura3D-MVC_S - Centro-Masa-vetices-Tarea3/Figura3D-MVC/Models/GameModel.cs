@@ -26,24 +26,17 @@ namespace crearFigruas3D.Models
             }
         }
 
+        // Se mantiene como lista, es adecuado
         public List<Objeto3D> Objetos { get; private set; } = new List<Objeto3D>();
 
-        // Propiedad pública 'RotationX', que representa la rotación de la figura en el eje X.
-        // Se inicializa en 0.0f (sin rotación en el eje X por defecto).
         public float RotationX { get; set; } = 0.0f;
-
-        // Propiedad pública 'RotationY', que representa la rotación de la figura en el eje Y.
-        // Se inicializa en 0.0f (sin rotación en el eje Y por defecto).
         public float RotationY { get; set; } = 0.0f;
+
         public GameModel()
         {
-            // Agregar objetos en distintas posiciones con sus propios centros de masa
+            // Lista de objetos 3D, ya está bien manejada con listas
             Objetos.Add(new Objeto3D(new Vector3(0.8f, 0.5f, 0.0f), new Vector3(0.8f, 0.5f, 0.0f)));
             Objetos.Add(new Objeto3D(new Vector3(1.2f, 0.8f, 0.0f), new Vector3(1.2f, 0.8f, 0.0f)));
         }
-
-       
-
-
     }
 }
