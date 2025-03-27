@@ -1,13 +1,10 @@
-﻿
-using OpenTK;
+﻿using OpenTK;
 using OpenTK.Graphics.OpenGL;
 using crearFigruas3D.Models;
 using System;
 using OpenTK.Graphics;
 using System.Windows.Forms; 
 using System.Drawing; 
-
-
 
 namespace crearFigruas3D.Views
 {
@@ -19,8 +16,6 @@ namespace crearFigruas3D.Views
 
         private float rotationXAxes = 0.0f;  // Variable para controlar la rotación de los ejes
         private float rotationSpeed = 0.1f;  // Velocidad de la rotación (ajústalo según lo necesites)
-
-
 
         public GameView(GameModel model, int width, int height, string title)
             : base(width, height, GraphicsMode.Default, title)
