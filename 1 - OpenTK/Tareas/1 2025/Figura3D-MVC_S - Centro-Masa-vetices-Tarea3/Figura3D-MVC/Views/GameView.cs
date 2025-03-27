@@ -1,4 +1,5 @@
 ﻿using OpenTK;
+using OpenTK.Input;  // Asegúrate de importar este espacio de nombres para trabajar con eventos de entrada
 using OpenTK.Graphics.OpenGL;
 using crearFigruas3D.Models;
 using System;
@@ -15,6 +16,10 @@ namespace crearFigruas3D.Views
         private GameModel _model;
         private GameDraw _gameDraw;
 
+        private float cameraZoom = -5.0f;  // Controlar la posición de la cámara en Z
+        private float cameraPosX = 0.0f;  // Posición de la cámara en X
+        private float cameraPosY = 0.0f;  // Posición de la cámara en Y
+
         private float rotationXAxes = 0.0f;  // Variable para controlar la rotación de los ejes
         private float rotationSpeed = 0.1f;  // Velocidad de la rotación (ajústalo según lo necesites)
 
@@ -23,7 +28,6 @@ namespace crearFigruas3D.Views
         {
             try
             {
-                
                 _model = model;
                 _gameDraw = new GameDraw(model);  // Instanciamos correctamente GameDraw
             }
@@ -31,6 +35,37 @@ namespace crearFigruas3D.Views
             {
                 MessageBox.Show("Error al inicializar la vista: " + ex.Message);
             }
+        }
+
+        // Sobrescribir el evento MouseWheel
+        protected override void OnMouseWheel(MouseWheelEventArgs e)
+        {
+            base.OnMouseWheel(e);
+
+            // Cambiar la posición Z de la cámara en función del desplazamiento de la rueda
+            cameraZoom += e.Delta > 0 ? 0.1f : -0.1f;  // Aumentar o disminuir la cámara dependiendo de la dirección de la rueda
+            cameraZoom = MathHelper.Clamp(cameraZoom, -10.0f, -1.0f);  // Limitar el rango del zoom
+
+            // Actualizar la matriz de proyección para aplicar el nuevo valor de zoom
+            GL.MatrixMode(MatrixMode.Modelview);
+            GL.LoadIdentity();
+            GL.Translate(0.0f, 0.0f, cameraZoom);  // Ajustar la cámara en Z
+        }
+
+        // Sobrescribir el evento de teclado para mover la cámara
+        protected override void OnUpdateFrame(FrameEventArgs e)
+        {
+            base.OnUpdateFrame(e);
+
+            var keyboardState = Keyboard.GetState();
+
+            // Mover la cámara en el eje X con las teclas A y D
+            if (keyboardState.IsKeyDown(Key.A)) cameraPosX -= 0.1f;  // Mover a la izquierda
+            if (keyboardState.IsKeyDown(Key.D)) cameraPosX += 0.1f;  // Mover a la derecha
+
+            // Mover la cámara en el eje Y con las teclas W y S
+            if (keyboardState.IsKeyDown(Key.W)) cameraPosY += 0.1f;  // Mover hacia arriba
+            if (keyboardState.IsKeyDown(Key.S)) cameraPosY -= 0.1f;  // Mover hacia abajo
         }
 
         protected override void OnLoad(EventArgs e)
@@ -79,7 +114,7 @@ namespace crearFigruas3D.Views
                 GL.LoadIdentity();
 
                 // Mover la cámara a una distancia adecuada para ver los objetos
-                GL.Translate(0.0f, 0.0f, -5.0f);  // Este valor puede ser ajustado para ver los objetos desde diferentes distancias
+                GL.Translate(cameraPosX, cameraPosY, cameraZoom);  // Aplicar el zoom y la posición de la cámara
 
                 // Usar la instancia de GameDraw para dibujar las figuras
                 if (_gameDraw != null)
@@ -95,8 +130,6 @@ namespace crearFigruas3D.Views
                 // Actualizar rotación de los ejes
                 _gameDraw.UpdateAxesRotation();
 
-
-
                 //============================================================================//
                 // Incrementar la rotación de los ejes para la siguiente llamada
                 rotationXAxes += rotationSpeed;
@@ -111,8 +144,6 @@ namespace crearFigruas3D.Views
                 MessageBox.Show("Error al renderizar el fotograma: " + ex.Message);
             }
         }
-
-
 
         protected override void OnResize(EventArgs e)
         {
