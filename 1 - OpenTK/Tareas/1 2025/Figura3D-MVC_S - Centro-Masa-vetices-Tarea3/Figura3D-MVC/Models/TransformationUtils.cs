@@ -1,5 +1,7 @@
 ﻿using OpenTK;
 using OpenTK.Graphics.OpenGL;
+using System.Windows.Forms;
+using System;
 
 namespace Figura3D_MVC.Models
 {
@@ -21,8 +23,15 @@ namespace Figura3D_MVC.Models
         // Método para aplicar una transformación completa (traslación + rotación)
         public static void ApplyTransformations(Vector3 translation, float rotationX, float rotationY)
         {
-            ApplyTranslation(translation);  // Aplica la traslación
-            ApplyRotation(rotationX, rotationY);  // Aplica la rotación
+            try
+            {
+                ApplyTranslation(translation);
+                ApplyRotation(rotationX, rotationY);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al aplicar la transformación: " + ex.Message);
+            }
         }
     }
 }

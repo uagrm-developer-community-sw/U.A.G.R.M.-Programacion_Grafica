@@ -1,41 +1,37 @@
-﻿using System;                         
-using System.Threading;               
-using System.Windows.Forms;           
-using crearFigruas3D.Controllers;     
-using crearFigruas3D.Views;           
+﻿using System;
+using System.Threading;
+using System.Windows.Forms;
+using crearFigruas3D.Controllers;
+using crearFigruas3D.Views;
 
-namespace crearFigruas3D  
+namespace crearFigruas3D
 {
-    static class Program  
+    internal static class Program
     {
-        [STAThread]  
-        static void Main()  
+        [STAThread]
+        private static void Main()
         {
-            
-            Application.EnableVisualStyles();
-
-            
-            Application.SetCompatibleTextRenderingDefault(false);
-
-            
-            GameController controller = new GameController();
-
-            
-            Thread uiThread = new Thread(() =>
+            try
             {
-                
-                Application.Run(new MainForm(controller));
-            });
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
 
-            
-            uiThread.SetApartmentState(ApartmentState.STA);
+                GameController controller = new GameController();
 
-            
-            uiThread.Start();
+                Thread uiThread = new Thread(() =>
+                {
+                    Application.Run(new MainForm(controller));
+                });
 
-            
-            
-            controller.Run();
+                uiThread.SetApartmentState(ApartmentState.STA);
+                uiThread.Start();
+
+                controller.Run();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al iniciar la aplicación: " + ex.Message);
+            }
         }
     }
 }

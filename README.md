@@ -21,8 +21,9 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 > [+ Poryectos I - OPENTK](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_I-OpenTK-SA-INF102.git)
 >
-> > [Tarea # 1](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/Tarea1)<br>
-> > [Tarea # 2](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/Tarea2_S)
+> > [Tarea # 1](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/1%202025/Figura3D-MVC_S-Tarea1)<br>
+> > [Tarea # 2](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/1%202025/Figura3D-MVC_S%20-%20Centro-Masa-Tarea2)<br>
+>> [Tarea # 3](https://github.com/uagrm-developer-community-sw/U.A.G.R.M.-Programacion_Grafica/tree/main/1%20-%20OpenTK/Tareas/1%202025/Figura3D-MVC_S%20-%20Centro-Masa-vetices-Tarea3)<br>
 
 > [+ Poryectos II - ROBLOX](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_II-Roblox-SA-INF102.git)
 

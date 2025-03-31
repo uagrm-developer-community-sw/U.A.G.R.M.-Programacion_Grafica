@@ -7,6 +7,7 @@ using OpenTK.Graphics.OpenGL;
 // Se importa el espacio de nombres 'System', que incluye tipos básicos de .NET como `Console`, `DateTime`, y otros elementos fundamentales para el sistema.
 using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 // Definición del espacio de nombres 'crearFigruas3D.Models', donde se maneja la lógica relacionada con los modelos del juego o aplicación.
 namespace crearFigruas3D.Models
@@ -34,9 +35,16 @@ namespace crearFigruas3D.Models
 
         public GameModel()
         {
-            // Lista de objetos 3D, ya está bien manejada con listas
-            Objetos.Add(new Objeto3D(new Vector3(0.8f, 0.5f, 0.0f), new Vector3(0.8f, 0.5f, 0.0f)));
-            Objetos.Add(new Objeto3D(new Vector3(1.2f, 0.8f, 0.0f), new Vector3(1.2f, 0.8f, 0.0f)));
+            try
+            {
+                // Inicialización de objetos 3D
+                Objetos.Add(new Objeto3D(new Vector3(0.8f, 0.5f, 0.0f), new Vector3(0.8f, 0.5f, 0.0f)));
+                Objetos.Add(new Objeto3D(new Vector3(1.2f, 0.8f, 0.0f), new Vector3(1.2f, 0.8f, 0.0f)));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al inicializar el modelo: " + ex.Message);
+            }
         }
     }
 }

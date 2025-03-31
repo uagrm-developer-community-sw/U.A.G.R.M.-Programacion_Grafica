@@ -2,6 +2,7 @@
 using OpenTK.Graphics.OpenGL;
 using crearFigruas3D.Models;
 using System;
+using Figura3D_MVC.Models;
 
 namespace crearFigruas3D.Views
 {
@@ -28,12 +29,24 @@ namespace crearFigruas3D.Views
                 Console.WriteLine("Centro de masa de la letra U: " + centerOfMassU);
 
                 // Traslación y rotación para la letra "U"
-                GL.Translate(centerOfMassU.X + 1.0f, centerOfMassU.Y + 1.0f, centerOfMassU.Z + 1.0f);
-                GL.Rotate(_model.RotationX, 1.0f, 0.0f, 0.0f);
-                GL.Rotate(_model.RotationY, 0.0f, 1.0f, 0.0f);
+                Vector3 translatedCenterOfMassU = new Vector3(centerOfMassU.X + 1.0f, centerOfMassU.Y + 1.0f, centerOfMassU.Z); // Desplazar la letra "U" en el eje X
 
-                // Dibujar letra "U"
-                ULetterModel.DrawU();
+                // Aplicar las transformaciones
+                TransformationUtils.ApplyTransformations(translatedCenterOfMassU, _model.RotationX, _model.RotationY);
+
+                // Dibujar letra "U" con las rotaciones
+                ULetterModel.DrawU(_model.RotationX, _model.RotationY); // Pasando rotaciones
+
+                //============================================================================//
+
+                // Duplicar la letra "U" en otra ubicación
+                //Vector3 translatedCenterOfMassU2 = new Vector3(centerOfMassU.X + 3.0f, centerOfMassU.Y + 1.0f, centerOfMassU.Z); // Desplazar la letra "U" duplicada
+
+                // Aplicar las transformaciones para la segunda letra "U"
+                //TransformationUtils.ApplyTransformations(translatedCenterOfMassU2, _model.RotationX, _model.RotationY);
+
+                // Dibujar la segunda letra "U"
+                //ULetterModel.DrawU(_model.RotationX, _model.RotationY); // Pasando las mismas rotaciones
             }
             else if (figura == "Ejes")
             {
@@ -42,15 +55,16 @@ namespace crearFigruas3D.Views
                 Console.WriteLine("Centro de masa de los ejes: " + centerOfMassAxes);
 
                 // Traslación y rotación para los ejes
-                GL.Translate(-centerOfMassAxes.X, -centerOfMassAxes.Y, -centerOfMassAxes.Z);
-                GL.Rotate(rotationXAxes, 0.0f, 1.0f, 0.0f);
+                TransformationUtils.ApplyTransformations(centerOfMassAxes, rotationXAxes, 0.0f); // Solo rotación en Y
 
                 // Dibujar los ejes
-                AxesModel.DrawAxes();
+                AxesModel.DrawAxes(rotationXAxes); // Pasando la rotación de los ejes
             }
 
             GL.PopMatrix();  // Restaurar la matriz
         }
+
+
 
         // Método para actualizar la rotación de los ejes
         public void UpdateAxesRotation()

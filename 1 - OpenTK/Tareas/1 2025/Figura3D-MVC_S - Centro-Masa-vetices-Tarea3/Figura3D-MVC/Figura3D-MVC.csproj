@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CameraController.cs" />
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Models\AxesModel.cs" />
     <Compile Include="Models\GameModel.cs" />

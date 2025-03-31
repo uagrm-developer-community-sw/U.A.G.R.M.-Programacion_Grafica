@@ -1,9 +1,11 @@
 ﻿using Figura3D_MVC.Models;
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
+using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
-namespace crearFigruas3D.Models
+namespace Figura3D_MVC.Models
 {
     public class AxesModel
     {
@@ -27,28 +29,41 @@ namespace crearFigruas3D.Models
             return GeometryUtils.CalculateCenterOfMass(vertices);
         }
 
-        public static void DrawAxes()
+        // Método para dibujar los ejes, con parámetro de rotación
+        public static void DrawAxes(float rotationX)
         {
-            GL.Begin(PrimitiveType.Lines);
+            try
+            {
+                GL.PushMatrix();
 
-            // Eje X - Rojo
-            GL.Color3(1.0f, 0.0f, 0.0f);
-            GL.Vertex3(-1.5f, 0.0f, 0.0f);
-            GL.Vertex3(1.5f, 0.0f, 0.0f);
+                GL.Rotate(rotationX, 0.0f, 1.0f, 0.0f);
 
-            // Eje Y - Verde
-            GL.Color3(0.0f, 1.0f, 0.0f);
-            GL.Vertex3(0.0f, -1.5f, 0.0f);
-            GL.Vertex3(0.0f, 1.5f, 0.0f);
+                GL.Begin(PrimitiveType.Lines);
 
-            // Eje Z - Azul
-            GL.Color3(0.0f, 0.0f, 1.0f);
-            GL.Vertex3(0.0f, 0.0f, -1.5f);
-            GL.Vertex3(0.0f, 0.0f, 1.5f);
+                // Eje X - Rojo
+                GL.Color3(1.0f, 0.0f, 0.0f);
+                GL.Vertex3(-1.5f, 0.0f, 0.0f);
+                GL.Vertex3(1.5f, 0.0f, 0.0f);
 
-            GL.End();
+                // Eje Y - Verde
+                GL.Color3(0.0f, 1.0f, 0.0f);
+                GL.Vertex3(0.0f, -1.5f, 0.0f);
+                GL.Vertex3(0.0f, 1.5f, 0.0f);
+
+                // Eje Z - Azul
+                GL.Color3(0.0f, 0.0f, 1.0f);
+                GL.Vertex3(0.0f, 0.0f, -1.5f);
+                GL.Vertex3(0.0f, 0.0f, 1.5f);
+
+                GL.End();
+
+                GL.PopMatrix();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al dibujar los ejes: " + ex.Message);
+            }
         }
-
-
     }
 }
+

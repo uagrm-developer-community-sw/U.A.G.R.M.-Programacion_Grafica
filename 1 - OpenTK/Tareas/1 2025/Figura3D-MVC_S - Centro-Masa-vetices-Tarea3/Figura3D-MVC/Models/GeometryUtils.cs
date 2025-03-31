@@ -1,6 +1,7 @@
 ﻿using System;
 using OpenTK;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace Figura3D_MVC.Models
 {
@@ -10,18 +11,24 @@ namespace Figura3D_MVC.Models
         // Método estático para calcular el centro de masa de una lista de vértices
         public static Vector3 CalculateCenterOfMass(List<Vector3> vertices)
         {
-            Vector3 centerOfMass = new Vector3(0, 0, 0);
-
-            // Sumar todas las posiciones de los vértices
-            foreach (var vertex in vertices)
+            try
             {
-                centerOfMass += vertex;
+                Vector3 centerOfMass = new Vector3(0, 0, 0);
+
+                foreach (var vertex in vertices)
+                {
+                    centerOfMass += vertex;
+                }
+
+                centerOfMass /= vertices.Count;
+
+                return centerOfMass;
             }
-
-            // Promediar las posiciones para obtener el centro de masa
-            centerOfMass /= vertices.Count;
-
-            return centerOfMass;
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al calcular el centro de masa: " + ex.Message);
+                return Vector3.Zero;  // Devuelve un valor predeterminado en caso de error
+            }
         }
     }
 }
