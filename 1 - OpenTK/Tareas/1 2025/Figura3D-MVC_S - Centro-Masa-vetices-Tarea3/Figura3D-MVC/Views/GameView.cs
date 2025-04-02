@@ -21,7 +21,7 @@ namespace crearFigruas3D.Views
         {
             try
             {
-                _model = model;
+                _model = model; // Asignamos el modelo al atributo privado _model
                 _gameDraw = new GameDraw(model);  // Instanciamos correctamente GameDraw
                 _cameraController = new CameraController(); // Crear el controlador de la cámara
             }
@@ -102,8 +102,6 @@ namespace crearFigruas3D.Views
 
                 // Aplicamos las transformaciones de la cámara (como zoom y movimiento)
                 _cameraController.ApplyCameraTransformations();
-
-
 
                 // Usamos la instancia de GameDraw para dibujar las figuras
                 if (_gameDraw != null)

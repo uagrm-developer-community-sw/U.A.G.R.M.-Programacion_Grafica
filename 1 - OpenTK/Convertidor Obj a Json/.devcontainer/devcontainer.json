@@ -1,0 +1,13 @@
+{
+    "name": "Debian Dev Container",
+    "dockerFile": "../Dockerfile",  // Apunta al Dockerfile en la raíz del proyecto
+    "workspaceFolder": "/workspace",  // Carpeta de trabajo dentro del contenedor
+    "mounts": [
+      "source=${localWorkspaceFolder}/dev,target=/workspace,type=bind"  // Vincula la carpeta 'dev' en la máquina local con el contenedor
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "apt-get update && apt-get install -y build-essential gcc make vim git curl"  // Instala herramientas básicas
+  }
+  

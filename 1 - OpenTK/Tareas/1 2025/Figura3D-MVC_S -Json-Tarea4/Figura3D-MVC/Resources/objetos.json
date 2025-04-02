@@ -1,0 +1,286 @@
+{
+  "nombre": "CuboPruebaSubdividido",
+  "vertices": [
+    // Esquinas (0-7)
+    {
+      "x": -1.0,
+      "y": -1.0,
+      "z": -1.0
+    }, // 0: Esquina inferior trasera izquierda
+    {
+      "x": 1.0,
+      "y": -1.0,
+      "z": -1.0
+    }, // 1: Esquina inferior trasera derecha
+    {
+      "x": 1.0,
+      "y": 1.0,
+      "z": -1.0
+    }, // 2: Esquina superior trasera derecha
+    {
+      "x": -1.0,
+      "y": 1.0,
+      "z": -1.0
+    }, // 3: Esquina superior trasera izquierda
+    {
+      "x": -1.0,
+      "y": -1.0,
+      "z": 1.0
+    }, // 4: Esquina inferior frontal izquierda
+    {
+      "x": 1.0,
+      "y": -1.0,
+      "z": 1.0
+    }, // 5: Esquina inferior frontal derecha
+    {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }, // 6: Esquina superior frontal derecha
+    {
+      "x": -1.0,
+      "y": 1.0,
+      "z": 1.0
+    }, // 7: Esquina superior frontal izquierda
+
+    // Centros de aristas (8-19)
+    {
+      "x": 0.0,
+      "y": -1.0,
+      "z": -1.0
+    }, // 8:  Centro arista 0-1 (inferior trasera)
+    {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -1.0
+    }, // 9:  Centro arista 1-2 (trasera derecha)
+    {
+      "x": 0.0,
+      "y": 1.0,
+      "z": -1.0
+    }, // 10: Centro arista 2-3 (superior trasera)
+    {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -1.0
+    }, // 11: Centro arista 3-0 (trasera izquierda)
+    {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 1.0
+    }, // 12: Centro arista 4-5 (inferior frontal)
+    {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 1.0
+    }, // 13: Centro arista 5-6 (frontal derecha)
+    {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 1.0
+    }, // 14: Centro arista 6-7 (superior frontal)
+    {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 1.0
+    }, // 15: Centro arista 7-4 (frontal izquierda)
+    {
+      "x": -1.0,
+      "y": -1.0,
+      "z": 0.0
+    }, // 16: Centro arista 0-4 (inferior izquierda)
+    {
+      "x": 1.0,
+      "y": -1.0,
+      "z": 0.0
+    }, // 17: Centro arista 1-5 (inferior derecha)
+    {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 0.0
+    }, // 18: Centro arista 2-6 (superior derecha)
+    {
+      "x": -1.0,
+      "y": 1.0,
+      "z": 0.0
+    }, // 19: Centro arista 3-7 (superior izquierda)
+
+    // Centros de caras (20-25)
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -1.0
+    }, // 20: Centro cara frontal (z = -1)
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    }, // 21: Centro cara trasera (z = 1)
+    {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    }, // 22: Centro cara inferior (y = -1)
+    {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }, // 23: Centro cara superior (y = 1)
+    {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 0.0
+    }, // 24: Centro cara derecha (x = 1)
+    {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 0.0
+    } // 25: Centro cara izquierda (x = -1)
+  ],
+  "indices": [
+    // Cara frontal (z = -1), dividida en 4 cuadrados (8 triángulos)
+    [ 0, 8, 20 ],
+    [ 0, 20, 11 ], // Cuadrado inferior izquierda
+    [ 8, 1, 20 ],
+    [ 1, 9, 20 ], // Cuadrado inferior derecha
+    [ 11, 20, 3 ],
+    [ 20, 10, 3 ], // Cuadrado superior izquierda
+    [ 20, 9, 2 ],
+    [ 10, 20, 2 ], // Cuadrado superior derecha
+
+    // Cara trasera (z = 1), dividida en 4 cuadrados (8 triángulos)
+    [ 4, 12, 21 ],
+    [ 4, 21, 15 ], // Cuadrado inferior izquierda
+    [ 12, 5, 21 ],
+    [ 5, 13, 21 ], // Cuadrado inferior derecha
+    [ 15, 21, 7 ],
+    [ 21, 14, 7 ], // Cuadrado superior izquierda
+    [ 21, 13, 6 ],
+    [ 14, 21, 6 ], // Cuadrado superior derecha
+
+    // Cara inferior (y = -1), dividida en 4 cuadrados (8 triángulos)
+    [ 0, 8, 22 ],
+    [ 0, 22, 16 ], // Cuadrado trasero izquierda
+    [ 8, 1, 22 ],
+    [ 1, 17, 22 ], // Cuadrado trasero derecha
+    [ 16, 22, 4 ],
+    [ 22, 12, 4 ], // Cuadrado frontal izquierda
+    [ 22, 17, 5 ],
+    [ 12, 22, 5 ], // Cuadrado frontal derecha
+
+    // Cara superior (y = 1), dividida en 4 cuadrados (8 triángulos)
+    [ 2, 10, 23 ],
+    [ 2, 23, 18 ], // Cuadrado trasero derecha
+    [ 10, 3, 23 ],
+    [ 3, 19, 23 ], // Cuadrado trasero izquierda
+    [ 18, 23, 6 ],
+    [ 23, 14, 6 ], // Cuadrado frontal derecha
+    [ 23, 19, 7 ],
+    [ 14, 23, 7 ], // Cuadrado frontal izquierda
+
+    // Cara derecha (x = 1), dividida en 4 cuadrados (8 triángulos)
+    [ 1, 9, 24 ],
+    [ 1, 24, 17 ], // Cuadrado inferior trasera
+    [ 9, 2, 24 ],
+    [ 2, 18, 24 ], // Cuadrado superior trasera
+    [ 17, 24, 5 ],
+    [ 24, 13, 5 ], // Cuadrado inferior frontal
+    [ 24, 18, 6 ],
+    [ 13, 24, 6 ], // Cuadrado superior frontal
+
+    // Cara izquierda (x = -1), dividida en 4 cuadrados (8 triángulos)
+    [ 0, 11, 25 ],
+    [ 0, 25, 16 ], // Cuadrado inferior trasera
+    [ 11, 3, 25 ],
+    [ 3, 19, 25 ], // Cuadrado superior trasera
+    [ 16, 25, 4 ],
+    [ 25, 15, 4 ], // Cuadrado inferior frontal
+    [ 25, 19, 7 ],
+    [ 15, 25, 7 ] // Cuadrado superior frontal
+  ],
+  "edges": [
+    // Aristas de la cara frontal (z = -1)
+    [ 0, 8 ],
+    [ 8, 1 ],
+    [ 1, 9 ],
+    [ 9, 2 ],
+    [ 2, 10 ],
+    [ 10, 3 ],
+    [ 3, 11 ],
+    [ 11, 0 ], // Borde exterior
+    [ 8, 20 ],
+    [ 9, 20 ],
+    [ 10, 20 ],
+    [ 11, 20 ], // Líneas internas (hacia el centro)
+
+    // Aristas de la cara trasera (z = 1)
+    [ 4, 12 ],
+    [ 12, 5 ],
+    [ 5, 13 ],
+    [ 13, 6 ],
+    [ 6, 14 ],
+    [ 14, 7 ],
+    [ 7, 15 ],
+    [ 15, 4 ], // Borde exterior
+    [ 12, 21 ],
+    [ 13, 21 ],
+    [ 14, 21 ],
+    [ 15, 21 ], // Líneas internas (hacia el centro)
+
+    // Aristas de la cara inferior (y = -1)
+    [ 0, 8 ],
+    [ 8, 1 ],
+    [ 1, 17 ],
+    [ 17, 5 ],
+    [ 5, 12 ],
+    [ 12, 4 ],
+    [ 4, 16 ],
+    [ 16, 0 ], // Borde exterior
+    [ 8, 22 ],
+    [ 17, 22 ],
+    [ 12, 22 ],
+    [ 16, 22 ], // Líneas internas (hacia el centro)
+
+    // Aristas de la cara superior (y = 1)
+    [ 2, 10 ],
+    [ 10, 3 ],
+    [ 3, 19 ],
+    [ 19, 7 ],
+    [ 7, 14 ],
+    [ 14, 6 ],
+    [ 6, 18 ],
+    [ 18, 2 ], // Borde exterior
+    [ 10, 23 ],
+    [ 19, 23 ],
+    [ 14, 23 ],
+    [ 18, 23 ], // Líneas internas (hacia el centro)
+
+    // Aristas de la cara derecha (x = 1)
+    [ 1, 9 ],
+    [ 9, 2 ],
+    [ 2, 18 ],
+    [ 18, 6 ],
+    [ 6, 13 ],
+    [ 13, 5 ],
+    [ 5, 17 ],
+    [ 17, 1 ], // Borde exterior
+    [ 9, 24 ],
+    [ 18, 24 ],
+    [ 13, 24 ],
+    [ 17, 24 ], // Líneas internas (hacia el centro)
+
+    // Aristas de la cara izquierda (x = -1)
+    [ 0, 11 ],
+    [ 11, 3 ],
+    [ 3, 19 ],
+    [ 19, 7 ],
+    [ 7, 15 ],
+    [ 15, 4 ],
+    [ 4, 16 ],
+    [ 16, 0 ], // Borde exterior
+    [ 11, 25 ],
+    [ 19, 25 ],
+    [ 15, 25 ],
+    [ 16, 25 ] // Líneas internas (hacia el centro)
+  ]
+}
