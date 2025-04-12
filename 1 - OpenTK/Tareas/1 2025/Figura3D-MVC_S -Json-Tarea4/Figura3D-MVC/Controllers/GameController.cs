@@ -1,12 +1,13 @@
 ﻿using crearFigruas3D.Models;
+using Figura3D_MVC.Models.Utils;
 
 using crearFigruas3D.Views;
-
 using System;
 
 using System.Drawing;
 
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace crearFigruas3D.Controllers
 {
@@ -15,6 +16,10 @@ namespace crearFigruas3D.Controllers
         private GameModel _model;
 
         private GameView _view;
+
+        // Agrega esto en tu GameController.cs
+        public GameView GameView => _view;
+
 
         public GameController()
         {
@@ -89,5 +94,34 @@ namespace crearFigruas3D.Controllers
                 MessageBox.Show("Error al ejecutar la vista: " + ex.Message);
             }
         }
+
+        public void SaveGameModel()
+        {
+            // Obtén los datos del modelo para guardar
+            var saveData = _model.GetSaveData();
+
+            // Llama a JsonSaver para guardar los datos en un archivo
+            JsonSaver.SaveToFile("Resources/saveGame.json", saveData);
+        }
+
+       
+        public void CargarObjetoJson()
+        {
+            var objeto = JsonLoader.LoadFromFile("Resources/objetos.json");
+
+            if (objeto != null)
+            {
+                var objetoDrawable = new ObjetoJsonDrawable(objeto);
+                _model.ObjetosJson.Add(objetoDrawable);
+            }
+            else
+            {
+                Debug.WriteLine("Error al cargar el objeto JSON.");
+            }
+        }
+
+
+
+
     }
 }

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Figura3D_MVC.Models.Utils
 {
@@ -12,8 +13,21 @@ namespace Figura3D_MVC.Models.Utils
     {
         public static JsonObjectModel LoadFromFile(string filePath)
         {
-            string json = File.ReadAllText(filePath);
-            return JsonConvert.DeserializeObject<JsonObjectModel>(json);
+            try
+            {
+                // Leer el archivo JSON
+                string jsonData = File.ReadAllText(filePath);
+
+                // Deserializar el contenido JSON en un objeto de tipo JsonObjectModel
+                var objetoJson = JsonConvert.DeserializeObject<JsonObjectModel>(jsonData);
+
+                return objetoJson;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar el archivo JSON: " + ex.Message);
+                return null; // En caso de error, retorna null
+            }
         }
     }
 }

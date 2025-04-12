@@ -20,8 +20,4 @@ namespace Figura3D_MVC.Models
         public float Y { get; set; }
         public float Z { get; set; }
     }
-
-
-
-    
 }

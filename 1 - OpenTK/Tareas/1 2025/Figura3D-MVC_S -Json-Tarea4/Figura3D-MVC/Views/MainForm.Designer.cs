@@ -57,9 +57,6 @@ namespace crearFigruas3D.Views
             this.btnRotarArriba = new System.Windows.Forms.Button();
             this.btnRotarAbajo = new System.Windows.Forms.Button();
             this.grpBxControlCubo = new System.Windows.Forms.GroupBox();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblSiglaMateria = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnObtenerPosicio = new System.Windows.Forms.Button();
@@ -75,12 +72,35 @@ namespace crearFigruas3D.Views
             this.trackBarY = new System.Windows.Forms.TrackBar();
             this.trackBarX = new System.Windows.Forms.TrackBar();
             this.clrDlgTapas = new System.Windows.Forms.ColorDialog();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jsonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.grpBxControlCubo.SuspendLayout();
             this.pnlControles.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.grpBxControlGiratorio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRotarIzquierda
@@ -141,44 +161,15 @@ namespace crearFigruas3D.Views
             this.grpBxControlCubo.TabStop = false;
             this.grpBxControlCubo.Text = "Controles Letra U";
             // 
-            // lblTitulo
-            // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTitulo.Location = new System.Drawing.Point(176, 9);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(426, 36);
-            this.lblTitulo.TabIndex = 5;
-            this.lblTitulo.Text = "PROGRAMACION GRAFICA";
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
-            this.label2.TabIndex = 0;
-            // 
-            // lblSiglaMateria
-            // 
-            this.lblSiglaMateria.AutoSize = true;
-            this.lblSiglaMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSiglaMateria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblSiglaMateria.Location = new System.Drawing.Point(282, 45);
-            this.lblSiglaMateria.Name = "lblSiglaMateria";
-            this.lblSiglaMateria.Size = new System.Drawing.Size(211, 36);
-            this.lblSiglaMateria.TabIndex = 6;
-            this.lblSiglaMateria.Text = "ELC 102 - SA";
-            // 
             // pnlControles
             // 
             this.pnlControles.BackColor = System.Drawing.Color.LightSkyBlue;
             this.pnlControles.Controls.Add(this.groupBox1);
             this.pnlControles.Controls.Add(this.grpBxControlGiratorio);
             this.pnlControles.Controls.Add(this.grpBxControlCubo);
-            this.pnlControles.Location = new System.Drawing.Point(3, 94);
+            this.pnlControles.Location = new System.Drawing.Point(454, 98);
             this.pnlControles.Name = "pnlControles";
-            this.pnlControles.Size = new System.Drawing.Size(741, 207);
+            this.pnlControles.Size = new System.Drawing.Size(334, 521);
             this.pnlControles.TabIndex = 7;
             // 
             // groupBox1
@@ -191,7 +182,7 @@ namespace crearFigruas3D.Views
             this.groupBox1.Controls.Add(this.textBoxY);
             this.groupBox1.Controls.Add(this.textBoxX);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(605, 17);
+            this.groupBox1.Location = new System.Drawing.Point(9, 357);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(114, 164);
             this.groupBox1.TabIndex = 6;
@@ -263,7 +254,7 @@ namespace crearFigruas3D.Views
             this.grpBxControlGiratorio.Controls.Add(this.label4);
             this.grpBxControlGiratorio.Controls.Add(this.trackBarY);
             this.grpBxControlGiratorio.Controls.Add(this.trackBarX);
-            this.grpBxControlGiratorio.Location = new System.Drawing.Point(307, 17);
+            this.grpBxControlGiratorio.Location = new System.Drawing.Point(9, 187);
             this.grpBxControlGiratorio.Name = "grpBxControlGiratorio";
             this.grpBxControlGiratorio.Size = new System.Drawing.Size(292, 164);
             this.grpBxControlGiratorio.TabIndex = 5;
@@ -302,14 +293,179 @@ namespace crearFigruas3D.Views
             this.trackBarX.Size = new System.Drawing.Size(247, 45);
             this.trackBarX.TabIndex = 0;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.trackBar3);
+            this.groupBox2.Controls.Add(this.trackBar2);
+            this.groupBox2.Controls.Add(this.trackBar1);
+            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.menuStrip1);
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox2.Location = new System.Drawing.Point(12, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(344, 617);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Aqua;
+            this.label10.Location = new System.Drawing.Point(39, 222);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(93, 20);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "FUNCION:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(43, 249);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(242, 21);
+            this.comboBox2.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Aqua;
+            this.label9.Location = new System.Drawing.Point(39, 142);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(83, 20);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "OBJETO:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Aqua;
+            this.label8.Location = new System.Drawing.Point(50, 525);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(119, 20);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "SOBRE EL  Z";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Aqua;
+            this.label2.Location = new System.Drawing.Point(49, 436);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "SOBRE EL  Y";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Aqua;
+            this.label7.Location = new System.Drawing.Point(49, 346);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(120, 20);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "SOBRE EL  X";
+            // 
+            // trackBar3
+            // 
+            this.trackBar3.Location = new System.Drawing.Point(28, 369);
+            this.trackBar3.Name = "trackBar3";
+            this.trackBar3.Size = new System.Drawing.Size(291, 45);
+            this.trackBar3.TabIndex = 3;
+            // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(28, 548);
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(291, 45);
+            this.trackBar2.TabIndex = 2;
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(28, 459);
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(291, 45);
+            this.trackBar1.TabIndex = 1;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(43, 172);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(242, 21);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inicioToolStripMenuItem,
+            this.jsonToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(3, 16);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(338, 24);
+            this.menuStrip1.TabIndex = 10;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // inicioToolStripMenuItem
+            // 
+            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sALIRToolStripMenuItem});
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "Inicio";
+            // 
+            // sALIRToolStripMenuItem
+            // 
+            this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
+            this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.sALIRToolStripMenuItem.Text = "Salir";
+            // 
+            // jsonToolStripMenuItem
+            // 
+            this.jsonToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarToolStripMenuItem,
+            this.guardarToolStripMenuItem});
+            this.jsonToolStripMenuItem.Name = "jsonToolStripMenuItem";
+            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
+            this.jsonToolStripMenuItem.Text = "Json";
+            // 
+            // agregarToolStripMenuItem
+            // 
+            this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.agregarToolStripMenuItem.Text = "Cargar";
+            this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
+            // 
+            // guardarToolStripMenuItem
+            // 
+            this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.guardarToolStripMenuItem.Text = "Guardar";
+            this.guardarToolStripMenuItem.Click += new System.EventHandler(this.guardarToolStripMenuItem_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "openFileDialog.Filter = \"Archivos JSON (*.json)|*.json\";";
+            // 
             // MainForm
             // 
-            this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(750, 308);
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ClientSize = new System.Drawing.Size(887, 749);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pnlControles);
-            this.Controls.Add(this.lblSiglaMateria);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblTitulo);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "FIGURAS OPENTK";
             this.grpBxControlCubo.ResumeLayout(false);
@@ -320,15 +476,18 @@ namespace crearFigruas3D.Views
             this.grpBxControlGiratorio.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarX)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         private GroupBox grpBxControlCubo;
-        private Label lblTitulo;
-        private Label label2;
-        private Label lblSiglaMateria;
         private Panel pnlControles;
         private GroupBox grpBxControlGiratorio;
         private TrackBar trackBarX;
@@ -344,5 +503,23 @@ namespace crearFigruas3D.Views
         private Label label1;
         private Label label6;
         private Button btnObtenerPosicio;
+        private GroupBox groupBox2;
+        private ComboBox comboBox1;
+        private Label label7;
+        private TrackBar trackBar3;
+        private TrackBar trackBar2;
+        private TrackBar trackBar1;
+        private Label label2;
+        private Label label8;
+        private Label label10;
+        private ComboBox comboBox2;
+        private Label label9;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem inicioToolStripMenuItem;
+        private ToolStripMenuItem sALIRToolStripMenuItem;
+        private ToolStripMenuItem jsonToolStripMenuItem;
+        private ToolStripMenuItem agregarToolStripMenuItem;
+        private ToolStripMenuItem guardarToolStripMenuItem;
+        private OpenFileDialog openFileDialog1;
     }
 }

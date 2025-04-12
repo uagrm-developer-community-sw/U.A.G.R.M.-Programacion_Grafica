@@ -1,16 +1,22 @@
 ﻿// Se importa el espacio de nombres 'crearFigruas3D.Controllers', que contiene la lógica de los controladores (en este caso, GameController).
 using crearFigruas3D.Controllers;
+using crearFigruas3D.Views;  // Necesario para usar _gameView.RenderFromJson
 using crearFigruas3D.Models;
+using Figura3D_MVC.Models;   // Necesario para acceder a JsonObjectModel
+using Figura3D_MVC.Models.Utils;
 using OpenTK;
 
 // Se importa el espacio de nombres 'System', que proporciona clases y tipos fundamentales de .NET.
 using System;
 // Se importa 'System.Drawing', que permite trabajar con gráficos, colores y elementos visuales.
 using System.Drawing;
+using System.IO;
+
 // Se importa 'System.Runtime.InteropServices', útil para interoperabilidad con código no administrado (aunque en este caso no se usa directamente).
 using System.Runtime.InteropServices;
 // Se importa 'System.Windows.Forms', que proporciona clases para crear interfaces gráficas en Windows Forms.
 using System.Windows.Forms;
+using System.Linq;
 
 // Definición del espacio de nombres 'crearFigruas3D.Views', donde se maneja la parte visual de la aplicación.
 namespace crearFigruas3D.Views
@@ -20,6 +26,8 @@ namespace crearFigruas3D.Views
     {
         // Declaración de la variable privada '_controller', que almacena la instancia del controlador (GameController).
         private GameController _controller;
+
+        private GameController _gameController;  // Definir la instancia de GameController
 
         // Variables de color para cada cara del cubo en la vista 3D.
         private Color colorFrontal = Color.Red;
@@ -34,6 +42,8 @@ namespace crearFigruas3D.Views
         {
             // Inicializa los componentes gráficos del formulario.
             InitializeComponent(); // Método generado automáticamente por el diseñador de Windows Forms.
+
+            _gameController = new GameController();  // Inicializar el GameController
 
             // Asigna el controlador recibido a la variable privada '_controller'.
             _controller = controller;
@@ -163,6 +173,61 @@ namespace crearFigruas3D.Views
             textBoxX.Text = centroDeMasaU.X.ToString();
             textBoxY.Text = centroDeMasaU.Y.ToString();
             textBoxZ.Text = centroDeMasaU.Z.ToString();
+        }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del OpenFileDialog
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            // Establecer filtros para solo mostrar archivos JSON
+            openFileDialog.Filter = "Archivos JSON (*.json)|*.json";
+
+            // Si el usuario selecciona un archivo y hace clic en "Abrir"
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    // Obtener la ruta del archivo seleccionado
+                    string selectedFilePath = openFileDialog.FileName;
+
+                    // Cargar los datos del archivo JSON
+                    var objetoJson = JsonLoader.LoadFromFile(selectedFilePath);
+
+                    // Verificar que los datos fueron cargados correctamente
+                    if (objetoJson != null)
+                    {
+                        _gameController.GameView.RenderFromJson(objetoJson);
+
+                        MessageBox.Show($"Archivo cargado. Vértices: {objetoJson.Vertices.Count}");
+
+                        // 👇 Esto solo imprime 5 para evitar saturar consola
+                        foreach (var vertex in objetoJson.Vertices.Take(5))
+                        {
+                            Console.WriteLine($"[JSON desde MainForm] Vértice: X={vertex.X}, Y={vertex.Y}, Z={vertex.Z}");
+                        }
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar el archivo: " + ex.Message);
+                }
+            }
+        }
+
+
+        private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                _gameController.SaveGameModel();  // ✅ usar este método directamente
+                MessageBox.Show("Estado guardado correctamente en 'Resources/saveGame.json'.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar el estado: " + ex.Message);
+            }
         }
     }
 }

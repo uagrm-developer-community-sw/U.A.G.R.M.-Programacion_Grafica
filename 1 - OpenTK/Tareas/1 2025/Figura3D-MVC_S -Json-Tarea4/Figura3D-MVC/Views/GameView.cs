@@ -1,13 +1,10 @@
 ﻿using OpenTK;
 using OpenTK.Input;
-using OpenTK.Graphics.OpenGL;
 using crearFigruas3D.Models;
 using System;
 using System.Windows.Forms;
-using System.Drawing;
 using Figura3D_MVC.Controllers;
 using OpenTK.Graphics;
-using Newtonsoft.Json;
 using Figura3D_MVC.Models;
 using Figura3D_MVC.Models.Utils;
 
@@ -17,18 +14,18 @@ namespace crearFigruas3D.Views
     {
         private GameModel _model;
         private GameDraw _gameDraw;
-        private CameraController _cameraController;  // Instancia de CameraController
+        private CameraController _cameraController;
 
-        private JsonObjectModel _objetoJson; // <-- atributo
+        private JsonObjectModel _objetoJson;
 
         public GameView(GameModel model, int width, int height, string title)
             : base(width, height, GraphicsMode.Default, title)
         {
             try
             {
-                _model = model; // Asignamos el modelo al atributo privado _model
-                _gameDraw = new GameDraw(model);  // Instanciamos correctamente GameDraw
-                _cameraController = new CameraController(); // Crear el controlador de la cámara
+                _model = model;
+                _gameDraw = new GameDraw(model);
+                _cameraController = new CameraController();
             }
             catch (Exception ex)
             {
@@ -36,13 +33,12 @@ namespace crearFigruas3D.Views
             }
         }
 
-        // Sobrescribir el evento MouseWheel para manejar el zoom
         protected override void OnMouseWheel(MouseWheelEventArgs e)
         {
             try
             {
                 base.OnMouseWheel(e);
-                _cameraController.HandleMouseWheel(e); // Delegar al CameraController
+                _cameraController.HandleMouseWheel(e);
             }
             catch (Exception ex)
             {
@@ -50,7 +46,6 @@ namespace crearFigruas3D.Views
             }
         }
 
-        // Sobrescribir el evento de teclado para mover la cámara y la letra "U"
         protected override void OnUpdateFrame(FrameEventArgs e)
         {
             try
@@ -58,11 +53,9 @@ namespace crearFigruas3D.Views
                 base.OnUpdateFrame(e);
                 var keyboardState = Keyboard.GetState();
 
-                // Delegamos el movimiento de la cámara y la letra "U" al CameraController
                 _cameraController.HandleKeyboardMovement(keyboardState);
                 _cameraController.HandleLetterMovement(keyboardState);
 
-                // Actualizamos las transformaciones de la letra "U"
                 _cameraController.ApplyLetterTransformations();
             }
             catch (Exception ex)
@@ -76,26 +69,8 @@ namespace crearFigruas3D.Views
             try
             {
                 base.OnLoad(e);
-                GL.ClearColor(0.1f, 0.1f, 0.1f, 1.0f);
-                GL.Enable(EnableCap.DepthTest);
+                _gameDraw.InitializeGraphics(Width, Height);
 
-                // Configurar la proyección
-                GL.MatrixMode(MatrixMode.Projection);
-
-                //Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(
-                //    MathHelper.PiOver4,
-                //    Width / (float)Height,
-                //    0.1f,
-                //    100f
-                //);
-
-                Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.PiOver4, Width / (float)Height, 0.1f, 100f);
-
-                _objetoJson = JsonLoader.LoadFromFile("Resources/objetos.json");  // <- pon la ruta correcta aquí
-            
-
-
-                GL.LoadMatrix(ref projection);
             }
             catch (Exception ex)
             {
@@ -109,35 +84,19 @@ namespace crearFigruas3D.Views
             {
                 base.OnRenderFrame(e);
 
-                GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+                _gameDraw.BeginDraw();
 
-                // Aplicamos las transformaciones de la cámara (como zoom y movimiento)
                 _cameraController.ApplyCameraTransformations();
 
-                
+                _gameDraw.Dibujar("LetraU");
+                _gameDraw.Dibujar("Ejes");
 
-                // Usamos la instancia de GameDraw para dibujar las figuras
-                if (_objetoJson != null)
-                {
-                    //_gameDraw.Dibujar("LetraU");
-                    _gameDraw.Dibujar("Ejes");
+                _gameDraw.DibujarObjetosJson(_model.ObjetosJson);
 
 
-                    _gameDraw.DibujarDesdeJson(_objetoJson);
 
-                }
-                else
-                {
-                    MessageBox.Show("El archivo JSON no se cargó correctamente.");
-                }
 
-                // Actualizamos la rotación de los ejes
                 _gameDraw.UpdateAxesRotation();
-
-                // Incrementamos la rotación de los ejes
-                float rotationXAxes = 0.0f; // Este valor debe ser controlado adecuadamente
-                rotationXAxes += 0.1f;
-                if (rotationXAxes >= 360.0f) rotationXAxes -= 360.0f;
 
                 SwapBuffers();
             }
@@ -153,22 +112,24 @@ namespace crearFigruas3D.Views
             {
                 base.OnResize(e);
 
-                GL.Viewport(0, 0, Width, Height);
-
-                Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(
-                    MathHelper.PiOver4,
-                    Width / (float)Height,
-                    0.1f,
-                    100f
-                );
-
-                GL.MatrixMode(MatrixMode.Projection);
-                GL.LoadMatrix(ref projection);
+                _gameDraw.Resize(Width, Height);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al redimensionar la ventana: " + ex.Message);
             }
         }
+
+        public void RenderFromJson(JsonObjectModel objetoJson)
+        {
+            try
+            {
+                _objetoJson = objetoJson;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al renderizar el objeto JSON: " + ex.Message);
+            }
+        }
     }
-}
+} 

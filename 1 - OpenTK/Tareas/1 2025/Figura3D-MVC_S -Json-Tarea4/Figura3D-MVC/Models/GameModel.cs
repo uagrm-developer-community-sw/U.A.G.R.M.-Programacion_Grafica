@@ -16,6 +16,9 @@ namespace crearFigruas3D.Models
     // Definición de la clase 'GameModel', que se utiliza para manejar los datos del juego, como las rotaciones de la figura.
     public class GameModel
     {
+        public float _rotationX { get; set; } = 0.0f;
+        public float _rotationY { get; set; } = 0.0f;
+
         public struct Objeto3D
         {
             public Vector3 Posicion;
@@ -27,6 +30,9 @@ namespace crearFigruas3D.Models
                 CentroDeMasa = centroDeMasa;
             }
         }
+
+        // Aquí se agrega la lista para almacenar los objetos JSON
+        public List<ObjetoJsonDrawable> ObjetosJson { get; private set; } = new List<ObjetoJsonDrawable>();
 
         // Se mantiene como lista, es adecuado
         public List<Objeto3D> Objetos { get; private set; } = new List<Objeto3D>();
@@ -100,5 +106,46 @@ namespace crearFigruas3D.Models
                 vertex.Z += traslacion.Z;
             }
         }
+
+        public class GameModelSaveData
+        {
+            public List<Objeto3DData> Objetos { get; set; }
+
+            public class Objeto3DData
+            {
+                public float PosX { get; set; }
+                public float PosY { get; set; }
+                public float PosZ { get; set; }
+                public float RotationX { get; set; }
+                public float RotationY { get; set; }
+            }
+        }
+
+        public GameModelSaveData GetSaveData()
+        {
+            var saveData = new GameModelSaveData();
+            saveData.Objetos = new List<GameModelSaveData.Objeto3DData>();
+
+            foreach (var objeto in Objetos)
+            {
+                var objetoData = new GameModelSaveData.Objeto3DData
+                {
+                    PosX = objeto.Posicion.X,
+                    PosY = objeto.Posicion.Y,
+                    PosZ = objeto.Posicion.Z,
+                    RotationX = this.RotationX,  // Usa la propiedad pública RotationX
+                    RotationY = this.RotationY   // Usa la propiedad pública RotationY
+                };
+                saveData.Objetos.Add(objetoData);
+            }
+
+            return saveData;
+        }
+
+        public void AgregarObjetoJson(ObjetoJsonDrawable objeto)
+        {
+            ObjetosJson.Add(objeto);
+        }
+
     }
 }

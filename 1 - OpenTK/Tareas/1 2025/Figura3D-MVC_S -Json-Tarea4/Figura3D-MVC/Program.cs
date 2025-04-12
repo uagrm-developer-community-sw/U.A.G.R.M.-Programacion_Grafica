@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Program.cs
+
+using System;
 using System.Threading;
 using System.Windows.Forms;
 using crearFigruas3D.Controllers;
@@ -16,8 +18,13 @@ namespace crearFigruas3D
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
 
+                // Crear el controlador
                 GameController controller = new GameController();
 
+                // Cargar los objetos JSON desde el controlador
+                controller.CargarObjetoJson();  // Llama aquí para cargar el JSON
+
+                // Crear e iniciar la interfaz gráfica
                 Thread uiThread = new Thread(() =>
                 {
                     Application.Run(new MainForm(controller));
@@ -26,6 +33,7 @@ namespace crearFigruas3D
                 uiThread.SetApartmentState(ApartmentState.STA);
                 uiThread.Start();
 
+                // Iniciar la lógica del juego
                 controller.Run();
             }
             catch (Exception ex)
