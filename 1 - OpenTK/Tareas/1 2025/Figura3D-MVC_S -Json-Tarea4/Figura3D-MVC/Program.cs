@@ -21,8 +21,11 @@ namespace crearFigruas3D
                 // Crear el controlador
                 GameController controller = new GameController();
 
+                // Cargar el estado guardado (si existe)
+                controller.CargarEstado();
+
                 // Cargar los objetos JSON desde el controlador
-                controller.CargarObjetoJson();  // Llama aquí para cargar el JSON
+                controller.CargarObjetoJson();
 
                 // Crear e iniciar la interfaz gráfica
                 Thread uiThread = new Thread(() =>
@@ -35,11 +38,15 @@ namespace crearFigruas3D
 
                 // Iniciar la lógica del juego
                 controller.Run();
+
+                // Guardar el estado al final
+                controller.GuardarEstado();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al iniciar la aplicación: " + ex.Message);
             }
         }
+
     }
 }

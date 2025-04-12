@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\figura3d-mvc\\views\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\models\\objetojsondrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\objetojsondrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\resources\\objetos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\resources\\objetos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\views\\gamedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\views\\gamedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|c:\\developer\\repository\\uagrm-ficct\\u.a.g.r.m.-programacion_grafica\\1 - opentk\\tareas\\1 2025\\figura3d-mvc_s -json-tarea4\\figura3d-mvc\\models\\utils\\jsonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A6597F-57BE-4950-BB2F-85FE271B13B1}|Figura3D-MVC\\Figura3D-MVC.csproj|solutionrelative:figura3d-mvc\\models\\utils\\jsonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,138 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\MainForm.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\MainForm.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\MainForm.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Views\\MainForm.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T22:54:43.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\MainForm.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\MainForm.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\MainForm.cs [Design]",
-              "RelativeToolTip": "Figura3D-MVC\\Views\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T22:54:39.539Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Controllers\\GameController.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T19:24:38.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameModel.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Models\\GameModel.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\GameModel.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Models\\GameModel.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Models\\GameModel.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAiwJMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T22:34:15.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ObjetoJsonDrawable.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Models\\ObjetoJsonDrawable.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\ObjetoJsonDrawable.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Models\\ObjetoJsonDrawable.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Models\\ObjetoJsonDrawable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T22:33:28.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameDraw.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\GameDraw.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\GameDraw.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\GameDraw.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Views\\GameDraw.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAD4vxsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:24:04.344Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 198,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Program.cs",
               "RelativeDocumentMoniker": "Figura3D-MVC\\Program.cs",
               "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Program.cs",
               "RelativeToolTip": "Figura3D-MVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T00:01:29.857Z",
+              "WhenOpened": "2025-04-12T13:04:12.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "objetos.json",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Resources\\objetos.json",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Resources\\objetos.json",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Resources\\objetos.json",
-              "RelativeToolTip": "Figura3D-MVC\\Resources\\objetos.json",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAcwOcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-11T22:52:14.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "JsonLoader.cs",
-              "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Models\\Utils\\JsonLoader.cs",
-              "RelativeDocumentMoniker": "Figura3D-MVC\\Models\\Utils\\JsonLoader.cs",
-              "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Models\\Utils\\JsonLoader.cs",
-              "RelativeToolTip": "Figura3D-MVC\\Models\\Utils\\JsonLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T22:20:25.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameView.cs",
               "DocumentMoniker": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\GameView.cs",
               "RelativeDocumentMoniker": "Figura3D-MVC\\Views\\GameView.cs",
               "ToolTip": "C:\\Developer\\Repository\\Uagrm-Ficct\\U.A.G.R.M.-Programacion_Grafica\\1 - OpenTK\\Tareas\\1 2025\\Figura3D-MVC_S -Json-Tarea4\\Figura3D-MVC\\Views\\GameView.cs",
               "RelativeToolTip": "Figura3D-MVC\\Views\\GameView.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAcwGQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwF0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:41:38.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T12:54:08.876Z"
             }
           ]
         }

@@ -55,6 +55,7 @@
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Models\AxesModel.cs" />
     <Compile Include="Models\GameModel.cs" />
+    <Compile Include="Models\GameState.cs" />
     <Compile Include="Models\ObjetoJsonDrawable.cs" />
     <Compile Include="Models\Utils\GeometryUtils.cs" />
     <Compile Include="Models\JsonObjectModel.cs" />

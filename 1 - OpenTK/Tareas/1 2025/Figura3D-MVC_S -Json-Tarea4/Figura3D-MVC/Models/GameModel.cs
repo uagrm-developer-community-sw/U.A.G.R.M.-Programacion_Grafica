@@ -147,5 +147,42 @@ namespace crearFigruas3D.Models
             ObjetosJson.Add(objeto);
         }
 
+        public GameState GetGameState()
+        {
+            GameState state = new GameState();
+
+            foreach (var obj in ObjetosJson)
+            {
+                state.Objetos.Add(new ObjetoJsonGuardado
+                {
+                    Nombre = obj.Modelo.Nombre,
+                    PosX = obj.Posicion.X,
+                    PosY = obj.Posicion.Y,
+                    PosZ = obj.Posicion.Z,
+                    RotX = obj.Rotacion.X,
+                    RotY = obj.Rotacion.Y
+                });
+            }
+
+            return state;
+        }
+
+        public void AplicarGameState(GameState state, JsonObjectModel baseModel)
+        {
+            ObjetosJson.Clear();
+
+            foreach (var guardado in state.Objetos)
+            {
+                var objeto = new ObjetoJsonDrawable(baseModel)
+                {
+                    Posicion = new Vector3(guardado.PosX, guardado.PosY, guardado.PosZ),
+                    Rotacion = new Vector3(guardado.RotX, guardado.RotY, 0)
+                };
+
+                ObjetosJson.Add(objeto);
+            }
+        }
+
+
     }
 }

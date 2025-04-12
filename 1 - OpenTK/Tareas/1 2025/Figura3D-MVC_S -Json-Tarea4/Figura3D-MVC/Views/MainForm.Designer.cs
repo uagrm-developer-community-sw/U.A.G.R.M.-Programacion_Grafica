@@ -167,7 +167,7 @@ namespace crearFigruas3D.Views
             this.pnlControles.Controls.Add(this.groupBox1);
             this.pnlControles.Controls.Add(this.grpBxControlGiratorio);
             this.pnlControles.Controls.Add(this.grpBxControlCubo);
-            this.pnlControles.Location = new System.Drawing.Point(454, 98);
+            this.pnlControles.Location = new System.Drawing.Point(362, 12);
             this.pnlControles.Name = "pnlControles";
             this.pnlControles.Size = new System.Drawing.Size(334, 521);
             this.pnlControles.TabIndex = 7;
@@ -462,7 +462,7 @@ namespace crearFigruas3D.Views
             // MainForm
             // 
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(887, 749);
+            this.ClientSize = new System.Drawing.Size(710, 629);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pnlControles);
             this.MainMenuStrip = this.menuStrip1;

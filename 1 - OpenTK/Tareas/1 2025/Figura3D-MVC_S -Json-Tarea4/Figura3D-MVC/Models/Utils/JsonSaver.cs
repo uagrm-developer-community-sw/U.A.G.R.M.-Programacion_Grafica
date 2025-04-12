@@ -11,6 +11,13 @@ namespace Figura3D_MVC.Models.Utils
         {
             try
             {
+                // Asegurarse de que la carpeta donde se guarda el archivo existe
+                string directory = Path.GetDirectoryName(filePath);
+                if (!Directory.Exists(directory))
+                {
+                    Directory.CreateDirectory(directory);
+                }
+
                 // Serializa el objeto `data` a una cadena JSON
                 string jsonData = JsonConvert.SerializeObject(data, Formatting.Indented);
 
@@ -20,7 +27,6 @@ namespace Figura3D_MVC.Models.Utils
             }
             catch (Exception ex)
             {
-                // Si ocurre un error al guardar, muestra el mensaje
                 Console.WriteLine("Error al guardar el archivo JSON: " + ex.Message);
             }
         }

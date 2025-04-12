@@ -120,6 +120,23 @@ namespace crearFigruas3D.Controllers
             }
         }
 
+        public void GuardarEstado()
+        {
+            var estado = _model.GetGameState();
+            JsonSaver.SaveToFile("Resources/saveGame.json", estado);
+        }
+
+        public void CargarEstado()
+        {
+            var estado = JsonLoader.LoadFromFile<GameState>("Resources/saveGame.json");
+
+            if (estado != null)
+            {
+                var modeloBase = JsonLoader.LoadFromFile("Resources/objetos.json");
+                _model.AplicarGameState(estado, modeloBase);
+            }
+        }
+
 
 
 
