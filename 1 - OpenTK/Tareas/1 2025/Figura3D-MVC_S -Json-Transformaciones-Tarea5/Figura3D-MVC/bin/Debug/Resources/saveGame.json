@@ -1,0 +1,25 @@
+{
+  "Objetos": [
+    {
+      "PosX": 0.8,
+      "PosY": 0.5,
+      "PosZ": 0.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0
+    },
+    {
+      "PosX": 1.2,
+      "PosY": 0.8,
+      "PosZ": 0.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0
+    },
+    {
+      "PosX": 0.8,
+      "PosY": 0.5,
+      "PosZ": 0.0,
+      "RotationX": 0.0,
+      "RotationY": 0.0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.dll
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.pdb
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.xml
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+D:\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-Tarea2\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S - Centro-Masa-vetices-Tarea3\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Newtonsoft.Json.dll
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Newtonsoft.Json.xml
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Resources\objetos.json
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Resources\objetos.json
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Newtonsoft.Json.dll
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\Newtonsoft.Json.xml
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Tarea4\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Resources\objetos.json
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe.config
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Newtonsoft.Json.dll
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\OpenTK.dll
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Newtonsoft.Json.xml
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\OpenTK.pdb
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\OpenTK.xml
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.AssemblyReference.cache
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\crearFigruas3D.Views.MainForm.resources
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.GenerateResource.cache
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\Figura3D-MVC.csproj.CoreCompileInputs.cache
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\Figura3D.FC89F6FF.Up2Date
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\Figura3D-MVC.exe
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\obj\Debug\Figura3D-MVC.pdb
+C:\Developer\Repository\Uagrm-Ficct\U.A.G.R.M.-Programacion_Grafica\1 - OpenTK\Tareas\1 2025\Figura3D-MVC_S -Json-Transformaciones-Tarea5\Figura3D-MVC\bin\Debug\Resources\escenario.json
