@@ -2,16 +2,22 @@
   "name": "MiJuegoRoblox",
   "tree": {
     "$className": "DataModel",
-    "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
-      "Shared": {
-        "$path": "src/shared"
-      }
+    "Workspace": {
+      "$className": "Workspace",
+      "$path": "src/Workspace"
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "Server": {
-        "$path": "src/server"
+      "EventoMirada": {
+        "$className": "Script",
+        "$path": "src/server/EventoMirada.server.lua"
+      },
+      "juego-carreras": {
+        "$className": "Folder",
+        "juego-nivel-1": {
+          "$className": "Folder",
+          "$path": "src/server/juego-carreras/juego-nivel-1"
+        }
       }
     },
     "StarterPlayer": {
