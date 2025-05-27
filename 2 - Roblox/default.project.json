@@ -5,6 +5,7 @@
     "Workspace": {
       "$className": "Workspace",
       "$path": "src/Workspace"
+      
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",

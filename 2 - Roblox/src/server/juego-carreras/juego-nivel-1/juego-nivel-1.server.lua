@@ -1,18 +1,34 @@
 print("Iniciando juego-nivel-1.server.lua")
 
 local Workspace = game:GetService("Workspace")
+local ServerStorage = game:GetService("ServerStorage")
+local Players = game:GetService("Players")
+local Debris = game:GetService("Debris")
 
+-- Función para crear una esfera base con física realista
 local function crearEsferaBase()
     local esfera = Instance.new("Part")
     esfera.Shape = Enum.PartType.Ball
     esfera.Size = Vector3.new(5, 5, 5)
-    esfera.Anchored = true  -- Para que no se muevan al inicio
+    esfera.Anchored = false               -- Física activa
     esfera.CanCollide = true
     esfera.Material = Enum.Material.Neon
     esfera.Name = "esferaDinamica"
+    -- Propiedades físicas: densidad, fricción, rebote
+    esfera.CustomPhysicalProperties = PhysicalProperties.new(0.7, 0.3, 0.5)
     return esfera
 end
 
+-- Función para detectar si la parte pertenece a un auto
+local function esAuto(part)
+    local modelo = part:FindFirstAncestorOfClass("Model")
+    if modelo and modelo.Name == "CarroModelo" then
+        return true
+    end
+    return false
+end
+
+-- Colores para 20 esferas
 local colores = {
     Color3.fromRGB(255, 0, 0),     -- rojo
     Color3.fromRGB(0, 255, 0),     -- verde
@@ -36,6 +52,7 @@ local colores = {
     Color3.fromRGB(123, 104, 238)  -- azul violeta
 }
 
+-- Posiciones para las 20 esferas
 local posiciones = {
     Vector3.new(-600, 8.5, -336),
     Vector3.new(-651, 8.5, -400),
@@ -43,11 +60,11 @@ local posiciones = {
     Vector3.new(-185, 8.5, -629),
     Vector3.new(-602, 8.5, -387),
     Vector3.new(14.171, 8.751, -551.234),
-    Vector3.new(-590, 8.5, -387),
-    Vector3.new(-584, 8.5, -387),
-    Vector3.new(-578, 6.5, -387),
-    Vector3.new(-572, 6.5, -387),
-    Vector3.new(-566, 6.5, -387),
+    Vector3.new(-64, 8, -468),
+    Vector3.new(111, 8, -377),
+    Vector3.new(88, 8, -270),
+    Vector3.new(48, 8, -175),
+    Vector3.new(99, 8, -75),
     Vector3.new(-560, 6.5, -387),
     Vector3.new(-554, 6.5, -387),
     Vector3.new(-548, 6.5, -387),
@@ -59,33 +76,48 @@ local posiciones = {
     Vector3.new(-512, 6.5, -387)
 }
 
-for i = 1, 20 do
+-- Crear y posicionar las esferas con impulso inicial
+for i = 1, #colores do
     local esfera = crearEsferaBase()
     esfera.BrickColor = BrickColor.new(colores[i])
     esfera.Position = posiciones[i]
     esfera.Name = "esferaDinamica_" .. i
     esfera.Parent = Workspace
 
+    -- Impulso inicial aleatorio para movimiento
+    local bodyVelocity = Instance.new("BodyVelocity")
+    bodyVelocity.Velocity = Vector3.new(
+        math.random(-80, 80),
+        math.random(40, 70),
+        math.random(-80, 80)
+    )
+    bodyVelocity.MaxForce = Vector3.new(1e5, 1e5, 1e5)
+    bodyVelocity.Parent = esfera
+
+    -- Duración del impulso inicial: 1 segundo para que tomen movimiento
+    Debris:AddItem(bodyVelocity, 1)
+
+    -- Detectar toque
     esfera.Touched:Connect(function(hit)
-        print("Esfera " .. esfera.Name .. " tocada por " .. hit.Name)
+        local partParent = hit.Parent
+        if not partParent then return end
 
-        local character = hit.Parent
-        if character and character:FindFirstChild("HumanoidRootPart") then
-            esfera.Anchored = false
-            local bodyVelocity = Instance.new("BodyVelocity")
-            bodyVelocity.Velocity = Vector3.new(0, 50, 0)
-            bodyVelocity.MaxForce = Vector3.new(100000, 100000, 100000)
-            bodyVelocity.Parent = esfera
+        -- Si toca el auto, destruye la esfera
+        if esAuto(hit) then
+            esfera:Destroy()
+            return
+        end
 
-            game:GetService("Debris"):AddItem(bodyVelocity, 0.5)
+        -- Si no es auto, revisa si toca humanoide para matarlo
+        local humanoid = partParent:FindFirstChild("Humanoid")
+        if humanoid then
+            humanoid.Health = 0
+            return
         end
     end)
 end
 
--- ===========================================================================
-
-local Players = game:GetService("Players")
-
+-- Posicionar al jugador al inicio
 local posicionInicio = CFrame.new(-685, 8, 180)
 
 Players.PlayerAdded:Connect(function(player)
@@ -95,24 +127,14 @@ Players.PlayerAdded:Connect(function(player)
     end)
 end)
 
--- ===========================================================================
-
-local ServerStorage = game:GetService("ServerStorage")
-local Workspace = game:GetService("Workspace")
-
--- Esperamos que el modelo esté en ServerStorage
+-- Clonar y posicionar modelos InicioFinJuegoModelo
 local modeloInicioFin = ServerStorage:WaitForChild("InicioFinJuegoModelo")
 
--- Lista de posiciones donde quieres clonar el modelo
 local posicionesInicioFin = {
     CFrame.new(-700, 10, 200),
     CFrame.new(869, 6.5, 501),
-    --CFrame.new(-720, 10, 220),
-    --CFrame.new(-730, 10, 230),
-    -- Agrega más posiciones según necesites
 }
 
--- Función para clonar el modelo y posicionarlo
 local function clonarMultiplesInicioFin()
     for i, posicion in ipairs(posicionesInicioFin) do
         local clon = modeloInicioFin:Clone()
@@ -122,9 +144,56 @@ local function clonarMultiplesInicioFin()
             clon:SetPrimaryPartCFrame(posicion)
         else
             warn("El modelo InicioFinJuegoModelo no tiene PrimaryPart asignada.")
+            local anyPart = clon:FindFirstChildWhichIsA("BasePart")
+            if anyPart then
+                anyPart.CFrame = posicion
+            end
         end
     end
 end
 
--- Ejecutar la función para clonar y posicionar los modelos
 clonarMultiplesInicioFin()
+
+-- Clonar FlechaCurva y FlechaSiguiente desde ServerStorage
+local flechaCurvaOriginal = ServerStorage:WaitForChild("FlechaCurva")
+local flechaSiguienteOriginal = ServerStorage:WaitForChild("FlechaSiguiente")
+
+local posicionesFlechaSiguiente = {
+    Vector3.new(-695, 6.5, 66),
+    Vector3.new(20, 5, 0),
+    Vector3.new(30, 5, 0),
+    Vector3.new(40, 5, 0),
+    Vector3.new(50, 5, 0),
+    Vector3.new(60, 5, 0),
+    Vector3.new(70, 5, 0),
+    Vector3.new(80, 5, 0),
+    Vector3.new(90, 5, 0),
+    Vector3.new(100, 5, 0),
+}
+
+local posicionesFlechaCurva = {
+    Vector3.new(0, 5, 10),
+    Vector3.new(0, 5, 20),
+    Vector3.new(0, 5, 30),
+}
+
+local function clonarYPosicionar(modeloOriginal, posiciones, nombreBase)
+    for i, pos in ipairs(posiciones) do
+        local clon = modeloOriginal:Clone()
+        clon.Name = nombreBase .. "_" .. i
+        clon.Parent = Workspace
+
+        if clon.PrimaryPart then
+            clon:SetPrimaryPartCFrame(CFrame.new(pos))
+        else
+            warn("El modelo " .. clon.Name .. " no tiene PrimaryPart asignada.")
+            local anyPart = clon:FindFirstChildWhichIsA("BasePart")
+            if anyPart then
+                anyPart.CFrame = CFrame.new(pos)
+            end
+        end
+    end
+end
+
+clonarYPosicionar(flechaSiguienteOriginal, posicionesFlechaSiguiente, "FlechaSiguiente")
+clonarYPosicionar(flechaCurvaOriginal, posicionesFlechaCurva, "FlechaCurva")
