@@ -3,36 +3,44 @@ local Workspace = game:GetService("Workspace")
 
 local modeloCarro = ServerStorage:WaitForChild("CarroModelo")
 
--- Posición base para el primer carro
-local posicionBase = CFrame.new(-775, 15, 180)
-
 local colores = {
     Color3.fromRGB(255, 0, 0),    -- Rojo
     Color3.fromRGB(255, 255, 0),  -- Amarillo
 }
 
-local function getModelSizeX(model)
+local posicionesBase = {
+    CFrame.new(-775, 15, 180),
+    CFrame.new(-790, 15, 220),
+}
+
+local function asignarPrimaryPartSiNoExiste(model)
     if not model.PrimaryPart then
-        warn("El modelo no tiene PrimaryPart asignada.")
-        return 10
+        for _, parte in ipairs(model:GetChildren()) do
+            if parte:IsA("BasePart") then
+                model.PrimaryPart = parte
+                print("PrimaryPart asignada a: " .. parte.Name)
+                break
+            end
+        end
+        if not model.PrimaryPart then
+            warn("No se encontró ninguna BasePart para asignar como PrimaryPart.")
+        end
     end
-    local _, size = model:GetBoundingBox()
-    return size.X
 end
 
-local carroSizeX = getModelSizeX(modeloCarro)
-local separacion = 2
-
-local posicionesAjustadas = {}
+-- Asignar PrimaryPart al modelo original antes de clonar
+asignarPrimaryPartSiNoExiste(modeloCarro)
 
 for i = 1, #colores do
-    local offsetX = (i - 1) * (carroSizeX + separacion)
-    local nuevaPos = posicionBase.Position + Vector3.new(offsetX, 0, 0)
-    posicionesAjustadas[i] = CFrame.new(nuevaPos)
-end
+    local posicion = posicionesBase[i]
+    if not posicion then
+        warn("No hay posición definida para el índice: " .. tostring(i))
+        break
+    end
 
-for i, posicion in ipairs(posicionesAjustadas) do
     local carroClonado = modeloCarro:Clone()
+    asignarPrimaryPartSiNoExiste(carroClonado) -- por si el clon perdió la PrimaryPart
+
     carroClonado.Parent = Workspace
 
     if carroClonado.PrimaryPart then
@@ -49,4 +57,3 @@ for i, posicion in ipairs(posicionesAjustadas) do
         end
     end
 end
-
