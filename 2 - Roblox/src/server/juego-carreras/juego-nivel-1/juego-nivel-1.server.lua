@@ -47,15 +47,15 @@ local posiciones = {
     Vector3.new(88, 8, -270),
     Vector3.new(48, 8, -175),
     Vector3.new(99, 8, -75),
-    Vector3.new(-560, 6.5, -387),
-    Vector3.new(-554, 6.5, -387),
-    Vector3.new(-548, 6.5, -387),
-    Vector3.new(-542, 6.5, -387),
-    Vector3.new(-536, 6.5, -387),
-    Vector3.new(-530, 6.5, -387),
-    Vector3.new(-524, 6.5, -387),
-    Vector3.new(-518, 6.5, -387),
-    Vector3.new(-512, 6.5, -387)
+    Vector3.new(108.149, 13.874, 110.248),
+    Vector3.new(212.96, 33.419, 275.89),
+    Vector3.new(284.956, 89.804, 443.05),
+    Vector3.new(98, 90.5, 489),
+    Vector3.new(-75.037, 88.947, 523.064),
+    Vector3.new(-258.001, 110.404, 514.001),
+    Vector3.new(-381, 110.5, 521),
+    Vector3.new(-498.243, 57.194, 500.094),
+    Vector3.new(-645.841, 15.361, 472.859)
 }
 
 -- Posiciones para modelos InicioFinJuego (arreglo de CFrame)
