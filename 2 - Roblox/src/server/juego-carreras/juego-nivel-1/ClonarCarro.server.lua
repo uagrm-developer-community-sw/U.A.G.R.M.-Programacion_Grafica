@@ -4,13 +4,17 @@ local Workspace = game:GetService("Workspace")
 local modeloCarro = ServerStorage:WaitForChild("CarroModelo")
 
 local colores = {
-    Color3.fromRGB(255, 0, 0),    -- Rojo
-    Color3.fromRGB(255, 255, 0),  -- Amarillo
+    Color3.fromRGB(255, 0, 0),      -- Rojo
+    Color3.fromRGB(255, 255, 0),    -- Amarillo
+    Color3.fromRGB(0, 255, 0),      -- Verde
+    Color3.fromRGB(0, 0, 255),      -- Azul
 }
 
 local posicionesBase = {
-    CFrame.new(-775, 15, 180),
-    CFrame.new(-790, 15, 220),
+    CFrame.new(-710, 15, 180),
+    CFrame.new(-720, 15, 220),
+    CFrame.new(-660, 15, 180),
+    CFrame.new(-660, 15, 220),
 }
 
 local function asignarPrimaryPartSiNoExiste(model)
@@ -28,7 +32,6 @@ local function asignarPrimaryPartSiNoExiste(model)
     end
 end
 
--- Asignar PrimaryPart al modelo original antes de clonar
 asignarPrimaryPartSiNoExiste(modeloCarro)
 
 for i = 1, #colores do
@@ -39,7 +42,7 @@ for i = 1, #colores do
     end
 
     local carroClonado = modeloCarro:Clone()
-    asignarPrimaryPartSiNoExiste(carroClonado) -- por si el clon perdió la PrimaryPart
+    asignarPrimaryPartSiNoExiste(carroClonado)
 
     carroClonado.Parent = Workspace
 
