@@ -1,14 +1,20 @@
-print("Iniciando juego-nivel-1.server.lua")
-
-local Workspace = game:GetService("Workspace")
 local ServerStorage = game:GetService("ServerStorage")
 local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Debris = game:GetService("Debris")
 
--- ================================
--- ARREGLOS (VECTORES)
--- Listas indexadas numéricamente para orden y recorrido
--- ================================
+-- Configuración
+local carModel = ServerStorage:WaitForChild("CarroModelo")
+local player1Spawn = Workspace:WaitForChild("Player1Spawn") -- Asegúrate de que exista
+local player2Spawn = Workspace:WaitForChild("Player2Spawn") -- Asegúrate de que exista
+local finishLine = Workspace:WaitForChild("FinishLine") -- Asegúrate de que exista
+print("Script iniciado, FinishLine detectado en " .. tostring(finishLine.Position))
+
+-- Variables
+local players = {}
+local raceStarted = false
+local winner = nil
 
 -- Colores para las esferas (arreglo de Color3)
 local colores = {
@@ -36,66 +42,40 @@ local colores = {
 
 -- Posiciones para las esferas (arreglo de Vector3)
 local posiciones = {
-    Vector3.new(-600, 8.5, -336),
-    Vector3.new(-651, 8.5, -400),
-    Vector3.new(-365, 8.5, -596),
-    Vector3.new(-185, 8.5, -629),
-    Vector3.new(-602, 8.5, -387),
-    Vector3.new(14.171, 8.751, -551.234),
-    Vector3.new(-64, 8, -468),
-    Vector3.new(111, 8, -377),
-    Vector3.new(88, 8, -270),
-    Vector3.new(48, 8, -175),
-    Vector3.new(99, 8, -75),
-    Vector3.new(108.149, 13.874, 110.248),
-    Vector3.new(212.96, 33.419, 275.89),
-    Vector3.new(284.956, 89.804, 443.05),
-    Vector3.new(98, 90.5, 489),
-    Vector3.new(-75.037, 88.947, 523.064),
-    Vector3.new(-258.001, 110.404, 514.001),
-    Vector3.new(-381, 110.5, 521),
-    Vector3.new(-498.243, 57.194, 500.094),
-    Vector3.new(-645.841, 15.361, 472.859)
+    Vector3.new(-10, 10, 0),       -- Ajustado para estar cerca de los spawns
+    Vector3.new(-20, 10, 0),
+    Vector3.new(0, 10, -10),
+    Vector3.new(10, 10, -10),
+    Vector3.new(-15, 10, -5),
+    Vector3.new(15, 10, -15),
+    Vector3.new(-5, 10, -20),
+    Vector3.new(20, 10, -20),
+    Vector3.new(15, 10, -25),
+    Vector3.new(5, 10, -30),
+    Vector3.new(10, 10, -35),
+    Vector3.new(15, 10, 5),
+    Vector3.new(20, 10, 10),
+    Vector3.new(25, 10, 15),
+    Vector3.new(10, 10, 20),
+    Vector3.new(-5, 10, 25),
+    Vector3.new(-15, 10, 20),
+    Vector3.new(-20, 10, 15),
+    Vector3.new(-25, 10, 10),
+    Vector3.new(-30, 10, 5)
 }
 
--- Posiciones para modelos InicioFinJuego (arreglo de CFrame)
-local posicionesInicioFin = {
-    CFrame.new(-700, 10, 200),
-    CFrame.new(869, 6.5, 501),
-}
-
--- Posiciones para flechas Siguiente (arreglo de Vector3)
-local posicionesFlechaSiguiente = {
-    Vector3.new(-695, 6.5, 66),
-    Vector3.new(20, 5, 0),
-    Vector3.new(30, 5, 0),
-    Vector3.new(40, 5, 0),
-    Vector3.new(50, 5, 0),
-    Vector3.new(60, 5, 0),
-    Vector3.new(70, 5, 0),
-    Vector3.new(80, 5, 0),
-    Vector3.new(90, 5, 0),
-    Vector3.new(100, 5, 0),
-}
-
--- Posiciones para flechas Curva (arreglo de Vector3)
-local posicionesFlechaCurva = {
-    Vector3.new(0, 5, 10),
-    Vector3.new(0, 5, 20),
-    Vector3.new(0, 5, 30),
-}
-
--- ================================
--- TABLAS TIPO HASH (DICCIONARIOS)
--- Objetos con propiedades nombradas y estados
--- ================================
-
--- Tabla para almacenar datos de esferas creadas, cada elemento es una tabla hash
+-- Tabla para almacenar datos de esferas creadas
 local esferasDatos = {}
 
--- ================================
--- FUNCIONES
--- ================================
+-- Función para clonar y asignar un carro a un jugador
+local function spawnCarForPlayer(player, spawnPosition)
+    if player.Character then
+        local carClone = carModel:Clone()
+        carClone:SetPrimaryPartCFrame(CFrame.new(spawnPosition + Vector3.new(0, 5, 0)))
+        carClone.Parent = Workspace
+        return carClone
+    end
+end
 
 -- Función para crear una esfera base con física realista
 local function crearEsferaBase()
@@ -110,105 +90,114 @@ local function crearEsferaBase()
     return esfera
 end
 
--- Función para detectar si la parte pertenece a un auto (retorna boolean)
+-- Función para detectar si la parte pertenece a un auto
 local function esAuto(part)
     local modelo = part:FindFirstAncestorOfClass("Model")
     return modelo and modelo.Name == "CarroModelo"
 end
 
--- Función para clonar y posicionar modelos desde ServerStorage
-local function clonarYPosicionar(modeloOriginal, posiciones, nombreBase)
-    for i, pos in ipairs(posiciones) do
-        local clon = modeloOriginal:Clone()
-        clon.Name = nombreBase .. "_" .. i
-        clon.Parent = Workspace
+-- Crear esferas
+local function spawnSpheres()
+    print("Intentando crear esferas...")
+    for i = 1, #colores do
+        local esfera = crearEsferaBase()
+        print("Creando esfera " .. i .. " en posición " .. tostring(posiciones[i]))
+        esfera.BrickColor = BrickColor.new(colores[i])
+        esfera.Position = posiciones[i]
+        esfera.Name = "esferaDinamica_" .. i
+        esfera.Parent = Workspace
 
-        if clon.PrimaryPart then
-            clon:SetPrimaryPartCFrame(CFrame.new(pos))
-        else
-            warn("El modelo " .. clon.Name .. " no tiene PrimaryPart asignada.")
-            local anyPart = clon:FindFirstChildWhichIsA("BasePart")
-            if anyPart then
-                anyPart.CFrame = CFrame.new(pos)
+        local velocidadInicial = Vector3.new(
+            math.random(-80, 80),
+            math.random(40, 70),
+            math.random(-80, 80)
+        )
+
+        local bodyVelocity = Instance.new("BodyVelocity")
+        bodyVelocity.Velocity = velocidadInicial
+        bodyVelocity.MaxForce = Vector3.new(1e5, 1e5, 1e5)
+        bodyVelocity.Parent = esfera
+
+        Debris:AddItem(bodyVelocity, 1)
+
+        -- Guardamos datos en tabla
+        table.insert(esferasDatos, {
+            instancia = esfera,
+            color = colores[i],
+            posicion = posiciones[i],
+            velocidadInicial = velocidadInicial,
+            bodyVelocity = bodyVelocity,
+            activa = true
+        })
+
+        -- Evento de toque para cada esfera
+        esfera.Touched:Connect(function(hit)
+            if esAuto(hit) then
+                esfera:Destroy()
+                esferasDatos[i].activa = false
+            else
+                local humanoid = hit.Parent and hit.Parent:FindFirstChild("Humanoid")
+                if humanoid then
+                    humanoid.Health = 0
+                end
             end
-        end
+        end)
     end
+    print("Esferas creadas con éxito: " .. #esferasDatos)
 end
 
--- ================================
--- CREACIÓN Y CONFIGURACIÓN DE ESFERAS
--- ================================
-
-for i = 1, #colores do
-    local esfera = crearEsferaBase()
-    esfera.BrickColor = BrickColor.new(colores[i])
-    esfera.Position = posiciones[i]
-    esfera.Name = "esferaDinamica_" .. i
-    esfera.Parent = Workspace
-
-    local velocidadInicial = Vector3.new(
-        math.random(-80, 80),
-        math.random(40, 70),
-        math.random(-80, 80)
-    )
-
-    local bodyVelocity = Instance.new("BodyVelocity")
-    bodyVelocity.Velocity = velocidadInicial
-    bodyVelocity.MaxForce = Vector3.new(1e5, 1e5, 1e5)
-    bodyVelocity.Parent = esfera
-
-    Debris:AddItem(bodyVelocity, 1)
-
-    -- Guardamos datos en tabla hash dentro del arreglo
-    table.insert(esferasDatos, {
-        instancia = esfera,
-        color = colores[i],
-        posicion = posiciones[i],
-        velocidadInicial = velocidadInicial,
-        bodyVelocity = bodyVelocity,
-        activa = true
-    })
-
-    -- Evento de toque para cada esfera
-    esfera.Touched:Connect(function(hit)
-        if esAuto(hit) then
-            esfera:Destroy()
-            esferasDatos[i].activa = false
-        else
-            local humanoid = hit.Parent and hit.Parent:FindFirstChild("Humanoid")
-            if humanoid then
-                humanoid.Health = 0
-            end
-        end
-    end)
-end
-
--- ================================
--- POSICIÓN INICIAL DE LOS JUGADORES
--- ================================
-
-local posicionInicio = CFrame.new(-685, 8, 180)
-
+-- Detectar cuando un jugador se une
 Players.PlayerAdded:Connect(function(player)
     player.CharacterAdded:Connect(function(character)
-        local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-        humanoidRootPart.CFrame = posicionInicio
+        if not raceStarted then
+            if not next(players) then
+                -- Primer jugador
+                character:MoveTo(player1Spawn.Position)
+                spawnCarForPlayer(player, player1Spawn.Position)
+                table.insert(players, player)
+                print(player.Name .. " (Player 1) has joined and is in position.")
+            elseif #players == 1 then
+                -- Segundo jugador
+                character:MoveTo(player2Spawn.Position)
+                spawnCarForPlayer(player, player2Spawn.Position)
+                table.insert(players, player)
+                print(player.Name .. " (Player 2) has joined and is in position.")
+                -- Iniciar la carrera y crear esferas
+                raceStarted = true
+                spawnSpheres()
+                print("The race has started with 2 players!")
+            end
+        end
     end)
 end)
 
--- ================================
--- CLONAR MODELOS INICIO Y FIN DE JUEGO
--- ================================
+-- Detectar quién cruza la meta
+finishLine.Touched:Connect(function(hit)
+    local player = Players:GetPlayerFromCharacter(hit.Parent)
+    if player and table.find(players, player) and not winner then
+        winner = player
+        print(player.Name .. " has won the race!")
+        -- Eliminar reinicio automático hasta definir lógica de victoria
+        -- for _, p in ipairs(players) do
+        --     p:LoadCharacter()
+        -- end
+    end
+end)
 
-local modeloInicioFin = ServerStorage:WaitForChild("InicioFinJuegoModelo")
-clonarYPosicionar(modeloInicioFin, posicionesInicioFin, "InicioFinJuego")
+-- Manejar la eliminación de esferas
+local esferaMiradaEvent = ReplicatedStorage:WaitForChild("EsferaMiradaEvent")
+esferaMiradaEvent.OnServerEvent:Connect(function(player, esfera)
+    if esfera and esfera.Parent then
+        esfera:Destroy()
+        print(player.Name .. " eliminated a sphere at " .. tostring(esfera.Position))
+    end
+end)
 
--- ================================
--- CLONAR FLECHAS DE INDICACIÓN
--- ================================
-
-local flechaCurvaOriginal = ServerStorage:WaitForChild("FlechaCurva")
-local flechaSiguienteOriginal = ServerStorage:WaitForChild("FlechaSiguiente")
-
-clonarYPosicionar(flechaSiguienteOriginal, posicionesFlechaSiguiente, "FlechaSiguiente")
-clonarYPosicionar(flechaCurvaOriginal, posicionesFlechaCurva, "FlechaCurva")
+-- Limpiar al desconectarse (opcional)
+Players.PlayerRemoving:Connect(function(player)
+    local index = table.find(players, player)
+    if index then
+        table.remove(players, index)
+        print(player.Name .. " has disconnected.")
+    end
+end)

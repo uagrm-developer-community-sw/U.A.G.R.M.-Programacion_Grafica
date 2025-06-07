@@ -1,0 +1,15 @@
+-- src/ServerStorage/FlechaSiguiente.model
+local model = Instance.new("Model")
+model.Name = "FlechaSiguiente"
+
+local part = Instance.new("Part")
+part.Name = "Base"
+part.Size = Vector3.new(2, 0.5, 5) -- Tamaño de una flecha simple
+part.Position = Vector3.new(0, 0, 0)
+part.Anchored = true
+part.BrickColor = BrickColor.new("Bright red") -- Color rojo para la flecha
+part.Parent = model
+
+model.PrimaryPart = part -- Asigna la parte como PrimaryPart
+
+return model

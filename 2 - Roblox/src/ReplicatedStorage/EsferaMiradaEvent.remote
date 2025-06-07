@@ -1,3 +1,4 @@
+-- src/ReplicatedStorage/EsferaMiradaEvent.remote
 local RemoteEvent = Instance.new("RemoteEvent")
 RemoteEvent.Name = "EsferaMiradaEvent"
 return RemoteEvent

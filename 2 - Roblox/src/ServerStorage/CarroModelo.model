@@ -1,0 +1,15 @@
+-- src/ServerStorage/CarroModelo.model
+local model = Instance.new("Model")
+model.Name = "CarroModelo"
+
+local body = Instance.new("Part")
+body.Name = "Body"
+body.Size = Vector3.new(4, 2, 8) -- Tamaño básico de un carro
+body.Position = Vector3.new(0, 0, 0)
+body.Anchored = true
+body.BrickColor = BrickColor.new("Bright blue")
+body.Parent = model
+
+model.PrimaryPart = body -- Asigna el cuerpo como PrimaryPart
+
+return model

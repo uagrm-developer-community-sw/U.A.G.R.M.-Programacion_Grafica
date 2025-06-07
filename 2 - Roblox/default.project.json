@@ -5,7 +5,10 @@
     "Workspace": {
       "$className": "Workspace",
       "$path": "src/Workspace"
-      
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/ServerStorage"
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
@@ -36,6 +39,10 @@
         "$className": "ScreenGui",
         "$path": "src/gui/MainMenu"
       }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage"
     }
   }
 }
