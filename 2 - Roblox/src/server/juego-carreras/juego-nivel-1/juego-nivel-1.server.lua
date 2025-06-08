@@ -4,6 +4,13 @@ local Workspace = game:GetService("Workspace")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Debris = game:GetService("Debris")
 
+-- Limpieza inicial de carros no deseados
+for _, obj in pairs(Workspace:GetChildren()) do
+    if obj.Name == "CarroModelo" or obj:FindFirstChild("Thruster") then
+        obj:Destroy()
+    end
+end
+
 -- Configuración
 local carModel = ServerStorage:WaitForChild("CarroModelo")
 local player1Spawn = Workspace:WaitForChild("Player1Spawn") -- Asegúrate de que exista
