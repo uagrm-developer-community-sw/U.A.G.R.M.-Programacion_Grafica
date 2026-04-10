@@ -4,7 +4,7 @@ Proyecto base en Java usando **Maven** y **LWJGL (OpenGL)**.
 
 ## Ecosistema de Renderizado
 
-### 1. Java (JDK 17+)
+### 1. Java (JDK 17 o superior)
 
 Es donde se desarrolla la lógica de la aplicación.
 
@@ -56,7 +56,7 @@ Esto permite que OpenGL pueda utilizar las capacidades de la GPU.
 ### Flujo del Ecosistema
 
 ```
-Java (JDK 17+)
+Java (JDK 17 o superior)
       │
       ▼
 LWJGL (bindings hacia C)
@@ -124,16 +124,45 @@ El pipeline recibe datos brutos y los transforma paso a paso. La geometría abst
 
 ## Ejecutar
 
+Este proyecto debe ejecutarse desde la carpeta `opengl`.
+
+Maven selecciona las librerias nativas correctas automaticamente segun el sistema operativo mediante perfiles en `pom.xml`.
+
+### Requisitos
+
+- Java 17 o superior instalado y disponible en `PATH`
+- Maven instalado y disponible en `PATH`
+
+Verifica ambas herramientas con:
+
+```powershell
+java -version
+mvn -version
+```
+
+En `pom.xml` el proyecto esta configurado para compilar con Java 17.
+
 1. Compilar:
 
-```bash
+```powershell
+cd opengl
 mvn clean package
 ```
 
-2. Ejecutar (usa el main de `com.programaciongrafica.App`):
+2. Ejecutar el lanzador visual (usa el main de `com.programaciongrafica.TaskLauncher`):
 
-```bash
+```powershell
 mvn exec:java
 ```
 
-> Si tu sistema no es Linux, actualiza el valor de `lwjgl.natives` en `pom.xml` a `natives-windows` o `natives-macos`.
+Desde esa ventana puedes abrir:
+
+- `Hello World`
+- `Cuadrado OpenGL`
+
+Si quieres ejecutar una clase concreta sin pasar por el lanzador:
+
+```powershell
+mvn exec:java -Dexec.mainClass="com.programaciongrafica.HelloWorldApp"
+mvn exec:java -Dexec.mainClass="com.programaciongrafica.App"
+```

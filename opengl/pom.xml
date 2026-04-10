@@ -7,24 +7,59 @@
   <artifactId>opengl-maven</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <name>OpenGL Maven Project</name>
-  <description>Proyecto base en Java + Maven para usar OpenGL (LWJGL) en Linux.</description>
+  <description>Proyecto base en Java + Maven para usar OpenGL (LWJGL).</description>
   <url>https://example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
 
     <!-- LWJGL version -->
     <lwjgl.version>3.4.0</lwjgl.version>
 
-    <!-- Set the correct natives classifier for your OS:
-         - Linux: natives-linux
-         - Windows: natives-windows
-         - MacOS: natives-macos
-    -->
-    <lwjgl.natives>natives-linux</lwjgl.natives>
+    <!-- Default natives profile. Overridden automatically by OS-specific profiles. -->
+    <lwjgl.natives>natives-windows</lwjgl.natives>
   </properties>
+
+  <profiles>
+    <profile>
+      <id>windows</id>
+      <activation>
+        <os>
+          <family>Windows</family>
+        </os>
+      </activation>
+      <properties>
+        <lwjgl.natives>natives-windows</lwjgl.natives>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>linux</id>
+      <activation>
+        <os>
+          <family>unix</family>
+          <name>Linux</name>
+        </os>
+      </activation>
+      <properties>
+        <lwjgl.natives>natives-linux</lwjgl.natives>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>macos</id>
+      <activation>
+        <os>
+          <family>mac</family>
+        </os>
+      </activation>
+      <properties>
+        <lwjgl.natives>natives-macos</lwjgl.natives>
+      </properties>
+    </profile>
+  </profiles>
 
   <dependencyManagement>
     <dependencies>
@@ -92,7 +127,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.1.0</version>
         <configuration>
-          <mainClass>com.programaciongrafica.App</mainClass>
+          <mainClass>com.programaciongrafica.TaskLauncher</mainClass>
         </configuration>
       </plugin>
     </plugins>
