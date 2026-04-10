@@ -17,6 +17,50 @@ U.A.G.R.M. | Materia: Programacion Grafica | Docente: Miguel Jesus Peinado | Rep
 
 ---
 
+## EJECUTAR PROYECTO OPENGL
+
+El subproyecto actual en Java + Maven se encuentra en `opengl/`.
+
+### Requisitos
+
++ Java 17 o superior
++ Maven
+
+Verificar instalacion:
+
+```bash
+java -version
+mvn -version
+```
+
+### Comandos
+
+Compilar:
+
+```bash
+cd opengl
+mvn clean package
+```
+
+Ejecutar el lanzador visual:
+
+```bash
+cd opengl
+mvn exec:java
+```
+
+Ejecutar una clase especifica:
+
+```bash
+cd opengl
+mvn exec:java -Dexec.mainClass="com.programaciongrafica.HelloWorldApp"
+mvn exec:java -Dexec.mainClass="com.programaciongrafica.App"
+```
+
+Mas detalles en `opengl/README.md`.
+
+---
+
 ## TAREAS:
 
 > [+ Poryectos I - OPENTK](https://github.com/jhasmany-fernandez/F.I.C.C.T.-Proyecto_I-OpenTK-SA-INF102.git)

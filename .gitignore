@@ -54,11 +54,22 @@ nb-configuration.xml
 # OS
 .DS_Store
 Thumbs.db
+Desktop.ini
+*:Zone.Identifier
 
 # Temporary files
 *.tmp
 *.swp
 *.bak
 
-# OpenGL specific (if any additional artifacts)
-# Add any OpenGL-related temporary or build files here if needed
+# Local Codex / agent files
+.codex
+**/.codex
+
+# Java crash logs
+hs_err_pid*.log
+replay_pid*.log
+
+# OpenGL / project-local artifacts
+opengl/target/
+opengl/.vscode/
